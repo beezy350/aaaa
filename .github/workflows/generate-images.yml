@@ -1,0 +1,28 @@
+name: Generate Be Bold images
+on:
+  push:
+    branches: [main]
+    paths: ["bebold/jobs/**.json"]
+permissions:
+  contents: write
+concurrency:
+  group: gen-images
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate images
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python3 scripts/gen_images.py
+      - name: Save images
+        run: |
+          git config user.name "bebold-bot"
+          git config user.email "bebold-bot@users.noreply.github.com"
+          git add bebold/raw
+          git diff --cached --quiet && exit 0
+          git commit -m "Generated images"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && break; sleep 5; done

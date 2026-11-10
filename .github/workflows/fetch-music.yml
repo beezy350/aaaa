@@ -1,0 +1,23 @@
+name: Fetch Be Bold music
+on:
+  push:
+    branches: [main]
+    paths: ["bebold/music/sources.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: python3 scripts/fetch_music.py
+      - run: |
+          git config user.name "bebold-bot"
+          git config user.email "bebold-bot@users.noreply.github.com"
+          git add bebold/music
+          git diff --cached --quiet && exit 0
+          git commit -m "Fetched music"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && break; sleep 5; done

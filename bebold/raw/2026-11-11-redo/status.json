@@ -1,0 +1,12 @@
+{
+ "job": "2026-11-11-redo",
+ "results": [
+  {
+   "name": "3B",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  }
+ ]
+}

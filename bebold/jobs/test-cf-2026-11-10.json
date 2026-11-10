@@ -1,0 +1,17 @@
+{
+ "images": [
+  {
+   "name": "cf_klein",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A lean bearded man in a rough wool tunic with an iron shackle on one ankle sits on a stone floor in ancient Rome, reading a scroll in a single beam of dusty sunlight from a high window. Calm, unbroken expression, natural hands with five fingers. Upper third is a dark empty stone vault. No text, letters, numbers or watermarks."
+  },
+  {
+   "name": "openai_medium",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A lean bearded man in a rough wool tunic with an iron shackle on one ankle sits on a stone floor in ancient Rome, reading a scroll in a single beam of dusty sunlight from a high window. Calm, unbroken expression, natural hands with five fingers. Upper third is a dark empty stone vault. No text, letters, numbers or watermarks."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "images": [
+  {
+   "name": "1A",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical photorealistic still life, epic cinematic film still, anamorphic lens, bright window sunlight with crisp shadows and light refractions, rich color grade, fine film grain, shallow depth of field. Pale stone countertop, green plants at the edges. The upper third is a deep navy solid wall, dark, plain and empty. No text, letters, numbers, logos or watermarks. Subject: a glass jar with a visible hole in its bottom, gold coins pouring out through the hole onto the stone."
+  },
+  {
+   "name": "1B",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical photorealistic still life, epic cinematic film still, anamorphic lens, bright window sunlight with crisp shadows and light refractions, rich color grade, fine film grain, shallow depth of field. Pale stone countertop, green plants at the edges. The upper third is a deep navy solid wall, dark, plain and empty. No text, letters, numbers, logos or watermarks. Subject: an open leather wallet beside a very long curling paper receipt spilling over the counter edge, no readable writing on the receipt."
+  },
+  {
+   "name": "1C",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical photorealistic still life, epic cinematic film still, anamorphic lens, bright window sunlight with crisp shadows and light refractions, rich color grade, fine film grain, shallow depth of field. Pale stone countertop, green plants at the edges. The upper third is a deep navy solid wall, dark, plain and empty. No text, letters, numbers, logos or watermarks. Subject: a sealed terracotta clay jar with a small neat stack of gold coins in front of it and a small green sprout growing from the top coin."
+  },
+  {
+   "name": "2A",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, soft volumetric window light, clean modern glass office at dusk, cool blue and warm amber grade, fine film grain, shallow depth of field. The upper third is calm, dark and empty (shadowed ceiling or blurred wall). No text, letters, numbers, logos or watermarks. Natural hands with five fingers, realistic faces. Subject: a confident executive at the head of a long meeting table, surrounded by people all smiling and nodding at him at once."
+  },
+  {
+   "name": "2B",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, soft volumetric window light, clean modern glass office at dusk, cool blue and warm amber grade, fine film grain, shallow depth of field. The upper third is calm, dark and empty (shadowed ceiling or blurred wall). No text, letters, numbers, logos or watermarks. Natural hands with five fingers, realistic faces. Subject: a cracked glass trophy standing alone on an empty boardroom table, empty chairs around it, no people."
+  },
+  {
+   "name": "2C",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, soft volumetric window light, clean modern glass office at dusk, cool blue and warm amber grade, fine film grain, shallow depth of field. The upper third is calm, dark and empty (shadowed ceiling or blurred wall). No text, letters, numbers, logos or watermarks. Natural hands with five fingers, realistic faces. Subject: close-up of two people's hands across a table, one hand pointing firmly at a page in an open report, the other hand resting still and listening."
+  },
+  {
+   "name": "3A",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, city street at dusk in light rain, wet reflective pavement, warm glowing shop windows, teal-and-amber color grade, fine film grain, shallow depth of field. The upper third is dark night sky or a dark awning, empty. No text, letters, numbers, logos or watermarks. Natural hands with five fingers. Subject: a man in a dark wool coat stopped mid-step on the sidewalk, phone in hand, jaw tight, rain on his shoulders."
+  },
+  {
+   "name": "3B",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, city street at dusk in light rain, wet reflective pavement, warm glowing shop windows, teal-and-amber color grade, fine film grain, shallow depth of field. The upper third is dark night sky or a dark awning, empty. No text, letters, numbers, logos or watermarks. Natural hands with five fingers. Subject: close-up of a hand slowly lowering a phone, raindrops on the screen, warm bokeh lights behind, calm mood, no face."
+  }
+ ]
+}

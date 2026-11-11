@@ -1,0 +1,78 @@
+{
+ "images": [
+  {
+   "name": "1A",
+   "engine": "openai",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A lone shepherd dog tied by a long rope to the back of a heavy wooden ox cart rolling along a dusty ancient Greek road at golden dusk, the dog walking calmly beside the turning wheel, olive hills behind. Natural dog anatomy, four legs, one tail. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks.",
+   "quality": "medium"
+  },
+  {
+   "name": "1B",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. Close-up of a rough hemp rope pulled taut, tied to the iron-banded wheel of an ancient wooden cart, dust in the air, warm low sunset light. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "1C",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A huge ancient wooden cart wheel rolling forward on a dusty stone road, motion blur on the spokes, dust rising, dramatic low angle, dusk. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "1D",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A frayed, half-torn rope stretched tight against a wooden post, fibers snapping, dark moody background, single hard rim light. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "1E",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. Dog paw prints walking neatly beside deep cart-wheel tracks in soft dust on an ancient road, warm golden light, long shadows. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "1F",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. An open empty ancient road winding through olive hills toward a glowing sunset horizon, wheel tracks leading into the distance, peaceful and vast. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "2A",
+   "engine": "openai",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A colossal wooden Trojan horse standing before the towering stone gates of ancient Troy at night, torches flickering on the walls, smoke, ominous scale, tiny silhouettes of people below for scale. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks.",
+   "quality": "medium"
+  },
+  {
+   "name": "2B",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. The massive wooden legs and belly of a giant wooden horse inside a walled ancient city at night, a hidden trapdoor in its belly slightly open with faint lamplight leaking out, smoke and embers. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "2C",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. An elegant wrapped gift box with a gold ribbon on a dark marble table, a sharp steel fishing hook and line emerging from under the lid, moody chiaroscuro light. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "2D",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. An ornate ancient bronze key turning in the lock of a heavy wooden gate, the gate starting to open with warm light spilling through the crack, darkness around. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "2E",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A small brass hourglass with sand running, standing beside a wrapped gift box with a ribbon on a dark wooden desk, candlelight, tense mood. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "2F",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. Massive ancient city gates firmly closed and barred with a thick wooden beam at dawn, calm golden light on the stone walls, sense of quiet strength. Upper third is dark empty sky or shadow for text. No text, letters, numbers, logos or watermarks."
+  }
+ ]
+}

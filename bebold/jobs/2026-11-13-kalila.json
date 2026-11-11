@@ -1,0 +1,41 @@
+{
+ "images": [
+  {
+   "name": "K0",
+   "engine": "openai",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and faded red, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Animals drawn with correct natural anatomy. No text, letters, numbers, signatures or watermarks. A small brown hare standing calmly in front of a huge maned lion in a dry forest clearing, the lion looming over him, the hare looking up fearless and clever.",
+   "quality": "medium"
+  },
+  {
+   "name": "K1",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and faded red, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Animals drawn with correct natural anatomy. No text, letters, numbers, signatures or watermarks. A huge maned lion pacing impatiently in a forest clearing, scattered bones on the ground, angry eyes, tail lashing, late afternoon."
+  },
+  {
+   "name": "K2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and faded red, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Animals drawn with correct natural anatomy. No text, letters, numbers, signatures or watermarks. A small hare sitting upright and talking to a large angry lion who leans down toward him, forest of tall trees behind, the two facing each other on the left and right with open space above their heads."
+  },
+  {
+   "name": "K3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and faded red, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Animals drawn with correct natural anatomy. No text, letters, numbers, signatures or watermarks. A large lion with a thick mane leaning over the round stone rim of an old well in a forest, staring down into the dark water where his own reflection, an angry lion face, looks back up at him. A small hare watches from behind a rock."
+  },
+  {
+   "name": "K4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and faded red, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Animals drawn with correct natural anatomy. No text, letters, numbers, signatures or watermarks. A big splash of water bursting up out of an old round stone well in a forest, droplets flying, a lion's tail disappearing over the rim, dramatic moment."
+  },
+  {
+   "name": "K5",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and faded red, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Animals drawn with correct natural anatomy. No text, letters, numbers, signatures or watermarks. A small hare hopping calmly away along a forest path toward bright morning light, an old stone well left behind in the distance, peaceful."
+  }
+ ]
+}

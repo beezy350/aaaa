@@ -1,0 +1,12 @@
+{
+ "job": "2026-11-12-fire-redo",
+ "results": [
+  {
+   "name": "F6",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  }
+ ]
+}

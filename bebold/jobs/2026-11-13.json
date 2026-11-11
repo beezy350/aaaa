@@ -1,0 +1,78 @@
+{
+ "images": [
+  {
+   "name": "A0",
+   "engine": "openai",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No text, letters, numbers, signatures or watermarks. An old bearded Greek philosopher in a simple robe sits on a stone bench under an olive tree reading a scroll. Around him, small and clearly separate: a bull, a sea rock with a wave, a young sapling in soil, a bowl of water, and a bow with one arrow leaning on the bench. Natural hands, correct anatomy.",
+   "quality": "medium"
+  },
+  {
+   "name": "A1",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No text, letters, numbers, signatures or watermarks. A powerful bull standing firm with lowered horns, calmly facing a lion that approaches across dry grassland, dramatic tension, both animals with correct anatomy, four legs each."
+  },
+  {
+   "name": "A2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No text, letters, numbers, signatures or watermarks. A tall rocky sea headland standing unmoved while huge waves crash and spray against it, the water calm in the bay behind the rock."
+  },
+  {
+   "name": "A3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No text, letters, numbers, signatures or watermarks. An elderly man in a worn hat and shirt kneeling to plant a small young tree sapling in fresh soil, a watering can beside him, a sunrise in the distance, seen from the side, natural hands."
+  },
+  {
+   "name": "A4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No text, letters, numbers, signatures or watermarks. A wide ceramic bowl of water on a wooden table, the water surface rippled and shaken, the reflection of the sun in the water broken into wobbling fragments, while the real sun shines steady and round in the sky above."
+  },
+  {
+   "name": "A5",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No text, letters, numbers, signatures or watermarks. An ancient archer seen from behind, drawing a longbow at a distant round target in a field, the arrow just released and flying, wind in the grass."
+  },
+  {
+   "name": "B0",
+   "engine": "openai",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic dark moody photograph, photorealistic, deep shadows, warm amber highlights, rich contrast, fine film grain. The left half and upper area stay dark and empty for text. No text, letters, numbers, logos or watermarks. An old stone village well at night in the lower right of the frame, a wooden bucket on a rope, a single lantern glowing on its rim, empty cobblestones, mist.",
+   "quality": "medium"
+  },
+  {
+   "name": "B1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic dark moody photograph, photorealistic, deep shadows, warm amber highlights, rich contrast, fine film grain. The left half and upper area stay dark and empty for text. No text, letters, numbers, logos or watermarks. A smartphone lying face up on a dark wooden table at night, its screen glowing brightly in the darkness with a blurred incoming call, lower right of the frame."
+  },
+  {
+   "name": "B2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic dark moody photograph, photorealistic, deep shadows, warm amber highlights, rich contrast, fine film grain. The left half and upper area stay dark and empty for text. No text, letters, numbers, logos or watermarks. Looking down into an old stone well that has run completely dry, cracked dusty mud at the bottom, a frayed rope hanging, harsh single beam of light."
+  },
+  {
+   "name": "B3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic dark moody photograph, photorealistic, deep shadows, warm amber highlights, rich contrast, fine film grain. The left half and upper area stay dark and empty for text. No text, letters, numbers, logos or watermarks. An old stone well closed with a heavy round wooden lid and an iron latch, moonlight on the lid, night, calm and protected, lower right of the frame."
+  },
+  {
+   "name": "B4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic dark moody photograph, photorealistic, deep shadows, warm amber highlights, rich contrast, fine film grain. The left half and upper area stay dark and empty for text. No text, letters, numbers, logos or watermarks. Two people seen only as dark silhouettes from behind, sitting together beside a small campfire on a hill at night, warm glow, lower right of the frame."
+  },
+  {
+   "name": "B5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic dark moody photograph, photorealistic, deep shadows, warm amber highlights, rich contrast, fine film grain. The left half and upper area stay dark and empty for text. No text, letters, numbers, logos or watermarks. An old stone well full of clear water at dawn, golden sunrise light, the still water reflecting the brightening sky, peaceful, lower right of the frame."
+  }
+ ]
+}

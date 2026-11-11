@@ -1,0 +1,41 @@
+{
+ "images": [
+  {
+   "name": "F1",
+   "engine": "openai",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A towering bonfire roaring in the lower half of the frame on a windswept hilltop at night, a heavy log and broken branches being consumed and turning into tall bright flames, sparks spiraling upward, ancient Roman stone ruins faintly lit around it. The entire upper 40 percent of the frame is dark empty night sky or deep shadow with no objects. No people, no text, letters, numbers, logos or watermarks.",
+   "quality": "medium"
+  },
+  {
+   "name": "F2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A single small candle flame bending sideways and nearly blown out by a gust of wind on a stone windowsill at night, thin smoke trailing, fragile mood. The entire upper 40 percent of the frame is dark empty night sky or deep shadow with no objects. No people, no text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "F3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A huge bonfire in a fierce windstorm at night, the wind pushing the flames sideways into a wall of roaring fire, sparks streaming horizontally, powerful and unstoppable. The entire upper 40 percent of the frame is dark empty night sky or deep shadow with no objects. No people, no text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "F4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. Close-up of a heavy rough log with old cracked bark resting in the middle of glowing orange embers, the bark just catching fire with fresh flames licking up its sides. The entire upper 40 percent of the frame is dark empty night sky or deep shadow with no objects. No people, no text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "F5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A large stack of chopped firewood logs piled beside a blazing iron fire pit at night, warm firelight on the wood, abundance, waiting to be burned. The entire upper 40 percent of the frame is dark empty night sky or deep shadow with no objects. No people, no text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "F6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A bright tall bonfire at blue dawn on an open hill above a misty valley, smoke rising straight into the brightening sky, calm, triumphant, glowing embers. The entire upper 40 percent of the frame is dark empty night sky or deep shadow with no objects. No people, no text, letters, numbers, logos or watermarks."
+  }
+ ]
+}

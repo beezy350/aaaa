@@ -1,0 +1,41 @@
+{
+ "images": [
+  {
+   "name": "R0",
+   "engine": "openai",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A flock of white and grey doves flying together high above an ancient Persian desert village at golden dusk, all of them gripping and carrying a large hunter's rope net between them, the net billowing in the wind. Upper third is dark empty sky or shadow for text. Birds with natural anatomy, two wings each. No text, letters, numbers, logos or watermarks.",
+   "quality": "medium"
+  },
+  {
+   "name": "R1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A group of grey doves pecking at scattered golden grain on dusty ground in an ancient orchard, a rope hunting net hidden and spread above them about to drop, low angle, warm light. Upper third is dark empty sky or shadow for text. Birds with natural anatomy, two wings each. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "R2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. Grey doves trapped under a rope net on the ground, wings flapping in different directions, feathers flying, chaos, dramatic side light. Upper third is dark empty sky or shadow for text. Birds with natural anatomy, two wings each. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "R3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A flock of doves rising together into a stormy evening sky lifting a rope net, far below a small dark silhouette of a hunter running across a field, wide shot. Upper third is dark empty sky or shadow for text. Birds with natural anatomy, two wings each. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "R4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. Macro close-up of a small brown field mouse gnawing through a thick rope cord of a net, a grey dove with a dark neck ring waiting calmly beside it, warm candle-like light, ancient stone floor. Upper third is dark empty sky or shadow for text. Birds with natural anatomy, two wings each. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "R5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, rich deep color grade, fine film grain, shallow depth of field. A flock of free doves flying toward a glowing sunrise over misty mountains, wings spread, peaceful and triumphant, a torn rope net lying on a rock below. Upper third is dark empty sky or shadow for text. Birds with natural anatomy, two wings each. No text, letters, numbers, logos or watermarks."
+  }
+ ]
+}

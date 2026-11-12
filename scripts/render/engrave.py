@@ -48,9 +48,9 @@ def body(im,y,text,size=46,bold=False,maxw=860,gap=1.38):
         for ln in lines:
             d.text(((W-d.textlength(ln,font=f))/2,y),ln,font=f,fill=INK); y+=int(size*gap)
     return y
-def framed(im,src,y,size=780,double=False):
+def framed(im,src,y,size=780,double=False,inset=0.9):
     art=Image.open(src).convert('RGB')
-    s=int(min(art.size)*0.9); art=art.crop(((art.width-s)//2,(art.height-s)//2,(art.width+s)//2,(art.height+s)//2)).resize((size,size),Image.LANCZOS)
+    s=int(min(art.size)*inset); art=art.crop(((art.width-s)//2,(art.height-s)//2,(art.width+s)//2,(art.height+s)//2)).resize((size,size),Image.LANCZOS)
     # blend white paper of the art into our cream
     art=Image.blend(art,Image.new('RGB',art.size,CREAM),0.06)
     x=(W-size)//2; im.paste(art,(x,y))
@@ -72,7 +72,7 @@ def bubble(im,box,text,tail,size=34):
     lines.append(cur); lh=int(size*1.25); ty=(y0+y1)/2-lh*len(lines)/2
     for ln in lines:
         d.text(((x0+x1)/2-d.textlength(ln,font=f)/2,ty),ln,font=f,fill=INK); ty+=lh
-def slide(src,head,txt=None,last=None,hsize=128,double=False,bubbles=None):
+def slide(src,head,txt=None,last=None,hsize=128,double=False,bubbles=None,inset=0.9):
     im=paper(); y=330
     hs=hsize if len(cond_lines(head,hsize,880)[1])<=2 else 112
     y=headline(im,y,head,hs)
@@ -80,7 +80,7 @@ def slide(src,head,txt=None,last=None,hsize=128,double=False,bubbles=None):
     if txt: y=body(im,y,txt)
     if last: y=body(im,y+6,last,size=40,bold=True)
     fy=max(y+36,700); fsz=min(860,1580-fy)
-    x,fy,fsz=framed(im,src,fy,fsz,double)
+    x,fy,fsz=framed(im,src,fy,fsz,double,inset)
     if bubbles:
         for (bx0,by0,bx1,by1),t,(t1,t2,t3) in bubbles:
             P=lambda a,b:(int(x+a*fsz),int(fy+b*fsz))

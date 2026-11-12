@@ -12,7 +12,7 @@ def save(name,ims):
 save('2026-11-14_post1_marcus_ai',[
  slide(R+'M0.png','MARCUS AURELIUS ON LOSING YOUR JOB TO AI.','He ruled Rome through plague and war. His notes still work.',double=True),
  slide(R+'M1.jpg','1. THE MACHINE ISN’T THE PAIN.','He wrote that what hurts is our judgment of a thing, not the thing. Change the story first.'),
- slide(R+'M2.jpg','2. MEET TOMORROW WITH TODAY’S TOOLS.','He told himself the future gets the same clear head you use right now. Fear only borrows trouble.'),
+ slide('/home/claude/aaaa/bebold/raw/2026-11-14-redo2/M2.jpg','2. MEET TOMORROW WITH TODAY’S TOOLS.','He told himself the future gets the same clear head you use right now. Fear only borrows trouble.'),
  slide(X+'M3.jpg','3. YOU ARE NOT YOUR TITLE.','Even as emperor, he warned himself not to let the role swallow the man.',inset=0.78),
  slide(R+'M4.jpg','4. DO THE WORK ONLY YOU CAN DO.','His morning rule: get up and do the work of a human being. Machines copy tasks. Not character.'),
  slide(R+'M5.jpg','5. CHANGE IS THE RULE.','Nature keeps turning old things into new ones, he wrote. Your job will change. So can you.','WHICH ONE HELPS YOU MOST? COMMENT THE NUMBER.'),

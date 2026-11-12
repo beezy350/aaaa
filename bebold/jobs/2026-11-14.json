@@ -1,0 +1,78 @@
+{
+ "images": [
+  {
+   "name": "M0",
+   "engine": "openai",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Correct natural anatomy and hands. No text, letters, numbers, signatures or watermarks. A bearded Roman emperor in a simple cloak writing in a small notebook by an oil lamp inside an army tent at night; through the open tent flap, the faint silhouette of a giant mechanical machine made of gears and pistons looms on the horizon.",
+   "quality": "medium"
+  },
+  {
+   "name": "M1",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Correct natural anatomy and hands. No text, letters, numbers, signatures or watermarks. A man in plain modern work clothes standing calmly with arms at his sides, looking up at a towering machine of interlocking gears, pipes and levers, seen from behind."
+  },
+  {
+   "name": "M2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Correct natural anatomy and hands. No text, letters, numbers, signatures or watermarks. A worn wooden workbench at dawn with old hand tools laid out neatly, a whetstone and a chisel being sharpened, morning light from a small window."
+  },
+  {
+   "name": "M3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Correct natural anatomy and hands. No text, letters, numbers, signatures or watermarks. A golden laurel crown resting set aside on a plain wooden table next to a simple clay cup, a loaf of bread and a few hand tools, humble still life."
+  },
+  {
+   "name": "M4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Correct natural anatomy and hands. No text, letters, numbers, signatures or watermarks. A man seen from behind opening wooden window shutters at sunrise in a simple stone workshop, rolling up his sleeves, light pouring in."
+  },
+  {
+   "name": "M5",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Correct natural anatomy and hands. No text, letters, numbers, signatures or watermarks. A wide river flowing past ancient crumbling Roman stone ruins on one bank and a new growing town with scaffolding on the other bank, birds in the sky."
+  },
+  {
+   "name": "E0",
+   "engine": "openai",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No people's faces, no text, letters, logos or watermarks. A black crow perched on a low gnarled branch looking down at a small brown field mouse peeking out of a burrow at the roots of an ancient tree, Persian garden at golden dusk.",
+   "quality": "medium"
+  },
+  {
+   "name": "E1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No people's faces, no text, letters, logos or watermarks. A black crow perched high in a tree, watching from a distance a flock of doves rising from the ground with a rope net, wide landscape at sunset."
+  },
+  {
+   "name": "E2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No people's faces, no text, letters, logos or watermarks. Close-up of a small field mouse peeking cautiously out of a dark burrow hole between tree roots, whiskers alert, warm low light."
+  },
+  {
+   "name": "E3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No people's faces, no text, letters, logos or watermarks. A black crow sitting patiently on the ground beside a small burrow hole at dusk, waiting, fallen leaves, quiet mood, long shadows."
+  },
+  {
+   "name": "E4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No people's faces, no text, letters, logos or watermarks. A black crow, a small brown mouse and a tortoise resting together beside a calm pond in an ancient garden at sunset, peaceful friendship."
+  },
+  {
+   "name": "E5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No people's faces, no text, letters, logos or watermarks. The dark silhouette of a hunter seen from behind carrying a rope net at the edge of a misty forest at dawn, ominous, a deer silhouette far away among the trees."
+  }
+ ]
+}

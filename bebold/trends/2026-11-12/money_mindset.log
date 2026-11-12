@@ -1,5 +1,5 @@
 /last30days · researching: money mindset
-⏳ [95mProcessing[0m Crunching the data...
+⏳ [95mProcessing[0m Finding patterns...
 [AutoResolve] entity-shaped topic with no --x-handle; resolving the subject's handle so its own posts are not pruned
 [Resolve] No web search backend available, skipping resolve
 [Planner] No --plan passed. If you are the reasoning model hosting this skill (Claude Code, Codex, Hermes, Gemini, or any agent runtime), YOU ARE the planner: generate a JSON query plan yourself and pass it via --plan. You do not need an API key or credentials; you ARE the LLM. The deterministic fallback below is the headless/cron path only. See LAW 7 in SKILL.md and Step 0.75 in references/research-runbook.md for the plan schema.
@@ -9,33 +9,32 @@
 [HN] Searching for 'money mindset' (raw: 'money mindset', since 2026-10-13, count=30)
 [GitHub] No GitHub token; using the unauthenticated REST tier (low rate limit)
 [GitHub] Searching for 'money mindset' (raw: 'money mindset', since 2026-10-13, count=10)
-[RedditSearch] r/personalfinance page 1 failed: HTTP 403: Blocked
-[RedditSearch] site search is blocked for this network (HTTP 403: Blocked); skipping the remaining searches
 [RedditSearch] r/financialindependence page 1 failed: HTTP 403: Blocked
-[HN] Filtered 16/60 low-engagement stories
+[RedditSearch] site search is blocked for this network (HTTP 403: Blocked); skipping the remaining searches
+[RedditSearch] r/personalfinance page 1 failed: HTTP 403: Blocked
+[HN] Filtered 15/60 low-engagement stories
 [HN] Found 30 stories
 [HN] Enriching top 5 stories with comments
 [GitHub] Found 10 issues/PRs
-[GitHub] Dropped 5 of 10 results not about 'money mindset'
+[GitHub] Dropped 4 of 10 results not about 'money mindset'
 [GitHub] No GitHub token available for comment enrichment
 [RedditSearch] global page 1 failed: HTTP 403: Blocked
 [RedditSearch] r/Entrepreneur page 1 failed: HTTP 403: Blocked
 [RedditSearch] 0 posts (t=month, 3 targeted subs)
-[YouTube] YouTube search failed (rc=1): ERROR: [youtube] TGd_ni2R_90: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[YouTube] YouTube search failed (rc=1): ERROR: [youtube] cgsWQd5EM1k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
 [YouTube] Found 0 videos (0 within date range, keeping all)
 [YouTube] Searching YouTube for 'money mindset review reaction breakdown' (since 2026-10-13, count=8)
 [YouTube] YouTube search failed (rc=1): ERROR: [youtube] KvULDviZ5Lk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
 [YouTube] Found 0 videos (0 within date range, keeping all)
-[ArcticShift] listing search failed r/financialindependence: HTTP 422: Unprocessable Entity
 [ArcticShift] listing search failed r/Entrepreneur: HTTP 422: Unprocessable Entity
 [RedditKeyless] arctic-shift supplement: 75 new posts from 75 arctic results
 [RedditKeyless] Tier 1 (site search) 0 posts; listing discovery 75
 [RedditKeyless] Relevance floor dropped 70 off-topic posts
-[ArcticShift] comments lookup failed t3_1xb1omh: HTTP 422: Unprocessable Entity
+[ArcticShift] comments lookup failed t3_1xbleck: HTTP 422: Unprocessable Entity
 [ArcticShift] comments lookup failed t3_1xay59t: HTTP 422: Unprocessable Entity
-[GitHub] relevance prune dropped 1 of 5 items below the relevance/engagement floor
+[GitHub] relevance prune dropped 1 of 6 items below the relevance/engagement floor
 [RedditKeyless] comments on 5 of 5 kept threads (2 fetched after ranking)
-✓ Research complete (45.7s) - Reddit: 5 threads, YouTube: 0 videos, HN: 12 stories, Web: 5 results, Github: 4 results
+✓ Research complete (55.7s) - Reddit: 5 threads, YouTube: 0 videos, HN: 12 stories, Web: 5 results, Github: 5 results
 
 💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
 

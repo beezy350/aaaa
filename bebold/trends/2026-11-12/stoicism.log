@@ -1,5 +1,5 @@
 /last30days · researching: stoicism
-⏳ [95mProcessing[0m Crunching the data...
+⏳ [95mProcessing[0m Finding patterns...
 [AutoResolve] entity-shaped topic with no --x-handle; resolving the subject's handle so its own posts are not pruned
 [Resolve] No web search backend available, skipping resolve
 [Planner] No --plan passed. If you are the reasoning model hosting this skill (Claude Code, Codex, Hermes, Gemini, or any agent runtime), YOU ARE the planner: generate a JSON query plan yourself and pass it via --plan. You do not need an API key or credentials; you ARE the LLM. The deterministic fallback below is the headless/cron path only. See LAW 7 in SKILL.md and Step 0.75 in references/research-runbook.md for the plan schema.
@@ -7,28 +7,31 @@
 [Planner]   sq1 label=primary search="stoicism" sources=[reddit,youtube,hackernews,github,grounding]
 [YouTube] Searching YouTube for 'stoicism' (since 2026-10-13, count=8)
 [HN] Searching for 'stoicism' (raw: 'stoicism', since 2026-10-13, count=30)
-[RedditSearch] r/Stoicism page 1 failed: HTTP 403: Blocked
-[RedditSearch] site search is blocked for this network (HTTP 403: Blocked); skipping the remaining searches
 [RedditSearch] r/philosophy page 1 failed: HTTP 403: Blocked
+[RedditSearch] site search is blocked for this network (HTTP 403: Blocked); skipping the remaining searches
+[RedditSearch] r/Stoicism page 1 failed: HTTP 403: Blocked
 [GitHub] No GitHub token; using the unauthenticated REST tier (low rate limit)
 [GitHub] Searching for 'stoicism' (raw: 'stoicism', since 2026-10-13, count=10)
 [HN] Found 1 stories
 [HN] Prefix filter removed 1/1 false-positive hits for 'stoicism'
+[RedditSearch] r/getdisciplined page 1 failed: HTTP 403: Blocked
 [GitHub] Found 10 issues/PRs
 [GitHub] Dropped 7 of 10 results not about 'stoicism'
 [GitHub] No GitHub token available for comment enrichment
-[RedditSearch] r/getdisciplined page 1 failed: HTTP 403: Blocked
 [RedditSearch] r/selfimprovement page 1 failed: HTTP 403: Blocked
 [RedditSearch] 0 posts (t=month, 4 targeted subs)
+[ArcticShift] listing search failed r/getdisciplined: HTTP 422: Unprocessable Entity
 [ArcticShift] listing search failed r/Stoicism: HTTP 422: Unprocessable Entity
-[ArcticShift] listing search failed r/getdisciplined: Request deadline exceeded
+[ArcticShift] listing deadline reached after 20 requests; keeping partial results
+[ArcticShift] listing search failed r/philosophy: HTTP 422: Unprocessable Entity
+[ArcticShift] listing search failed r/selfimprovement: HTTP 422: Unprocessable Entity
+[ArcticShift] listing search failed r/philosophy: HTTP 422: Unprocessable Entity
 [RedditKeyless] arctic-shift supplement: 100 new posts from 100 arctic results
 [RedditKeyless] Tier 1 (site search) 0 posts; listing discovery 100
-[RedditKeyless] Relevance floor dropped 94 off-topic posts
-[ArcticShift] comments lookup failed t3_1xen5sy: HTTP 422: Unprocessable Entity
+[RedditKeyless] Relevance floor dropped 95 off-topic posts
 [YouTube] YouTube search timed out (120s)
 [YouTube] Searching YouTube for 'stoicism review reaction breakdown' (since 2026-10-13, count=8)
-[YouTube] YouTube search failed (rc=1): ERROR: [youtube] zNeHLZAUGUE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[YouTube] YouTube search failed (rc=1): ERROR: [youtube] QWvujD_4QtA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
 [YouTube] Found 0 videos (0 within date range, keeping all)
 [HN] Searching for 'stoicism' (raw: 'stoicism', since 2026-10-13, count=30)
 [YouTube] Searching YouTube for 'stoicism' (since 2026-10-13, count=8)
@@ -37,8 +40,7 @@
 [YouTube] YouTube search timed out (120s)
 [YouTube] Searching YouTube for 'stoicism review reaction breakdown' (since 2026-10-13, count=8)
 [YouTube] YouTube search timed out (120s)
-[RedditKeyless] comments on 6 of 6 kept threads (1 fetched after ranking)
-✓ Research complete (245.9s) - Reddit: 6 threads, YouTube: 0 videos, HN: 0 stories, Web: 5 results, Github: 3 results
+✓ Research complete (240.3s) - Reddit: 5 threads, YouTube: 0 videos, HN: 0 stories, Web: 5 results, Github: 3 results
 
 💡 You can unlock native grounded web search with BRAVE_API_KEY or SERPER_API_KEY.
 

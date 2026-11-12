@@ -1,0 +1,23 @@
+{
+ "images": [
+  {
+   "name": "M3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. Correct natural anatomy and hands. No text, letters, numbers, signatures or watermarks. Still life with no people and no hands: a golden laurel crown lying set aside on a plain wooden table next to a simple clay cup, a loaf of bread and a few hand tools, humble still life."
+  },
+  {
+   "name": "E0",
+   "engine": "openai",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No people's faces, no text, letters, logos or watermarks. Exactly one black crow perched on a low gnarled branch on the left, looking down at exactly one small brown field mouse clearly visible sitting at the entrance of a burrow at the roots of an ancient tree, Persian garden at golden dusk.",
+   "quality": "medium"
+  },
+  {
+   "name": "E4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No people's faces, no text, letters, logos or watermarks. Exactly three animals: one black crow, one single small brown mouse, and one tortoise, resting together beside a calm pond in an ancient garden at sunset, peaceful friendship."
+  }
+ ]
+}

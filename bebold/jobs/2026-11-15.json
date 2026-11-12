@@ -1,0 +1,78 @@
+{
+ "images": [
+  {
+   "name": "S0",
+   "engine": "openai",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. An older Roman philosopher in a toga sitting at a marble desk piled with gold coins and scrolls, chin resting thoughtfully, gazing out a window at the sea, oil lamp, seen in three-quarter view with his arms folded.",
+   "quality": "medium"
+  },
+  {
+   "name": "S1",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. An overflowing wooden treasure chest of gold coins and jewels, and right beside it a single empty clay bowl, still life."
+  },
+  {
+   "name": "S2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A humble still life on a rough wooden bench: a loaf of coarse bread, a clay cup of water and a folded rough wool cloak, simple and calm."
+  },
+  {
+   "name": "S3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A tall hourglass with sand running, standing on top of a pile of gold coins, still life."
+  },
+  {
+   "name": "S4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A man seen from behind walking calmly along a country road leading a small donkey loaded with heavy sacks of gold coins, rolling hills."
+  },
+  {
+   "name": "S5",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. An ancient Roman sailing ship on open sea heading toward a distant lighthouse on a rocky harbor, clear direction, gentle waves."
+  },
+  {
+   "name": "G0",
+   "engine": "openai",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy, exactly one of each animal. No text, letters, logos or watermarks. A young gazelle caught and tangled in a hunter's rope net in a forest clearing at dusk, struggling, ancient Persian woodland.",
+   "quality": "medium"
+  },
+  {
+   "name": "G1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy, exactly one of each animal. No text, letters, logos or watermarks. A black crow flying fast over a dark forest canopy at sunset, wings spread wide, urgent motion."
+  },
+  {
+   "name": "G2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy, exactly one of each animal. No text, letters, logos or watermarks. Macro close-up of one small brown field mouse gnawing through a thick rope of a hunting net lying on forest ground, warm low light."
+  },
+  {
+   "name": "G3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy, exactly one of each animal. No text, letters, logos or watermarks. A gazelle leaping free through a misty forest toward golden light, a torn rope net left on the ground behind it."
+  },
+  {
+   "name": "G4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy, exactly one of each animal. No text, letters, logos or watermarks. A single tortoise walking slowly alone across an empty forest clearing at dawn, the long dark shadow of a man stretching across the ground toward it."
+  },
+  {
+   "name": "G5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy, exactly one of each animal. No text, letters, logos or watermarks. Dark silhouette of a hunter seen from behind walking away into misty dawn forest with a bundle tied with rope over his shoulder, ominous mood."
+  }
+ ]
+}

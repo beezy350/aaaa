@@ -1,0 +1,16 @@
+{
+ "images": [
+  {
+   "name": "T3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy, exactly one of each animal. No text, letters, logos or watermarks. A rough cloth sack tied with rope lying dropped on a forest path, a tortoise shell visible through the opening, human footprints running away down the path. Ancient times, no modern objects."
+  },
+  {
+   "name": "T5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy, exactly one of each animal. No text, letters, logos or watermarks. Exactly four animals together on a sunny hill at golden hour: one gazelle standing, one tortoise, one small brown mouse sitting on top of the tortoise shell, and one black crow perched on a rock beside them. Free and happy, medium shot."
+  }
+ ]
+}

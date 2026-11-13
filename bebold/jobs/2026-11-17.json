@@ -1,0 +1,78 @@
+{
+ "images": [
+  {
+   "name": "W0",
+   "engine": "openai",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A man in a simple robe seen from behind, sitting at a small wooden table by a window at night with a single candle, looking out at a dark sky, a letter on the table, contemplative.",
+   "quality": "medium"
+  },
+  {
+   "name": "W1",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A small candle on a table casting a huge menacing monster-shaped shadow on the wall behind it, the shadow actually made by a little cat figurine and a teapot, no people."
+  },
+  {
+   "name": "W2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A calm morning still life: a steaming cup of tea, a loaf of bread and an apple on a wooden table in soft sunlight from a window."
+  },
+  {
+   "name": "W3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A writing desk with a quill pen resting in an inkwell and a neatly folded sheet of paper with blank lines, beside a small old spinning wheel, still life."
+  },
+  {
+   "name": "W4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A packed leather traveler's bag, a walking staff and a cloak resting ready beside an open wooden door, morning light outside."
+  },
+  {
+   "name": "W5",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. The sun rising over a quiet field and distant hills, birds flying, dew on the grass, peaceful dawn."
+  },
+  {
+   "name": "Q0",
+   "engine": "openai",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. A small pond almost completely dried up, cracked mud around a little remaining water, a single tortoise at the edge, two white geese standing nearby, ancient Persian countryside at dusk.",
+   "quality": "medium"
+  },
+  {
+   "name": "Q1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Two white geese standing on cracked dry mud beside a tortoise, one goose holding a straight wooden stick in its beak, golden light."
+  },
+  {
+   "name": "Q2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Close-up of a tortoise biting firmly onto the middle of a wooden stick, its mouth clamped shut, determined eyes, warm light."
+  },
+  {
+   "name": "Q3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Two white geese flying side by side in the sky, each holding one end of a wooden stick in its beak, a tortoise hanging from the middle of the stick by its mouth, over green fields at sunset."
+  },
+  {
+   "name": "Q4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. An ancient Persian village of mud-brick houses seen from above in the evening, tiny silhouettes of villagers in the square pointing up at the sky."
+  },
+  {
+   "name": "Q5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Dramatic low angle looking up at a tortoise hanging from a stick carried by two flying geese against a dark stormy sky, tense cliffhanger mood."
+  }
+ ]
+}

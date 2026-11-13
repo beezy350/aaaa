@@ -1,0 +1,19 @@
+{
+ "job": "2026-11-16-redo",
+ "results": [
+  {
+   "name": "T3",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "T5",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  }
+ ]
+}

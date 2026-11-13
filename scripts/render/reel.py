@@ -4,6 +4,7 @@ import sys, re, random, subprocess, tempfile, numpy as np, soundfile as sf
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from kokoro_onnx import Kokoro
 sd, out, music, lf = sys.argv[1:5]
+VDIR = sys.argv[5] if len(sys.argv) > 5 else None   # optional: Chatterbox wavs s<slide>_<n>.wav
 W, H, FPS, SR = 1080, 1920, 30, 24000
 F = '/home/claude/bebold/fonts/package/files/'
 CAP = ImageFont.truetype(F + 'oswald-latin-700-normal.woff', 84)
@@ -18,7 +19,12 @@ for i, line in enumerate(lines):
     lead = np.zeros(int(SR * 0.3)); audio.append(lead); t += len(lead) / SR
     parts = [p for p in re.split(r'(?<=[.?!…])\s+|\s*\|\s*', line) if p.strip()]
     for j, p in enumerate(parts):
-        a, _ = k.create(p, voice='am_michael', speed=random.uniform(0.9, 0.97), lang='en-us')
+        if VDIR:
+            a, sr0 = sf.read(f'{VDIR}/s{i+1}_{j+1}.wav', dtype='float32')
+            if a.ndim > 1: a = a.mean(axis=1)
+            if sr0 != SR: a = np.interp(np.linspace(0, len(a), int(len(a) * SR / sr0), endpoint=False), np.arange(len(a)), a).astype(np.float32)
+        else:
+            a, _ = k.create(p, voice='am_michael', speed=random.uniform(0.9, 0.97), lang='en-us')
         a = a / (np.abs(a).max() + 1e-6) * random.uniform(0.82, 0.9)
         # trim leading/trailing silence so word timing is tighter
         nz = np.where(np.abs(a) > 0.02)[0]; a = a[max(nz[0]-200, 0):nz[-1]+800] if len(nz) else a

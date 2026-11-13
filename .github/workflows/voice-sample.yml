@@ -1,0 +1,24 @@
+name: voice-sample
+on:
+  push:
+    branches: [main]
+    paths: ["bebold/voice/sample_text.txt", "scripts/chatterbox_sample.py", ".github/workflows/voice-sample.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  chatterbox:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: |
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q chatterbox-tts
+      - run: python scripts/chatterbox_sample.py
+      - run: |
+          git config user.name "bebold-bot"; git config user.email "bebold-bot@users.noreply.github.com"
+          git add bebold/voice; git commit -m "Chatterbox sample" || exit 0
+          git pull --rebase -q origin main && git push -q

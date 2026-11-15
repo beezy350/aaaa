@@ -1,0 +1,72 @@
+{
+ "images": [
+  {
+   "name": "F0",
+   "engine": "openai",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A white marble bust of a bearded Roman emperor wearing a theatrical comedy mask pushed up on its forehead, a red wax seal and an old scroll beside it, suggesting forgery and fake quotes.",
+   "quality": "medium"
+  },
+  {
+   "name": "F1",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A proud male lion with a full mane lying calmly on a rock, ignoring a small flock of sheep grazing below him, savanna."
+  },
+  {
+   "name": "F2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A blank stone pedestal with no statue on it in an empty museum hall, a velvet rope in front, a spotlight on the empty space, mysterious."
+  },
+  {
+   "name": "F3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. An old leather-bound notebook lying open on a Roman campaign table next to an oil lamp and a stylus, inside an army tent at night."
+  },
+  {
+   "name": "F4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A laughing old bearded philosopher in a simple robe seen in profile, joyful warm expression, arms folded, sunlight."
+  },
+  {
+   "name": "F5",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A magnifying glass resting on top of an ancient scroll, still life."
+  },
+  {
+   "name": "H0",
+   "engine": "openai",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A large ancient Greek clay amphora with two handles standing on a stone floor; the left handle is smooth and sturdy, the right handle is jagged and covered in sharp thorns.",
+   "quality": "medium"
+  },
+  {
+   "name": "H1",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. Close-up of the handle of a clay amphora covered in sharp thorns and spikes, impossible to hold."
+  },
+  {
+   "name": "H2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. Two brothers seen from behind sitting side by side on an old stone wall at sunset, one with his arm around the other, looking at hills."
+  },
+  {
+   "name": "H3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A busy ancient marketplace crowd with carts and stalls, and one calm man seen from behind walking peacefully through the chaos."
+  },
+  {
+   "name": "H4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Vintage pen-and-ink engraving illustration, fine cross-hatching and stippling, etched linework like a 19th-century book plate, with subtle muted watercolor washes in ochre, sage and dusty blue, on warm cream aged paper. The subject sits in the center surrounded by plain empty cream paper, no border, no frame. No hands visible. No text, letters, numbers, signatures or watermarks. A clay amphora resting securely in a wooden cart pulled by a donkey along a sunny country road, steady and balanced."
+  }
+ ]
+}

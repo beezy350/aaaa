@@ -20,7 +20,8 @@ def cover(src,zoom=1.0,cx=0.5,cy=0.5):
     return Image.composite(Image.new('RGB',(W,H),(0,0,0)),im,g.filter(ImageFilter.GaussianBlur(20)))
 def slide(src,text,hl,n,tot,cta=None,zoom=1.0,cx=0.5,cy=0.5,size=104):
     im=cover(src,zoom,cx,cy); d=ImageDraw.Draw(im)
-    fc=ImageFont.truetype(OSW5,40); c=f'{n}/{tot}'; d.text((SR-d.textlength(c,font=fc),300),c,font=fc,fill=(235,235,235))
+    if tot>1:
+        fc=ImageFont.truetype(OSW5,40); c=f'{n}/{tot}'; d.text((SR-d.textlength(c,font=fc),300),c,font=fc,fill=(235,235,235))
     f=ImageFont.truetype(OSW,size); words=text.split(); lines=[]; cur=[]
     for w in words:
         if d.textlength(' '.join(cur+[w]),font=f)<=(SR-SL)*0.78: cur.append(w)

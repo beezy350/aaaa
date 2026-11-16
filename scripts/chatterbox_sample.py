@@ -4,9 +4,8 @@ from chatterbox.tts import ChatterboxTTS
 m = ChatterboxTTS.from_pretrained(device="cpu")
 text = open("bebold/voice/sample_text.txt").read().strip()
 parts = [p for p in re.split(r'(?<=[.?!])\s+', text) if p.strip()]
-V = [("C_deep_warm", "ref_deep_warm.wav", 0.75, 0.35),
-     ("D_deep_warm_emotional", "ref_deep_warm.wav", 0.95, 0.3),
-     ("E_deep_storyteller", "ref_deep_story.wav", 0.8, 0.35)]
+V = [("D2_deep_warm_calmer", "ref_deep_warm.wav", 0.82, 0.32),
+     ("E2_deep_storyteller_bass", "ref_deep_story_bass.wav", 0.8, 0.35)]
 for name, ref, ex, cfg in V:
     wavs = []
     for p in parts:

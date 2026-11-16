@@ -1,0 +1,41 @@
+{
+ "images": [
+  {
+   "name": "X1",
+   "engine": "openai",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep moody shadows with warm amber highlights, rich contrast, fine film grain, shallow depth of field. The upper 45 percent of the frame is dark empty sky or shadow for text; the subject sits in the lower half. No people's faces, no hands, no text, letters, logos or watermarks. A huge black sea rock standing alone while a massive storm wave explodes against it in white spray, lightning far away, the rock completely unmoved.",
+   "quality": "medium"
+  },
+  {
+   "name": "X2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep moody shadows with warm amber highlights, rich contrast, fine film grain, shallow depth of field. The upper 45 percent of the frame is dark empty sky or shadow for text; the subject sits in the lower half. No people's faces, no hands, no text, letters, logos or watermarks. An ancient lone oak tree on a hilltop bending in a violent windstorm at dusk, its thick exposed roots gripping the rocky ground, leaves flying."
+  },
+  {
+   "name": "X3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep moody shadows with warm amber highlights, rich contrast, fine film grain, shallow depth of field. The upper 45 percent of the frame is dark empty sky or shadow for text; the subject sits in the lower half. No people's faces, no hands, no text, letters, logos or watermarks. Extreme close-up of a steel sword blade being sharpened against a dark whetstone, bright orange sparks flying in the darkness."
+  },
+  {
+   "name": "X4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep moody shadows with warm amber highlights, rich contrast, fine film grain, shallow depth of field. The upper 45 percent of the frame is dark empty sky or shadow for text; the subject sits in the lower half. No people's faces, no hands, no text, letters, logos or watermarks. An old iron lantern glowing on a misty forest path at night, its warm light reaching only the next few steps, the rest of the path lost in darkness."
+  },
+  {
+   "name": "X5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep moody shadows with warm amber highlights, rich contrast, fine film grain, shallow depth of field. The upper 45 percent of the frame is dark empty sky or shadow for text; the subject sits in the lower half. No people's faces, no hands, no text, letters, logos or watermarks. A black ceramic bowl repaired with glowing gold seams along its cracks in the kintsugi style, resting on dark stone, a single beam of warm light."
+  },
+  {
+   "name": "X6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep moody shadows with warm amber highlights, rich contrast, fine film grain, shallow depth of field. The upper 45 percent of the frame is dark empty sky or shadow for text; the subject sits in the lower half. No people's faces, no hands, no text, letters, logos or watermarks. A tall brass hourglass with golden sand pouring through, standing on a dark wooden table in a candle-lit stone room, dust floating in the light."
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "job": "2026-11-16-metaphors",
+ "results": [
+  {
+   "name": "X1",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 119,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 119
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1491
+   }
+  },
+  {
+   "name": "X2",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "X3",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "X4",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "X5",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "X6",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "job": "2026-11-17-cine-fix2",
+ "results": [
+  {
+   "name": "T2_2",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  }
+ ]
+}

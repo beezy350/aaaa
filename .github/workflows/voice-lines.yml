@@ -6,6 +6,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: voice-lines
+  cancel-in-progress: false
 jobs:
   chatterbox:
     runs-on: ubuntu-latest

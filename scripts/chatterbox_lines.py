@@ -11,6 +11,6 @@ for job in sorted(glob.glob("bebold/voice/jobs/*.txt")):
     for i, line in enumerate(lines, 1):
         parts = [p for p in re.split(r'(?<=[.?!…])\s+|\s*\|\s*', line) if p.strip()]
         for j, p in enumerate(parts, 1):
-            w = m.generate(p, audio_prompt_path="bebold/voice/ref_michael.wav", exaggeration=0.6, cfg_weight=0.4)
+            w = m.generate(p, audio_prompt_path="bebold/voice/ref_deep_warm.wav", exaggeration=0.82, cfg_weight=0.32)
             torchaudio.save(f"{od}/s{i}_{j}.wav", w, m.sr)
     open(f"{od}/done.txt", "w").write(f"{time.time()-t0:.0f}s\n")

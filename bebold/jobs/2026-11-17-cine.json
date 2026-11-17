@@ -1,0 +1,116 @@
+{
+ "images": [
+  {
+   "name": "T1_0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. Golden hour in a vast desert. A complete translucent shed snakeskin hangs draped over a dead twisted thorn branch, glowing amber as low sun shines through it. Far behind, out of focus, a snake glides away over the sand. Warm gold and burnt orange grade. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "T1_1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. Aerial low angle over rippled desert dunes at sunset, a single long S-shaped snake track carving across the sand toward the horizon, the snake small at the end of the trail. Warm gold grade, long shadows. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "T1_2",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. Macro close-up of an empty shed snakeskin lying on sand, backlit by sun so every scale is translucent and glowing like paper lanterns. Warm amber grade, extreme detail. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "T1_3",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. Desert at first light, blue hour turning gold, an endless line of snake tracks leading over a dune crest toward the rising sun. Hopeful, epic, wide. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "T2_0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. Dawn in a frozen misty meadow at the edge of a pine forest. Two powerful red deer stags clash head to head, antlers locked together, snow spraying, breath steaming. Cold steel-blue grade with a thin gold rim light. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "T2_1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. Two exhausted red deer stags with antlers still locked together kneel in deep snow, heads low, breath steaming, a blizzard softly falling. Cold blue grade, silent and tragic. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "T2_2",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. Spring meadow of tall green grass and small white flowers. Two large antler racks lie in the grass, tangled and locked together, morning mist, soft light. Quiet, melancholic, green and gold grade. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "T2_3",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. A lone red deer stag walks away from camera into a golden foggy forest, sun rays streaming through the trees, free and calm. Warm gold grade. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "I1_0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. Deep ocean floor in darkness. A single oyster lies slightly open, revealing a luminous perfect pearl glowing softly inside, shafts of faint light descending from far above. Deep teal and black grade. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "I1_1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. A cluster of tightly closed oysters on a dark rocky seabed, silent blue water, particles drifting in faint light rays. Deep teal grade, mysterious. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "I1_2",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. Macro close-up of an oyster shell pried open too early on wet black sand, empty inside except a tiny grain of grit, cold harsh light. Desaturated teal grade. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "I1_3",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. A single flawless white pearl resting on wet black volcanic stone at the shoreline, warm sunrise light catching its glow, waves blurred behind. Teal and warm gold grade. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "I2_0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. An empty old wooden rowboat floating alone on a perfectly still lake wrapped in heavy morning fog, mirror reflection, pine silhouettes faint in the mist. Cold green and grey grade. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "I2_1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. Ultra wide shot of a vast glassy lake with zero wind, the tiny empty rowboat in the center, flat mirror water, fog walls on every side. Muted cold grade, lonely. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "I2_2",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. Close-up inside the wooden rowboat: two worn wooden oars resting across the seats, water droplets on the wood, fog beyond. Cold grade with a warm hint of dawn. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  },
+  {
+   "name": "I2_3",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, shot on anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field, moody and majestic. The rowboat far away crossing the lake toward a sunlit shore, a clear V-shaped wake trailing behind it on the water, fog lifting, golden sunrise breaking through. Warm hopeful gold grade. Upper third of the frame is calm dark negative space. No people, no hands, no text, letters, numbers or watermarks."
+  }
+ ]
+}

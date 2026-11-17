@@ -4,6 +4,7 @@ import sys, re, random, subprocess, tempfile, numpy as np, soundfile as sf
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from kokoro_onnx import Kokoro
 sd, out, music, lf = sys.argv[1:5]
+NOMUSIC = music.lower() == 'none'
 VDIR = sys.argv[5] if len(sys.argv) > 5 else None   # optional: Chatterbox wavs s<slide>_<n>.wav
 W, H, FPS, SR = 1080, 1920, 30, 24000
 F = '/home/claude/bebold/fonts/package/files/'
@@ -73,9 +74,10 @@ def caption(fr, tt):
 
 # ---------- render ----------
 p = subprocess.Popen(['ffmpeg', '-loglevel', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
-                      '-i', f'{tmp}/voice.wav', '-i', music, '-filter_complex',
-                      f"[1:a]equalizer=f=180:t=q:w=1:g=2,equalizer=f=3500:t=q:w=1.2:g=1.5,highpass=f=70[v];"
-                      f"[2:a]volume=0.14,afade=t=in:d=1.2,afade=t=out:st={D-2:.2f}:d=2[m];[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]",
+                      '-i', f'{tmp}/voice.wav'] + ([] if NOMUSIC else ['-i', music]) + ['-filter_complex',
+                      f"[1:a]equalizer=f=180:t=q:w=1:g=2,equalizer=f=3500:t=q:w=1.2:g=1.5,highpass=f=70" +
+                      (",loudnorm=I=-14:TP=-1.5:LRA=11[a]" if NOMUSIC else
+                      f"[v];[2:a]volume=0.14,afade=t=in:d=1.2,afade=t=out:st={D-2:.2f}:d=2[m];[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]"),
                       '-map', '0:v', '-map', '[a]', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '24', '-maxrate', '6M', '-bufsize', '12M', '-pix_fmt', 'yuv420p',
                       '-c:a', 'aac', '-b:a', '160k', '-t', f'{D:.2f}', '-movflags', '+faststart', out], stdin=subprocess.PIPE)
 nf = int(D * FPS)

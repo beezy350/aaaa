@@ -1,0 +1,28 @@
+{
+ "images": [
+  {
+   "name": "F2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Black and white charcoal drawing on rough textured cream paper, dramatic chiaroscuro, bold expressive hand-drawn strokes, smudged shadows, fine art illustration, vertical composition, upper third mostly empty paper and soft shading. Animals with correct natural anatomy. No people, no text, letters or watermarks. In the foreground a small red fox with a bushy tail, big pointed ears and a narrow pointed snout crouches low, alone and alert. Behind it in the dark forest, three large wolves with pale glowing eyes. The fox is clearly smaller and different from the wolves."
+  },
+  {
+   "name": "F3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Black and white charcoal drawing on rough textured cream paper, dramatic chiaroscuro, bold expressive hand-drawn strokes, smudged shadows, fine art illustration, vertical composition, upper third mostly empty paper and soft shading. Animals with correct natural anatomy. No people, no text, letters or watermarks. On a hilltop under a full moon: a small red fox with a long bushy tail, pointed snout and big pointed ears sits beside a large male lion with a full mane. Exactly one fox and one lion."
+  },
+  {
+   "name": "G1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Wide low angle from a crowd of villagers on mud-brick rooftops: far up in the golden sky, exactly two white geese fly side by side holding the two ends of ONE straight wooden stick in their beaks, and exactly ONE small tortoise hangs from the middle of that stick by its mouth."
+  },
+  {
+   "name": "G2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Side view close shot in the sky: one tortoise hanging by its mouth from the middle of a horizontal wooden stick, its shell upright and legs dangling, eyes narrowed in anger looking down, golden clouds and a village tiny far below."
+  }
+ ]
+}

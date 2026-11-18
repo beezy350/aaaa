@@ -1,0 +1,88 @@
+{
+ "images": [
+  {
+   "name": "H0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field. Upper third is calm dark negative space. No people, no hands, no text, letters or watermarks. A grey heron standing perfectly still in a misty shallow lake at dawn, mirror reflection, a few small silver fish swimming close to its legs, teal and soft gold grade, total calm."
+  },
+  {
+   "name": "H1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field. Upper third is calm dark negative space. No people, no hands, no text, letters or watermarks. The exact moment a grey heron strikes: its beak plunging into the lake, a crown of water splash frozen in the air, a silver fish caught, misty dawn, teal and gold grade."
+  },
+  {
+   "name": "P0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field. Upper third is calm dark negative space. No people, no hands, no text, letters or watermarks. A small empty stone room with a single old wooden chair in the middle, one candle burning on the floor, a thin beam of window light, dust in the air, perfect silence, warm amber grade."
+  },
+  {
+   "name": "P1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field. Upper third is calm dark negative space. No people, no hands, no text, letters or watermarks. A smartphone lying face down on a rough wooden table beside a burning candle in a dark room, its edge glowing faintly, everything else in deep shadow, warm amber grade."
+  },
+  {
+   "name": "J0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical dramatic black and white fine-art photograph, deep black background, single hard side light, high contrast, film grain. Upper third is empty black space. No people, no text, letters or watermarks. An ancient Roman marble bust of the two-faced god Janus: two bearded faces joined at the back of the head, one looking left and one looking right, carved stone texture, museum statue."
+  },
+  {
+   "name": "J1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical dramatic black and white fine-art photograph, deep black background, single hard side light, high contrast, film grain. Upper third is empty black space. No people, no text, letters or watermarks. Extreme close-up of a weathered marble statue face, half of it lost in pure black shadow, a thin crack running down the stone cheek."
+  },
+  {
+   "name": "C0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. A wild cat tangled in a hunter's rope net at the edge of an ancient Persian forest at dusk, struggling, golden light through the trees."
+  },
+  {
+   "name": "C1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. A small brown mouse peeking out of a hole between the roots of a big old tree, whiskers forward, sniffing the evening air, warm light."
+  },
+  {
+   "name": "C2",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Low angle in tall golden grass: a sleek weasel creeping forward toward the camera, eyes fixed, hunting, dusk light."
+  },
+  {
+   "name": "C3",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. A large owl perched on a dark branch high above, glaring straight down, huge round eyes, a rising moon behind it."
+  },
+  {
+   "name": "C4",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Close-up of a small brown mouse frozen on the forest floor, eyes wide with fear, ears up, dramatic shadows closing in from both sides."
+  },
+  {
+   "name": "C5",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Face to face through the ropes of a hunter's net: a tiny brown mouse looking up at a trapped wild cat's face, tense silence, golden dusk light."
+  }
+ ]
+}

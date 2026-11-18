@@ -1,0 +1,139 @@
+{
+ "job": "2026-11-18",
+ "results": [
+  {
+   "name": "K0",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 94,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 94
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1466
+   }
+  },
+  {
+   "name": "K1",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "K2",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "K3",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "F0",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 96,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 96
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1468
+   }
+  },
+  {
+   "name": "F1",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "F2",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "F3",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "G0",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 113,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 113
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1485
+   }
+  },
+  {
+   "name": "G1",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "G2",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "G3",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "G4",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "G5",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  }
+ ]
+}

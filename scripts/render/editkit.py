@@ -64,24 +64,26 @@ sfx = np.zeros(len(voice) + SR, dtype=np.float32); R = np.random.default_rng(7)
 def put(at, sig):
     s0 = max(int(at * SR), 0); e = min(s0 + len(sig), len(sfx)); sfx[s0:e] += sig[:e - s0]
 def noise(n, smooth): w = R.normal(0, 1, n).astype(np.float32); return np.convolve(w, np.ones(smooth) / smooth, 'same')
-for c in [0.02] + CUTS:
+def sweep(m, f0, f1, amp):
+    tt2 = np.arange(m) / SR; f = f0 + (f1 - f0) * (tt2 / tt2[-1]); car = np.sin(2 * np.pi * np.cumsum(f) / SR)
+    return (noise(m, 6) * (0.5 + 0.5 * car)) * np.hanning(m) * amp
+def sig_hit(c):   # the style's signature sound, used ONCE (on the hook)
     k = S['sfx']; n = int(SR * 0.9); tt_ = np.arange(n) / SR
-    if k == 'boom':
+    if k in ('boom', 'riser'):
         f = 95 * np.exp(-tt_ * 2.2) + 38; put(c, np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt_ * 4) * 0.9)
-        w = noise(int(SR * .35), 40) * np.linspace(0, 1, int(SR * .35)) ** 2 * .5; put(c - .35, w)
-    elif k == 'whoosh':
-        m = int(SR * .4); w = noise(m, 18) * np.hanning(m) * .7; put(c - .2, w)
-    elif k == 'static':
-        m = int(SR * .3); put(c - .05, R.normal(0, .35, m).astype(np.float32) * np.linspace(1, 0, m))
-    elif k == 'swell':
-        m = int(SR * 1.2); put(c - .6, noise(m, 120) * np.hanning(m) * 1.6)
-    elif k == 'swish':
-        m = int(SR * .6); put(c - .3, noise(m, 60) * np.hanning(m) * 1.1)
-    elif k == 'riser':
-        m = int(SR * .8); tt2 = np.arange(m) / SR; f = 200 + 900 * (tt2 / .8) ** 2
-        put(c - .8, (np.sin(2 * np.pi * np.cumsum(f) / SR) * .12 + noise(m, 8) * .15) * (tt2 / .8) ** 2)
-        put(c, np.sin(2 * np.pi * 50 * tt_) * np.exp(-tt_ * 5) * .8)
-sf.write(f'{tmp}/sfx.wav', sfx[:len(voice)], SR)
+    elif k == 'static': m = int(SR * .3); put(c, R.normal(0, .35, m).astype(np.float32) * np.linspace(1, 0, m))
+    elif k == 'swell': m = int(SR * 1.2); put(c, noise(m, 120) * np.hanning(m) * 1.6)
+    else: m = int(SR * .5); put(c, noise(m, 30) * np.hanning(m) * .9)
+TSFX = {  # one matched sound per transition type
+ 'push_up':    lambda c: put(c - .18, sweep(int(SR * .38), 300, 2400, .9)),     # rising whoosh
+ 'push_down':  lambda c: put(c - .18, sweep(int(SR * .38), 2400, 300, .9)),     # falling whoosh
+ 'push_left':  lambda c: put(c - .14, sweep(int(SR * .30), 900, 1400, .8)),     # quick air swish
+ 'push_right': lambda c: put(c - .14, sweep(int(SR * .30), 1400, 900, .8)),
+ 'split':      lambda c: (put(c, np.sin(2*np.pi*80*np.arange(int(SR*.25))/SR) * np.exp(-np.arange(int(SR*.25))/SR*14) * .8),
+                          put(c, R.normal(0, .5, 300).astype(np.float32) * np.linspace(1, 0, 300))),   # thunk + click
+ 'spin':       lambda c: put(c - .25, sweep(int(SR * .5), 600, 4000, .55) + np.sin(2*np.pi*np.cumsum(np.linspace(900,2200,int(SR*.5)))/SR).astype(np.float32) * np.hanning(int(SR*.5)) * .08),  # shimmer
+}
+sig_hit(0.02)
 
 # ---------- visuals ----------
 slides = [Image.open(f'{sd}/slide_{i+1:02d}.jpg').convert('RGB').resize((int(W*1.18), int(H*1.18)), Image.LANCZOS) for i in range(len(lines))]
@@ -105,8 +107,34 @@ paper = np.asarray(Image.fromarray((np.random.default_rng(9).normal(128, 30, (H 
 grains = [np.random.default_rng(s).normal(0, 9, (H // 2, W // 2, 1)).astype(np.float32) for s in range(6)]
 scan = ((np.arange(H) % 4) < 2).astype(np.float32)[:, None, None] * 0.12
 
-def transition(A, B, p, f):
-    tr = S['tr']; e = p * p * (3 - 2 * p)
+SEQ = ['push_up', 'push_left', 'split', 'push_down', 'spin', 'push_right', S['tr']]
+_o = len(STYLE) % len(SEQ); TR_FOR = [SEQ[(_o + k) % len(SEQ)] for k in range(len(CUTS))]
+for k, c in enumerate(CUTS):
+    (TSFX[TR_FOR[k]] if TR_FOR[k] in TSFX else (lambda c: put(c - .15, sweep(int(SR * .35), 700, 1500, .7))))(c)
+sf.write(f'{tmp}/sfx.wav', sfx[:len(voice)], SR)
+def mblur(o, axis, k):
+    if k < 2: return o
+    im = Image.fromarray(o.clip(0, 255).astype(np.uint8)); w = im.size
+    sm = im.resize((max(1, w[0] // k), w[1]) if axis == 1 else (w[0], max(1, w[1] // k)), Image.BILINEAR).resize(w, Image.BILINEAR)
+    return np.asarray(sm, dtype=np.float32)
+def transition(A, B, p, f, tr=None):
+    tr = tr or S['tr']; e = p * p * (3 - 2 * p); e3 = 1 - (1 - p) ** 3
+    if tr in ('push_up', 'push_down'):
+        off = int(e3 * H); o = np.concatenate([A[off:], B[:off]], 0) if tr == 'push_up' else np.concatenate([B[H - off:], A[:H - off]], 0)
+        return mblur(o, 0, int(1 + 18 * np.sin(np.pi * p)))
+    if tr in ('push_left', 'push_right'):
+        off = int(e3 * W); o = np.concatenate([A[:, off:], B[:, :off]], 1) if tr == 'push_left' else np.concatenate([B[:, W - off:], A[:, :W - off]], 1)
+        return mblur(o, 1, int(1 + 22 * np.sin(np.pi * p)))
+    if tr == 'split':
+        gap = int(e3 * H / 2); o = B.copy(); top = A[:H // 2]; bot = A[H // 2:]
+        if gap < H // 2: o[:H // 2 - gap] = top[gap:]; o[H // 2 + gap:] = bot[:H // 2 - gap]
+        return o
+    if tr == 'spin':
+        ang = 25 * e; sc = 1 - 0.5 * e
+        ia = Image.fromarray(A.clip(0, 255).astype(np.uint8)).rotate(ang, Image.BILINEAR)
+        ia = ia.resize((int(W * sc), int(H * sc)), Image.BILINEAR); canvas = Image.fromarray(B.clip(0, 255).astype(np.uint8))
+        mask = Image.new('L', ia.size, int(255 * (1 - e))); canvas.paste(ia, ((W - ia.size[0]) // 2, (H - ia.size[1]) // 2), mask)
+        return np.asarray(canvas, dtype=np.float32)
     if tr == 'dissolve': return A * (1 - e) + B * e
     if tr == 'flash':
         out_ = B if p > .3 else A
@@ -209,8 +237,10 @@ for f in range(int(D * FPS)):
     i = next((n for n, (a, b) in enumerate(slide_t) if a <= tt < b), len(slide_t) - 1)
     a, b = slide_t[i]; arr = frame_for(i, (tt - a) / max(b - a, 1e-3), tt)
     for k, c in enumerate(CUTS):
-        if c - T / 2 <= tt < c + T / 2:
-            pp = (tt - (c - T / 2)) / T; A = frame_for(k, 1, tt); B = frame_for(k + 1, 0, tt); arr = transition(A, B, pp, f)
+        if c - max(T, .42) / 2 <= tt < c + max(T, .42) / 2:
+            TT = T if TR_FOR[k] == S['tr'] else 0.42
+            if not (c - TT / 2 <= tt < c + TT / 2): continue
+            pp = (tt - (c - TT / 2)) / TT; A = frame_for(k, 1, tt); B = frame_for(k + 1, 0, tt); arr = transition(A, B, pp, f, TR_FOR[k])
     if tt > D - .3: arr = arr * (1 - (tt - (D - .3)) / .3) + frame_for(0, 0, slide_t[0][0] + .71) * ((tt - (D - .3)) / .3)
     im = Image.fromarray(np.clip(look(arr, tt, f), 0, 255).astype(np.uint8))
     p.stdin.write(draw_caps(im, tt).tobytes())

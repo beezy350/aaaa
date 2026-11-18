@@ -77,7 +77,7 @@ p = subprocess.Popen(['ffmpeg', '-loglevel', 'error', '-y', '-f', 'rawvideo', '-
                       '-i', f'{tmp}/voice.wav'] + ([] if NOMUSIC else ['-i', music]) + ['-filter_complex',
                       f"[1:a]equalizer=f=180:t=q:w=1:g=2,equalizer=f=3500:t=q:w=1.2:g=1.5,highpass=f=70" +
                       (",loudnorm=I=-14:TP=-1.5:LRA=11[a]" if NOMUSIC else
-                      f"[v];[2:a]volume=0.14,afade=t=in:d=1.2,afade=t=out:st={D-2:.2f}:d=2[m];[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]"),
+                      f"[v];[2:a]volume=0.12,afade=t=in:d=1.2,afade=t=out:st={D-2:.2f}:d=2[m];[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]"),
                       '-map', '0:v', '-map', '[a]', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '24', '-maxrate', '6M', '-bufsize', '12M', '-pix_fmt', 'yuv420p',
                       '-c:a', 'aac', '-b:a', '160k', '-t', f'{D:.2f}', '-movflags', '+faststart', out], stdin=subprocess.PIPE)
 nf = int(D * FPS)

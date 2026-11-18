@@ -1,0 +1,102 @@
+{
+ "images": [
+  {
+   "name": "K0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field. Upper third is calm dark negative space. No people, no hands, no text, letters or watermarks. A black ceramic tea bowl shattering in mid-air above a dark wooden table, sharp fragments frozen flying outward, single hard spotlight, black and deep amber grade."
+  },
+  {
+   "name": "K1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field. Upper third is calm dark negative space. No people, no hands, no text, letters or watermarks. Broken black ceramic shards laid out neatly on a dark wooden workbench beside a small dish of liquid gold and a fine brush, warm candle light, quiet craftsman mood."
+  },
+  {
+   "name": "K2",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field. Upper third is calm dark negative space. No people, no hands, no text, letters or watermarks. Extreme macro of a black ceramic bowl mended with kintsugi, glowing gold seams running through the cracks like rivers of light, shallow focus."
+  },
+  {
+   "name": "K3",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, deep rich color grade, fine film grain, shallow depth of field. Upper third is calm dark negative space. No people, no hands, no text, letters or watermarks. A finished kintsugi bowl resting on dark slate, bright golden veins across black glaze, a single beam of warm light from above, museum-like stillness."
+  },
+  {
+   "name": "F0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Black and white charcoal drawing on rough textured cream paper, dramatic chiaroscuro, bold expressive hand-drawn strokes, smudged shadows, fine art illustration, vertical composition, upper third mostly empty paper and soft shading. Animals with correct natural anatomy. No people, no text, letters or watermarks. A powerful lion and a sly fox standing side by side facing the viewer, the lion large and calm, the fox small with sharp clever eyes."
+  },
+  {
+   "name": "F1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Black and white charcoal drawing on rough textured cream paper, dramatic chiaroscuro, bold expressive hand-drawn strokes, smudged shadows, fine art illustration, vertical composition, upper third mostly empty paper and soft shading. Animals with correct natural anatomy. No people, no text, letters or watermarks. A lion walking proudly through tall grass, not noticing a hidden rope snare loop on the ground just ahead of its paw."
+  },
+  {
+   "name": "F2",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Black and white charcoal drawing on rough textured cream paper, dramatic chiaroscuro, bold expressive hand-drawn strokes, smudged shadows, fine art illustration, vertical composition, upper third mostly empty paper and soft shading. Animals with correct natural anatomy. No people, no text, letters or watermarks. A small fox crouched in shadow at the edge of a forest at night, alert, as three wolves with pale glowing eyes close in from the darkness."
+  },
+  {
+   "name": "F3",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Black and white charcoal drawing on rough textured cream paper, dramatic chiaroscuro, bold expressive hand-drawn strokes, smudged shadows, fine art illustration, vertical composition, upper third mostly empty paper and soft shading. Animals with correct natural anatomy. No people, no text, letters or watermarks. A lion and a fox together on a hilltop under a full moon, the fox looking down at the land, the lion facing forward, calm and ready."
+  },
+  {
+   "name": "G0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. An ancient Persian village of mud-brick houses at sunset, villagers on the rooftops seen from behind as small silhouettes, all pointing and shouting up at the sky."
+  },
+  {
+   "name": "G1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Low angle from the village rooftops: high in the golden sky two white domestic geese with orange beaks fly side by side holding a wooden stick, a tortoise hanging from the middle by its mouth, tiny silhouettes of villagers pointing up in the foreground."
+  },
+  {
+   "name": "G2",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Mid-air close shot of a tortoise hanging by its mouth from a wooden stick, eyes narrowed with anger, glaring down at the village far below, wind and golden clouds."
+  },
+  {
+   "name": "G3",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. A tortoise in mid-air with its mouth just opened, the wooden stick slipping away above it, two white geese with orange beaks flying on, frozen dramatic moment, golden sky."
+  },
+  {
+   "name": "G4",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. A small tortoise falling through a vast golden sunset sky, far below the two geese that fly on above, distant fields, quiet and tragic, no ground impact shown."
+  },
+  {
+   "name": "G5",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical epic cinematic film still, photorealistic, anamorphic lens, dramatic volumetric light, warm amber and gold color grade, fine film grain, shallow depth of field. Upper 40 percent of the frame is dark empty sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. Two white domestic geese with orange beaks flying away into a huge amber sunset, holding an empty wooden stick between them, peaceful and sad."
+  }
+ ]
+}

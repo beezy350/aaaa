@@ -67,23 +67,26 @@ def noise(n, smooth): w = R.normal(0, 1, n).astype(np.float32); return np.convol
 def sweep(m, f0, f1, amp):
     tt2 = np.arange(m) / SR; f = f0 + (f1 - f0) * (tt2 / tt2[-1]); car = np.sin(2 * np.pi * np.cumsum(f) / SR)
     return (noise(m, 6) * (0.5 + 0.5 * car)) * np.hanning(m) * amp
-def sig_hit(c):   # the style's signature sound, used ONCE (on the hook)
-    k = S['sfx']; n = int(SR * 0.9); tt_ = np.arange(n) / SR
-    if k in ('boom', 'riser'):
-        f = 95 * np.exp(-tt_ * 2.2) + 38; put(c, np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt_ * 4) * 0.9)
-    elif k == 'static': m = int(SR * .3); put(c, R.normal(0, .35, m).astype(np.float32) * np.linspace(1, 0, m))
-    elif k == 'swell': m = int(SR * 1.2); put(c, noise(m, 120) * np.hanning(m) * 1.6)
-    else: m = int(SR * .5); put(c, noise(m, 30) * np.hanning(m) * .9)
-TSFX = {  # one matched sound per transition type
- 'push_up':    lambda c: put(c - .18, sweep(int(SR * .38), 300, 2400, .9)),     # rising whoosh
- 'push_down':  lambda c: put(c - .18, sweep(int(SR * .38), 2400, 300, .9)),     # falling whoosh
- 'push_left':  lambda c: put(c - .14, sweep(int(SR * .30), 900, 1400, .8)),     # quick air swish
- 'push_right': lambda c: put(c - .14, sweep(int(SR * .30), 1400, 900, .8)),
- 'split':      lambda c: (put(c, np.sin(2*np.pi*80*np.arange(int(SR*.25))/SR) * np.exp(-np.arange(int(SR*.25))/SR*14) * .8),
-                          put(c, R.normal(0, .5, 300).astype(np.float32) * np.linspace(1, 0, 300))),   # thunk + click
- 'spin':       lambda c: put(c - .25, sweep(int(SR * .5), 600, 4000, .55) + np.sin(2*np.pi*np.cumsum(np.linspace(900,2200,int(SR*.5)))/SR).astype(np.float32) * np.hanning(int(SR*.5)) * .08),  # shimmer
+# ---- Hollywood-style palette: tonal, varied, used sparingly ----
+def tone(parts, dur, decay, amp, glide=None):
+    n = int(SR * dur); tt_ = np.arange(n) / SR; out_ = np.zeros(n, np.float32)
+    for fr, a_ in parts:
+        f = fr if glide is None else fr * (glide ** (tt_ / dur))
+        out_ += a_ * np.sin(2 * np.pi * np.cumsum(np.broadcast_to(f, tt_.shape)) / SR)
+    return out_ * np.exp(-tt_ * decay) * np.minimum(1, tt_ / .004) * amp
+SOUNDS = {
+ 'sub':     lambda: tone([(45, 1), (90, .25)], 1.6, 2.2, .95),                                  # cinematic sub hit
+ 'tape':    lambda: tone([(420, 1), (840, .3)], .45, 3, .35, glide=.08),                        # tape-stop drop
+ 'piano':   lambda: tone([(110, 1), (220, .5), (330, .25), (440, .12)], 2.5, 1.6, .45),         # low piano note
+ 'gong':    lambda: tone([(90, 1), (181.5, .5), (268, .35), (412, .15)], 3.0, 1.1, .4),        # soft low gong
+ 'snap':    lambda: np.concatenate([R.normal(0, .8, 90).astype(np.float32) * np.linspace(1, 0, 90), tone([(1250, 1)], .12, 30, .25)]),
+ 'chime':   lambda: np.concatenate([tone([(659, 1), (1318, .3)], .18, 6, .16), tone([(988, 1), (1976, .3)], 1.2, 3.5, .16)]),
+ 'descend': lambda: tone([(220, 1), (110, .4)], .7, 3, .38, glide=.5),
+ 'thud':    lambda: (lambda a_, b_: (a_.__setitem__(slice(0, len(b_)), a_[:len(b_)] + b_), a_)[1])(tone([(55, 1), (110, .3)], .5, 9, .85), tone([(820, 1)], .06, 60, .25)),
+ 'bell':    lambda: tone([(1000, 1), (2760, .5), (5400, .2)], 1.6, 3, .09),
 }
-sig_hit(0.02)
+HOOK = {'impact': 'sub', 'zoom': 'sub', 'iris': 'sub', 'vhs': 'tape', 'film': 'piano', 'ink': 'gong', 'whip': 'snap'}[STYLE]
+put(0.02, SOUNDS[HOOK]())
 
 # ---------- visuals ----------
 slides = [Image.open(f'{sd}/slide_{i+1:02d}.jpg').convert('RGB').resize((int(W*1.18), int(H*1.18)), Image.LANCZOS) for i in range(len(lines))]
@@ -109,8 +112,14 @@ scan = ((np.arange(H) % 4) < 2).astype(np.float32)[:, None, None] * 0.12
 
 SEQ = ['push_up', 'push_left', 'split', 'push_down', 'spin', 'push_right', S['tr']]
 _o = len(STYLE) % len(SEQ); TR_FOR = [SEQ[(_o + k) % len(SEQ)] for k in range(len(CUTS))]
+# only the moments that matter get sound: the climax cut, and the middle cut in longer pieces
+TR_SOUND = {'push_up': 'chime', 'push_down': 'descend', 'split': 'thud', 'spin': 'bell'}   # horizontal pushes & style moves stay silent
+key_cuts = {len(CUTS) - 1} | ({len(CUTS) // 2} if len(CUTS) >= 3 else set())
 for k, c in enumerate(CUTS):
-    (TSFX[TR_FOR[k]] if TR_FOR[k] in TSFX else (lambda c: put(c - .15, sweep(int(SR * .35), 700, 1500, .7))))(c)
+    if k in key_cuts and TR_FOR[k] in TR_SOUND: put(c - (.15 if TR_FOR[k] == 'chime' else 0), SOUNDS[TR_SOUND[TR_FOR[k]]]())
+# the drop: music falls silent just before the punchline, then a sub thump lands with it
+TP = words[punch0][0] if punch0 is not None else None
+if TP: put(TP, tone([(42, 1)], 1.0, 3.5, .7))
 sf.write(f'{tmp}/sfx.wav', sfx[:len(voice)], SR)
 def mblur(o, axis, k):
     if k < 2: return o
@@ -226,7 +235,9 @@ def draw_caps(im, tt):
 # ---------- render ----------
 filt = "[1:a]equalizer=f=180:t=q:w=1:g=2,equalizer=f=3500:t=q:w=1.2:g=1.5,highpass=f=70[v];[2:a]volume=0.55[s];" + (
     "[v][s]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]" if NOMUSIC else
-    f"[3:a]volume=0.12,afade=t=in:d=1.2,afade=t=out:st={D-2:.2f}:d=2[m];[v][s][m]amix=inputs=3:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
+    f"[v]asplit=2[v1][vk];[3:a]volume=0.16,afade=t=in:d=1.2,afade=t=out:st={D-2:.2f}:d=2" +
+    (f",volume='if(between(t,{TP-.45:.2f},{TP+.5:.2f}),0.05,1)':eval=frame" if TP else "") +
+    "[m0];[m0][vk]sidechaincompress=threshold=0.03:ratio=5:attack=15:release=350[m];[v1][s][m]amix=inputs=3:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
 p = subprocess.Popen(['ffmpeg', '-loglevel', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                       '-i', f'{tmp}/voice.wav', '-i', f'{tmp}/sfx.wav'] + ([] if NOMUSIC else ['-i', music]) + ['-filter_complex', filt,
                       '-map', '0:v', '-map', '[a]', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '24', '-maxrate', '6M', '-bufsize', '12M', '-pix_fmt', 'yuv420p',

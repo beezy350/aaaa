@@ -93,6 +93,8 @@ slides = [Image.open(f'{sd}/slide_{i+1:02d}.jpg').convert('RGB').resize((int(W*1
 MOVES = ['in', 'right', 'out', 'left']
 def frame_for(i, u, tt):
     im = slides[i]; bw, bh = im.size; u = min(max(u, 0), 1)
+    if __import__('os').environ.get('STATIC'):
+        return np.asarray(im.resize((W, H), Image.BILINEAR), dtype=np.float32)
     m = MOVES[(i + len(STYLE)) % 4]; e = u * u * (3 - 2 * u)
     if i == 0 and tt - slide_t[0][0] < 0.7 and STYLE in ('impact', 'zoom', 'whip'):
         z = 1.18 - 0.14 * min(1, (tt - slide_t[0][0]) / 0.7); cx = 0.5
@@ -112,6 +114,8 @@ scan = ((np.arange(H) % 4) < 2).astype(np.float32)[:, None, None] * 0.12
 
 SEQ = ['push_up', 'push_left', 'split', 'push_down', 'spin', 'push_right', S['tr']]
 _o = len(STYLE) % len(SEQ); TR_FOR = [SEQ[(_o + k) % len(SEQ)] for k in range(len(CUTS))]
+import os
+if os.environ.get('EDIT_TR'): TR_FOR = (os.environ['EDIT_TR'].split(',') + TR_FOR)[:len(CUTS)]
 # only the moments that matter get sound: the climax cut, and the middle cut in longer pieces
 TR_SOUND = {'push_up': 'chime', 'push_down': 'descend', 'split': 'thud', 'spin': 'bell'}   # horizontal pushes & style moves stay silent
 key_cuts = {len(CUTS) - 1} | ({len(CUTS) // 2} if len(CUTS) >= 3 else set())
@@ -219,7 +223,7 @@ def draw_caps(im, tt):
     if cap == 'serif':
         fo = font('playfair_i', 62); s = ' '.join(txt); x = (W - d.textlength(s, font=fo)) / 2
         al = min(1, (tt - grp[0][0]) / .25); col = tuple(int(255 * al) for _ in range(3))
-        d.text((x, 1560), s, font=fo, fill=col, stroke_width=2, stroke_fill=(0, 0, 0)); return im
+        d.text((x, int(__import__('os').environ.get('CAPY', 1560))), s, font=fo, fill=col, stroke_width=2, stroke_fill=(0, 0, 0)); return im
     if cap == 'card':
         fo = font('bask', 58); s = ' '.join(txt); tw = d.textlength(s, font=fo); x = (W - tw) / 2
         d.rounded_rectangle((x - 34, 1290, x + tw + 34, 1400), 22, fill=(242, 232, 210)); d.text((x, 1310), s, font=fo, fill=(25, 20, 15)); return im

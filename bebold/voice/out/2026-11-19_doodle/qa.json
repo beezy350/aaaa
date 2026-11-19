@@ -1,0 +1,58 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "Three rules a quiet man lives by.",
+  "heard": "Three Rules a Quiet Man Lives By",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.81
+ },
+ {
+  "clip": "s2_1",
+  "script": "One.",
+  "heard": "1",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 1.76
+ },
+ {
+  "clip": "s2_2",
+  "script": "Pay your debts, before you buy your toys.",
+  "heard": "Pay your debts before you buy your toys.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.73
+ },
+ {
+  "clip": "s3_1",
+  "script": "Two.",
+  "heard": "2",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 1.22
+ },
+ {
+  "clip": "s3_2",
+  "script": "Wake up, before the world asks for you.",
+  "heard": "Wake up before the world asks for you.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 3.07
+ },
+ {
+  "clip": "s4_1",
+  "script": "Three.",
+  "heard": "3.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.48
+ },
+ {
+  "clip": "s4_2",
+  "script": "Let your work answer the doubters.",
+  "heard": "Let your work answer the Doubters.",
+  "score": 1.0,
+  "tries": 3,
+  "spike": 1.85
+ }
+]

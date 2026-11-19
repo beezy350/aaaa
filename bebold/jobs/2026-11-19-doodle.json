@@ -1,0 +1,25 @@
+{
+ "images": [
+  {
+   "name": "D1",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1024",
+   "prompt": "Hand-drawn doodle illustration in colored pencil and marker, childlike scribbly hatching strokes, thick wobbly black outlines, bright flat colors, on a pure plain white background, no shadows, no frame, no text, no letters, no numbers. A simple cartoon young man with messy black hair. He is dropping a coin into a pink piggy bank on a small table, while a shiny red toy sports car waits ignored on the floor beside him."
+  },
+  {
+   "name": "D2",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1024",
+   "prompt": "Hand-drawn doodle illustration in colored pencil and marker, childlike scribbly hatching strokes, thick wobbly black outlines, bright flat colors, on a pure plain white background, no shadows, no frame, no text, no letters, no numbers. A simple cartoon young man with messy black hair. He stretches his arms up beside a window with a small rising sun outside, an alarm clock on a nightstand, he looks awake and calm."
+  },
+  {
+   "name": "D3",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1024",
+   "prompt": "Hand-drawn doodle illustration in colored pencil and marker, childlike scribbly hatching strokes, thick wobbly black outlines, bright flat colors, on a pure plain white background, no shadows, no frame, no text, no letters, no numbers. A simple cartoon young man with messy black hair. He is calmly laying bricks to build a small wall, while two other cartoon people stand to the side pointing and laughing at him."
+  }
+ ]
+}

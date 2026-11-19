@@ -12,14 +12,14 @@ concurrency:
 jobs:
   chatterbox:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - run: |
           pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-          pip install -q chatterbox-tts
+          pip install -q chatterbox-tts faster-whisper num2words
       - run: python scripts/chatterbox_lines.py
       - run: |
           git config user.name "bebold-bot"; git config user.email "bebold-bot@users.noreply.github.com"

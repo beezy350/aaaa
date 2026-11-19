@@ -1,0 +1,11 @@
+{
+ "images": [
+  {
+   "name": "B1",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic still life, overhead top-down shot, chiaroscuro lighting. A finished steel sword resting diagonally on a grey sharpening whetstone on a dark scarred wooden workbench, a few glowing embers and metal filings around it, single hard light raking across the razor edge. Absolutely no people, no hands, no figures. No text. Vertical frame, upper third dark."
+  }
+ ]
+}

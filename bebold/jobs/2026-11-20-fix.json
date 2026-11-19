@@ -1,0 +1,40 @@
+{
+ "images": [
+  {
+   "name": "B1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No people, no human figures, no faces, no hands. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. strong rim backlight outlining the subject, face in shadow, glowing edges. Still life only: a finished steel sword lying flat across the top of an old black iron anvil in an empty dark smithy, its razor edge catching a thin line of rim light, glowing embers drifting. Nothing else in the scene. Upper third dark."
+  },
+  {
+   "name": "E1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No people, no humans, no text. over-the-shoulder shot, blurred shoulder and head in the foreground, the other subject sharp facing camera. Over the shoulder of a trapped wild tabby cat: the cat's furry striped shoulder and ear blurred large in the foreground with rope net strands, and a small brown mouse standing sharp on the ground in front of it looking up at the cat."
+  },
+  {
+   "name": "E2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No people, no humans, no text. high-angle shot looking down on the subject, small and exposed, walls closing in. High angle looking down: a domestic-size wild tabby cat lying tangled in a rope net on the forest floor, and a tiny brown mouse clearly visible curled up safely right under the cat's front paw, an owl flying away in the dark sky."
+  },
+  {
+   "name": "E3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No people, no humans, no text. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. Extreme macro close-up of a small brown mouse's face and tiny front teeth gnawing into one thick hemp rope, frayed rope fibers floating in warm light, very shallow focus, the mouse's whiskers visible."
+  },
+  {
+   "name": "E5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm gold color grade, fine film grain. Misty ancient forest at dawn, golden god rays through tall trees, ONE single dark silhouette of a hunter holding a spear walking toward the camera far away down a forest path, completely alone, faceless silhouette, long telephoto compression. No other figures, no text."
+  },
+  {
+   "name": "N3",
+   "engine": "cloudflare",
+   "size": "1536x1024",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No people, no human figures, no faces, no hands. full silhouette against a bright window or sunset, no visible face detail, strong outline. strong rim backlight outlining the subject, face in shadow, glowing edges. A wooden marionette puppet with visible jointed wooden limbs and round wooden head hanging from strings attached to a wooden control cross above it, backlit silhouette on an empty theater stage with haze, clearly a toy puppet."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "A storm doesn't test the leaves.",
+  "heard": "A storm doesn't test the leaves.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s2_1",
+  "script": "It tests the roots.",
+  "heard": "It tests the roots.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s2_2",
+  "script": "Grow deep while the weather is calm.",
+  "heard": "Grow deep while the weather is calm.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s2_3",
+  "script": "When the wind comes, you won't need luck.",
+  "heard": "When the wind comes, you won't need luck.",
+  "score": 1.0,
+  "tries": 1
+ }
+]

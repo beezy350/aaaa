@@ -1,0 +1,23 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "Every blade owes its edge to the stone that fought it.",
+  "heard": "Every blade owes its edge to the stone that fought it.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s2_1",
+  "script": "The people who resist you are sharpening you.",
+  "heard": "The people who resist you are sharpening you.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s2_2",
+  "script": "Stop asking for softer stones.",
+  "heard": "Stop asking for softer stones.",
+  "score": 1.0,
+  "tries": 1
+ }
+]

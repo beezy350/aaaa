@@ -1,0 +1,114 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "Silk Road Wisdom.",
+  "heard": "Silk Road Wisdom",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s1_2",
+  "script": "Episode seven.",
+  "heard": "Episode 7",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s1_3",
+  "script": "The mouse walked right up to the cat.",
+  "heard": "The mouse walked right up to the cat.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s2_1",
+  "script": "I'll chew through your net, he said.",
+  "heard": "I'll chew through your net,\" he said.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s2_2",
+  "script": "But first, you protect me.",
+  "heard": "But first, you protect me.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s3_1",
+  "script": "The cat agreed.",
+  "heard": "The cat agreed.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s3_2",
+  "script": "The mouse slipped under his paw, and the weasel and the owl gave up and left.",
+  "heard": "The mouse slipped under his paw, and the weasel and the owl gave up and left.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s4_1",
+  "script": "Then the mouse began to chew.",
+  "heard": "Then the mouse began to chew.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s4_2",
+  "script": "Slowly.",
+  "heard": "slowly.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s4_3",
+  "script": "Very slowly.",
+  "heard": "very slowly.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s5_1",
+  "script": "Hurry, the cat hissed.",
+  "heard": "Hurry, the cat hissed.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s5_2",
+  "script": "But the mouse kept one rope uncut.",
+  "heard": "but the mouse kept one rope uncut.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s6_1",
+  "script": "At dawn, footsteps.",
+  "heard": "at Dawn Footsteps.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s6_2",
+  "script": "The hunter was coming.",
+  "heard": "The Hunter was coming.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s6_3",
+  "script": "Why was the mouse waiting?",
+  "heard": "Why was the mouse waiting?",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s6_4",
+  "script": "Follow, for the last part.",
+  "heard": "Follow for the last part.",
+  "score": 1.0,
+  "tries": 1
+ }
+]

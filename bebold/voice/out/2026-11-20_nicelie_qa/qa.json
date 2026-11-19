@@ -1,0 +1,135 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "You were taught to be nice.",
+  "heard": "You were taught to be nice.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s1_2",
+  "script": "Agreeable.",
+  "heard": "Agreeable.",
+  "score": 1.0,
+  "tries": 2
+ },
+ {
+  "clip": "s1_3",
+  "script": "Never make things awkward.",
+  "heard": "Never make things awkward.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s2_1",
+  "script": "That lesson made you easy to use.",
+  "heard": "That lesson made you easy to use.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s3_1",
+  "script": "If people keep taking advantage of you, it's not because you're weak.",
+  "heard": "If people keep taking advantage of you, it's not because you're weak.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s3_2",
+  "script": "You were trained to put their comfort above your own judgment.",
+  "heard": "You were trained to put their comfort above your own judgment.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s4_1",
+  "script": "You say yes before you think.",
+  "heard": "You say yes before you think.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s4_2",
+  "script": "You explain yourself to people who already decided.",
+  "heard": "You explain yourself to people who already decided.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s5_1",
+  "script": "In the nineteen fifties, Solomon Ash asked people a simple question about the length of lines, with actors in the room giving the wrong answer on purpose.",
+  "heard": "In the 1950s, Solomon Ash asked people a simple question about the length of lines,  with actors in the room giving the wrong answer on purpose.",
+  "score": 0.988,
+  "tries": 1
+ },
+ {
+  "clip": "s5_2",
+  "script": "Three out of four people went along with the wrong answer at least once.",
+  "heard": "3 out of 4 people went along with the wrong answer, at least once.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s6_1",
+  "script": "Epic-teetus had the cure.",
+  "heard": "Epictetus had the cure.",
+  "score": 0.974,
+  "tries": 6
+ },
+ {
+  "clip": "s6_2",
+  "script": "If you want to improve, be willing to look foolish.",
+  "heard": "If you want to improve, be willing to look foolish.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s6_3",
+  "script": "The person afraid of looking rude is the easiest one in the room to steer.",
+  "heard": "The person afraid of looking rude is the easiest one in the room to steer.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s7_1",
+  "script": "You don't need to turn cold.",
+  "heard": "You don't need to turn cold.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s7_2",
+  "script": "Just add one second.",
+  "heard": "Just add one second.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s7_3",
+  "script": "Before every yes, ask, is this my choice, or my training?",
+  "heard": "Before every yes ask is this my choice or my training?",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s7_4",
+  "script": "Manipulators hunt for nice people.",
+  "heard": "Manipulators hunt for nice people.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s7_5",
+  "script": "They walk right past kind people with boundaries.",
+  "heard": "They walk right past kind people with boundaries.",
+  "score": 1.0,
+  "tries": 1
+ },
+ {
+  "clip": "s7_6",
+  "script": "Which one are you today?",
+  "heard": "Which one are you today?",
+  "score": 1.0,
+  "tries": 1
+ }
+]

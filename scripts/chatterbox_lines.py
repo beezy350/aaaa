@@ -20,12 +20,15 @@ for job in sorted(glob.glob("bebold/voice/jobs/*.txt")):
     if os.path.exists(f"{od}/done.txt"): continue
     os.makedirs(od, exist_ok=True); t0 = time.time(); report = []
     lines = [l.strip() for l in open(job) if l.strip()]
+    EX, CFG = 0.8, 0.45                       # default: lively delivery (owner, Nov 18)
+    if lines and lines[0].startswith('#'):    # optional per-job header, e.g. "#ex=0.95 cfg=0.5"
+        hdr = dict(kv.split('=') for kv in lines.pop(0)[1:].split()); EX = float(hdr.get('ex', EX)); CFG = float(hdr.get('cfg', CFG))
     for i, line in enumerate(lines, 1):
         parts = [p for p in re.split(r'(?<=[.?!…])\s+|\s*\|\s*', line) if p.strip()]
         for j, p in enumerate(parts, 1):
             limit = 0.5 * len(p.split()) + 1.0; best = None; tmp = f"{od}/_try.wav"
             for k in range(6):
-                w = m.generate(p, audio_prompt_path="bebold/voice/ref_deep_warm.wav", exaggeration=0.7, cfg_weight=0.4)
+                w = m.generate(p, audio_prompt_path="bebold/voice/ref_deep_warm.wav", exaggeration=EX, cfg_weight=CFG)
                 dur = w.shape[-1] / m.sr; torchaudio.save(tmp, w, m.sr)
                 h = heard(tmp); score = difflib.SequenceMatcher(None, norm(p), norm(h)).ratio()
                 if dur > limit: score -= 0.3

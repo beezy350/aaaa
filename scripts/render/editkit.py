@@ -35,7 +35,7 @@ S = {
 }[STYLE]
 
 # ---------- audio + word timings ----------
-lines = [l.strip() for l in open(lf) if l.strip()]
+lines = [re.sub(r'\{[^}]*\}', '', l).strip() for l in open(lf) if l.strip()]
 audio, words, slide_t = [], [], []; punch0 = None; t = 0.0
 for i, line in enumerate(lines):
     random.seed(i); s0 = t
@@ -124,6 +124,7 @@ for k, c in enumerate(CUTS):
 # the drop: music falls silent just before the punchline, then a sub thump lands with it
 TP = words[punch0][0] if punch0 is not None else None
 if TP: put(TP, tone([(42, 1)], 1.0, 3.5, .7))
+if __import__('os').environ.get('NOSFX', '1') == '1': sfx[:] = 0
 sf.write(f'{tmp}/sfx.wav', sfx[:len(voice)], SR)
 def mblur(o, axis, k):
     if k < 2: return o

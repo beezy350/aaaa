@@ -1,0 +1,123 @@
+{
+ "images": [
+  {
+   "name": "N1",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1536x1024",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No visible faces of people, no hands. Animals with natural correct anatomy. top-down bird's-eye overhead shot, subject still at the center while the world moves around. soft motivated window light from one side, gentle falloff, natural. A crowded city plaza seen from directly above, hundreds of people walking in every direction as motion blur, one person standing perfectly still in the center, seen only from above."
+  },
+  {
+   "name": "N2",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1536x1024",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No visible faces of people, no hands. Animals with natural correct anatomy. close-up on the face or subject filling the frame, shallow depth of field, every detail readable. harsh single top light from directly above, eyes in shadow, spotlight on the floor. The painted wooden face of an old marionette puppet with a polite fixed smile, strings rising out of frame, dark theater background."
+  },
+  {
+   "name": "N3",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1536x1024",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No visible faces of people, no hands. Animals with natural correct anatomy. full silhouette against a bright window or sunset, no visible face detail, strong outline. strong rim backlight outlining the subject, face in shadow, glowing edges. Silhouette of a puppeteer's wooden control cross high above, thin glowing strings running down to a small marionette figure standing on an empty stage, haze."
+  },
+  {
+   "name": "N4",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1536x1024",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No visible faces of people, no hands. Animals with natural correct anatomy. dutch angle, camera tilted about 20 degrees, horizon and lines slanted, off-balance. low-key lighting, mostly black frame, only key shapes lit. A single white pawn tipping over on a dark chessboard, the board slanted, larger black pieces looming out of focus behind it."
+  },
+  {
+   "name": "N5",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1536x1024",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No visible faces of people, no hands. Animals with natural correct anatomy. long telephoto lens compression, crowd and traffic stacked tightly behind the subject, background compressed. soft high-key light, bright even exposure, airy. Rows of identical grey mannequins stacked tightly by telephoto compression, all facing the same direction in a pale gallery, cold and uniform."
+  },
+  {
+   "name": "N6",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1536x1024",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No visible faces of people, no hands. Animals with natural correct anatomy. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. Rembrandt lighting, single key light at 45 degrees, small triangle of light on the shadow side. Ancient weathered marble bust of a bearded Greek philosopher seen from below, half lit by a single warm key light, dark museum background."
+  },
+  {
+   "name": "N7",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No visible faces of people, no hands. Animals with natural correct anatomy. wide-angle establishing shot, small subject centered in a vast environment, strong leading lines, deep perspective. golden hour, low warm sun, long shadows, amber haze. A lone figure seen from behind standing on top of a grassy hill at sunset, shoulders relaxed, a valley and long road below, vast warm sky. Upper third is open sky."
+  },
+  {
+   "name": "R0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No visible faces of people, no hands. Animals with natural correct anatomy. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. storm light, heavy dark clouds, a single break of sun, wind. A huge lone oak tree on a bare hill bending in a violent storm, leaves torn away into the wind, lightning far behind, dramatic sky. Upper third is dark stormy sky."
+  },
+  {
+   "name": "R1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No visible faces of people, no hands. Animals with natural correct anatomy. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. volumetric god rays through dust or fog, beams cutting the darkness. Macro of thick ancient tree roots gripping deep into dark soil and stone underground, cross-section view, a thin beam of light falling on them, roots unmoved. Upper third dark."
+  },
+  {
+   "name": "B0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No visible faces of people, no hands. Animals with natural correct anatomy. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. chiaroscuro, deep black shadows and one hard beam of light, high contrast. frozen high-speed moment, water droplets or dust suspended in the air, crisp detail. Macro of a steel blade edge meeting a grey whetstone, a burst of bright orange sparks frozen in the air, black background. Upper third black."
+  },
+  {
+   "name": "B1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. No text, letters, logos or watermarks. No visible faces of people, no hands. Animals with natural correct anatomy. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. strong rim backlight outlining the subject, face in shadow, glowing edges. A finished sword lying across an old iron anvil, seen from low, its razor edge catching a thin line of rim light, dark smithy with drifting embers. Upper third dark."
+  },
+  {
+   "name": "E0",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. wide-angle establishing shot, small subject centered in a vast environment, strong leading lines, deep perspective. Ground-level wide shot: a tiny brown mouse walking toward a large wild cat tangled in a hunter's rope net at the edge of the forest at dusk, long shadows."
+  },
+  {
+   "name": "E1",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. over-the-shoulder shot, blurred shoulder and head in the foreground, the other subject sharp facing camera. Over the trapped wild cat's shoulder, its fur and the net ropes blurred in the foreground, a small brown mouse standing sharp in front of it looking up, golden dusk."
+  },
+  {
+   "name": "E2",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. high-angle shot looking down on the subject, small and exposed, walls closing in. High angle: a small brown mouse curled safely under the paw of a large wild cat lying in a rope net, an owl flying away into the dark sky above them."
+  },
+  {
+   "name": "E3",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. frozen high-speed moment, water droplets or dust suspended in the air, crisp detail. Macro: a brown mouse's small teeth biting into a thick hemp rope, frayed fibers floating in the warm light, shallow focus."
+  },
+  {
+   "name": "E4",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. dutch angle, camera tilted about 20 degrees, horizon and lines slanted, off-balance. low-key lighting, mostly black frame, only key shapes lit. Tilted close-up of a wild cat's glowing amber eye staring sideways through the ropes of a net, impatient and dangerous, deep shadows."
+  },
+  {
+   "name": "E5",
+   "engine": "cloudflare",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. long telephoto lens compression, crowd and traffic stacked tightly behind the subject, background compressed. volumetric god rays through dust or fog, beams cutting the darkness. Misty forest at dawn, golden rays through the trees, the dark silhouette of a hunter with a spear walking toward the camera far away, compressed by a telephoto lens, faceless."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "job": "2026-11-19-doodle",
+ "results": [
+  {
+   "name": "D1",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 100,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 100
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+     "image_tokens": 1756,
+     "text_tokens": 0
+    },
+    "total_tokens": 1856
+   }
+  },
+  {
+   "name": "D2",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 98,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 98
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+     "image_tokens": 1756,
+     "text_tokens": 0
+    },
+    "total_tokens": 1854
+   }
+  },
+  {
+   "name": "D3",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 95,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 95
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+     "image_tokens": 1756,
+     "text_tokens": 0
+    },
+    "total_tokens": 1851
+   }
+  }
+ ]
+}

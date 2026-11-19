@@ -7,8 +7,8 @@ out, music, lf, VDIR = sys.argv[1:5]; IMGS = sys.argv[5:8]
 NOMUSIC = music.lower() == 'none'
 W, H, FPS, SR = 1080, 1920, 30, 24000
 FD = '/home/claude/bebold/fonts/node_modules/@fontsource/'
-TITLE_F = ImageFont.truetype(FD + 'caveat/files/caveat-latin-700-normal.woff', 92)
-BODY_F = ImageFont.truetype(FD + 'patrick-hand/files/patrick-hand-latin-400-normal.woff', 54)
+TITLE_F = ImageFont.truetype(FD + 'caveat/files/caveat-latin-700-normal.woff', 104)
+BODY_F = ImageFont.truetype(FD + 'patrick-hand/files/patrick-hand-latin-400-normal.woff', 64)
 INK = (28, 28, 34)
 
 # ---------- voice timing (same pipeline as editkit: tempo 0.9, calm pauses) ----------
@@ -36,6 +36,28 @@ for i, line in enumerate(lines):
 HOLD = 1.6                                         # let the finished page breathe at the end
 voice = np.concatenate(audio + [np.zeros(int(SR * HOLD))]); D = len(voice) / SR
 tmp = tempfile.mkdtemp(); sf.write(f'{tmp}/voice.wav', voice, SR)
+R = np.random.default_rng(11); sfx = np.zeros(len(voice), np.float32)
+def band(n, lo, hi):
+    x = R.normal(0, 1, n).astype(np.float32); F = np.fft.rfft(x); fr = np.fft.rfftfreq(n, 1 / SR)
+    F[(fr < lo) | (fr > hi)] = 0; y = np.fft.irfft(F, n).astype(np.float32); return y / (np.abs(y).max() + 1e-6)
+def put(at, sig):
+    a0 = max(int(at * SR), 0); e0 = min(a0 + len(sig), len(sfx)); sfx[a0:e0] += sig[:e0 - a0]
+def strokes(t0, t1, amp, slen=(0.12, 0.3), gap=(0.03, 0.08), lo=2200, hi=7000):
+    t = t0
+    while t < t1:
+        L = R.uniform(*slen); n = int(L * SR); env = np.sin(np.linspace(0, np.pi, n)) ** 0.6
+        put(t, band(n, lo, hi) * env * amp * R.uniform(0.7, 1.0)); t += L + R.uniform(*gap)
+def pop(at):
+    n = int(SR * .09); tt = np.arange(n) / SR; f = 950 - 2500 * tt
+    put(at, (np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt * 40) * .28).astype(np.float32))
+put(0.0, band(int(SR * .5), 300, 3000) * np.hanning(int(SR * .5)) ** 1.5 * .25)          # paper slides in
+for i in range(1, len(slide_t)):
+    s0, sp, e = slide_t[i]; dur = e - s0
+    strokes(s0 + .05, s0 + dur * .6, .09)                                                   # pencil outlines
+    strokes(s0 + dur * .35, e - .1, .05, slen=(.05, .09), gap=(.01, .03), lo=3000, hi=9000)  # quick colour hatching
+    pop(e - .05)                                                                             # drawing done
+strokes(D - .95, D - .1, .12, slen=(.1, .16), gap=(.0, .02), lo=600, hi=4000)                # eraser rubs the page clean
+sf.write(f'{tmp}/sfx.wav', sfx, SR)
 
 # ---------- paper ----------
 rng = np.random.default_rng(3)
@@ -44,7 +66,7 @@ grain = np.asarray(Image.fromarray(rng.normal(128, 18, (H // 2, W // 2)).clip(0,
 paper = paper + (grain - 128) * 0.08
 
 # ---------- layout: title + 3 alternating rows ----------
-ROW_Y = [560, 1010, 1460]; DOOD = 400
+ROW_Y = [470, 960, 1450]; DOOD = 460
 def wrap(text, font, width):
     d = ImageDraw.Draw(Image.new('L', (10, 10))); words = text.split(); ls, cur = [], ''
     for w in words:
@@ -63,12 +85,12 @@ def text_layer(text, font, box_x, box_y, width, line_h, center=False):
 title_txt = lines[0]
 rules = [re.sub(r'^(One|Two|Three)\.\s*', lambda m: {'One': '1. ', 'Two': '2. ', 'Three': '3. '}[m.group(1)], l) for l in lines[1:4]]
 layers = []
-T_L, T_S = text_layer(title_txt, TITLE_F, 60, 250, 960, 104, center=True)
+T_L, T_S = text_layer(title_txt, TITLE_F, 40, 230, 1000, 112, center=True)
 layers.append((T_L, T_S))
 for k, r in enumerate(rules):
     left = k % 2 == 0          # text left / doodle right, then swap
-    tx = 70 if left else 70 + DOOD + 30
-    L_, S_ = text_layer(r, BODY_F, tx, ROW_Y[k] + 110, 540, 66)
+    tx = 60 if left else 60 + DOOD + 20
+    L_, S_ = text_layer(r, BODY_F, tx, ROW_Y[k] + 130, 520, 76)
     layers.append((L_, S_))
 
 # ---------- doodles: line-art draws first, then colour hatching sweeps in ----------
@@ -77,12 +99,12 @@ for k, p in enumerate(IMGS):
     im = Image.open(p).convert('RGB').resize((DOOD, DOOD), Image.LANCZOS); a = np.asarray(im, np.float32)
     lum = a.mean(2); sat = a.max(2) - a.min(2)
     line = (lum < 95).astype(np.float32)
-    color = ((sat > 40) & (lum >= 95)).astype(np.float32) | ((lum < 225) & (lum >= 95)).astype(np.float32)
+    color = (((sat > 40) | (lum < 225)) & (lum >= 95)).astype(np.float32)
     yy, xx = np.mgrid[0:DOOD, 0:DOOD]
     noise = np.asarray(Image.fromarray((np.random.default_rng(k).random((10, 10)) * 255).astype(np.uint8)).resize((DOOD, DOOD), Image.BICUBIC), np.float32) / 255
     order_line = (0.55 * noise + 0.3 * yy / DOOD + 0.15 * xx / DOOD)                 # organic stroke-by-stroke feel
     order_col = ((xx + yy) / (2 * DOOD)) * 0.85 + 0.15 * noise                          # diagonal hatching sweep
-    x0 = 70 + 540 + 30 if k % 2 == 0 else 70; y0 = ROW_Y[k]
+    x0 = W - DOOD - 40 if k % 2 == 0 else 40; y0 = ROW_Y[k]
     doods.append(dict(a=a, line=line, color=np.clip(color, 0, 1), ol=order_line, oc=order_col, x=x0, y=y0))
 
 def reveal_text(frame, layer, spans, p):
@@ -96,23 +118,32 @@ def reveal_text(frame, layer, spans, p):
     a = lay[..., 3:4] * m
     return frame * (1 - a) + lay[..., :3] * 255 * a
 
-def draw_doodle(frame, d, p):
+def draw_doodle(frame, d, p, f, since_done):
     pl = min(1, p / 0.6); pc = max(0, (p - 0.35) / 0.65)
     ml = (d['ol'] < pl * 1.02).astype(np.float32) * d['line']
     mc = np.clip((pc * 1.05 - d['oc']) / 0.06, 0, 1) * d['color']
-    m = np.maximum(ml, mc)[..., None]
-    sub = frame[d['y']:d['y'] + DOOD, d['x']:d['x'] + DOOD]
-    mult = sub * (d['a'] / 255)                                   # multiply = white paper shows through
-    frame[d['y']:d['y'] + DOOD, d['x']:d['x'] + DOOD] = sub * (1 - m) + mult * m
+    m = np.maximum(ml, mc)
+    sc = 1.0
+    if since_done is not None and since_done < .6: sc = 1 + .09 * np.exp(-since_done * 7) * np.cos(since_done * 22)   # squash-and-stretch settle
+    rr = np.random.default_rng((f // 4) * 7 + d['x'])                                                                  # line boil: new wobble every 4 frames
+    dx, dy = rr.integers(-2, 3, 2); ang = rr.uniform(-0.6, 0.6)
+    rgba = np.dstack([d['a'], m * 255]).clip(0, 255).astype(np.uint8)
+    pim = Image.fromarray(rgba, 'RGBA').rotate(ang, Image.BILINEAR)
+    if sc != 1.0: n = int(DOOD * sc); pim = pim.resize((n, n), Image.BILINEAR)
+    pa = np.asarray(pim, np.float32); n = pa.shape[0]; x0 = d['x'] + (DOOD - n) // 2 + dx; y0 = d['y'] + (DOOD - n) // 2 + dy
+    xa, ya = max(x0, 0), max(y0, 0); xb, yb = min(x0 + n, W), min(y0 + n, H)
+    pa = pa[ya - y0:yb - y0, xa - x0:xb - x0]; al = pa[..., 3:4] / 255
+    sub = frame[ya:yb, xa:xb]; frame[ya:yb, xa:xb] = sub * (1 - al) + sub * (pa[..., :3] / 255) * al   # multiply onto paper
     return frame
 
 def ease(x): x = min(max(x, 0), 1); return 1 - (1 - x) ** 2
 
 filt = ("[1:a]equalizer=f=180:t=q:w=1:g=2,equalizer=f=3200:t=q:w=1.0:g=3,highpass=f=70,acompressor=threshold=0.08:ratio=3:attack=8:release=120:makeup=2[v];" +
-        ("[v]loudnorm=I=-14:TP=-1.5:LRA=11[a]" if NOMUSIC else
-         f"[v]asplit=2[v1][vk];[2:a]volume=0.14,afade=t=in:d=1.2,afade=t=out:st={D-2:.2f}:d=2[m0];[m0][vk]sidechaincompress=threshold=0.03:ratio=5:attack=15:release=350[m];[v1][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]"))
+        "[2:a]volume=0.7[s];" +
+        ("[v][s]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]" if NOMUSIC else
+         f"[v]asplit=2[v1][vk];[3:a]volume=0.14,afade=t=in:d=1.2,afade=t=out:st={D-2:.2f}:d=2[m0];[m0][vk]sidechaincompress=threshold=0.03:ratio=5:attack=15:release=350[m];[v1][s][m]amix=inputs=3:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]"))
 pp = subprocess.Popen(['ffmpeg', '-loglevel', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
-                       '-i', f'{tmp}/voice.wav'] + ([] if NOMUSIC else ['-i', music]) + ['-filter_complex', filt, '-map', '0:v', '-map', '[a]',
+                       '-i', f'{tmp}/voice.wav', '-i', f'{tmp}/sfx.wav'] + ([] if NOMUSIC else ['-i', music]) + ['-filter_complex', filt, '-map', '0:v', '-map', '[a]',
                        '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '22', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k', '-t', f'{D:.2f}',
                        '-movflags', '+faststart', out], stdin=subprocess.PIPE)
 for f in range(int(D * FPS)):
@@ -123,9 +154,17 @@ for f in range(int(D * FPS)):
         if tt >= s0: fr = reveal_text(fr, lay, spans, p)
         if i >= 1:
             dp = (tt - s0) / max(e - s0, 0.5)                         # doodle draws across the whole line
-            if dp > 0: fr = draw_doodle(fr, doods[i - 1], min(dp, 1))
+            if dp > 0: fr = draw_doodle(fr, doods[i - 1], min(dp, 1), f, (tt - e) if tt >= e else None)
+    if tt > D - .95:                                                   # eraser sweep (diagonal band) back to blank paper
+        u = (tt - (D - .95)) / .85; yy_, xx_ = np.mgrid[0:H:8, 0:W:8]
+        band_ = ((xx_ / W * .4 + yy_ / H * .6) < u * 1.15).astype(np.float32)
+        band_ = np.asarray(Image.fromarray((band_ * 255).astype(np.uint8)).resize((W, H), Image.BILINEAR).filter(ImageFilter.GaussianBlur(8)), np.float32)[..., None] / 255
+        fr = fr * (1 - band_) + paper * band_
     # gentle camera: slow push-in over the whole video
     z = 1 + 0.03 * tt / D; im = Image.fromarray(np.clip(fr, 0, 255).astype(np.uint8))
     cw, ch = W / z, H / z; im = im.resize((W, H), Image.BILINEAR, box=((W - cw) / 2, (H - ch) / 2, (W + cw) / 2, (H + ch) / 2))
+    if tt < .5:                                                        # page slides up onto the desk with a soft overshoot
+        u = tt / .5; off = int(H * (1 - u) ** 3 - 30 * np.sin(np.pi * u) * (u > .6))
+        desk = Image.new('RGB', (W, H), (46, 40, 36)); desk.paste(im, (0, off)); im = desk
     pp.stdin.write(im.tobytes())
 pp.stdin.close(); pp.wait(); print(out, round(D, 1))

@@ -53,3 +53,23 @@ FORMATS = {
 def shot(key): return SHOTS[key][1] + '. '
 def light(key): return LIGHT[key][1] + '. '
 def emotion(key): return (SHOTS.get(key) or LIGHT.get(key))[0]
+
+# ---------------- DOODLE ARSENAL (viral hand-drawn formats, research Nov 19, 2026) ----------------
+DOODLE_LOOKS = {
+ 'pencil_doodle': 'hand-drawn doodle in colored pencil and marker, childlike scribbly hatching, thick wobbly black outlines, bright flat colors, pure white background, no text',
+ 'stick_figure':  'minimal black stick-figure drawing, round head, thin confident marker lines, one accent color (orange tie or red cap), clean white background, no text',
+ 'whiteboard':    'black dry-erase marker line art on a clean whiteboard, simple shapes, no shading, no text',
+ 'chalkboard':    'white chalk line drawing on a dark green-black chalkboard with faint chalk dust, no text',
+ 'grid_paper':    'thin black ink stick figures on light grey grid notebook paper, a few highlighter accents, no text',
+ 'blueprint':     'white technical line drawing on a deep blue blueprint grid, no text',
+}
+DOODLE_FORMATS = {
+ 'list_rows':     'numbered handwritten rules, 3 per page, text one side + doodle the other, rows alternate (scripts/render/doodle.py)',
+ 'levels':        '"Every level of X" — a labeled staircase/building, stick figure climbs one level per line, camera tilts up level by level (4.6M "every level of manipulation", 1.4M "levels of consciousness")',
+ 'split_compare': 'split screen, two stick figures doing the same thing with opposite outcomes (car vs seed 1.1M, quitter one metre short of gold 2.1M)',
+ 'race_labels':   'two labeled figures ("OBSESSION" vs "DISCIPLINE") race up stairs / along a road; the label words carry the meaning (2.2M, 128K)',
+ 'metaphor_story':'one stick figure acts out a psychology concept as a short story: problem → visual metaphor → principle → takeaway (crabs in a bucket 290K, rock bottom vs fine 197K, loyalty paradox 566K)',
+ 'timeline':      'left-to-right timeline that grows (PAYDAY → year 1 → year 5), the figure gets taller/richer each step (165K)',
+ 'pan_mural':     'one long hand-drawn scene; the camera pans across it as the story moves, objects draw themselves in on cue',
+}
+DOODLE_MOVES = 'draw-on line reveal, colour hatching sweep, handwriting write-on synced to voice, label pop-in, number counter, slow push-in, tilt up a tall drawing, horizontal pan across a mural, split-screen wipe, final page hold; no sound effects'

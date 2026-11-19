@@ -25,7 +25,7 @@ for job in sorted(glob.glob("bebold/voice/jobs/*.txt")):
         for j, p in enumerate(parts, 1):
             limit = 0.5 * len(p.split()) + 1.0; best = None; tmp = f"{od}/_try.wav"
             for k in range(6):
-                w = m.generate(p, audio_prompt_path="bebold/voice/ref_deep_warm.wav", exaggeration=0.6, cfg_weight=0.4)
+                w = m.generate(p, audio_prompt_path="bebold/voice/ref_deep_warm.wav", exaggeration=0.7, cfg_weight=0.4)
                 dur = w.shape[-1] / m.sr; torchaudio.save(tmp, w, m.sr)
                 h = heard(tmp); score = difflib.SequenceMatcher(None, norm(p), norm(h)).ratio()
                 if dur > limit: score -= 0.3

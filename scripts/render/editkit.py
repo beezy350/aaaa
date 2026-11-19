@@ -47,7 +47,7 @@ for i, line in enumerate(lines):
         a, sr0 = sf.read(f'{VDIR}/s{i+1}_{j+1}.wav', dtype='float32')
         if a.ndim > 1: a = a.mean(axis=1)
         if sr0 != SR: a = np.interp(np.linspace(0, len(a), int(len(a) * SR / sr0), endpoint=False), np.arange(len(a)), a).astype(np.float32)
-        TEMPO = float(__import__('os').environ.get('TEMPO', '0.83'))   # slower, calmer delivery (pitch unchanged)
+        TEMPO = float(__import__('os').environ.get('TEMPO', '0.88'))   # slower, calmer delivery (pitch unchanged)
         if TEMPO != 1.0:
             _t = tempfile.mkdtemp(); sf.write(f'{_t}/i.wav', a, SR)
             subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', f'{_t}/i.wav', '-filter:a', f'atempo={TEMPO}', f'{_t}/o.wav'], check=True)
@@ -243,7 +243,7 @@ def draw_caps(im, tt):
     return im
 
 # ---------- render ----------
-filt = "[1:a]equalizer=f=180:t=q:w=1:g=2,equalizer=f=3500:t=q:w=1.2:g=1.5,highpass=f=70[v];[2:a]volume=0.55[s];" + (
+filt = "[1:a]equalizer=f=180:t=q:w=1:g=2,equalizer=f=3200:t=q:w=1.0:g=3,equalizer=f=6500:t=q:w=1.5:g=1.5,highpass=f=70,acompressor=threshold=0.08:ratio=3:attack=8:release=120:makeup=2[v];[2:a]volume=0.55[s];" + (
     "[v][s]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]" if NOMUSIC else
     f"[v]asplit=2[v1][vk];[3:a]volume=0.16,afade=t=in:d=1.2,afade=t=out:st={D-2:.2f}:d=2" +
     (f",volume='if(between(t,{TP-.45:.2f},{TP+.5:.2f}),0.05,1)':eval=frame" if TP else "") +

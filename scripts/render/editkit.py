@@ -47,7 +47,7 @@ for i, line in enumerate(lines):
         a, sr0 = sf.read(f'{VDIR}/s{i+1}_{j+1}.wav', dtype='float32')
         if a.ndim > 1: a = a.mean(axis=1)
         if sr0 != SR: a = np.interp(np.linspace(0, len(a), int(len(a) * SR / sr0), endpoint=False), np.arange(len(a)), a).astype(np.float32)
-        TEMPO = float(__import__('os').environ.get('TEMPO', '0.9'))   # slower, calmer delivery (pitch unchanged)
+        TEMPO = float(__import__('os').environ.get('TEMPO', '0.83'))   # slower, calmer delivery (pitch unchanged)
         if TEMPO != 1.0:
             _t = tempfile.mkdtemp(); sf.write(f'{_t}/i.wav', a, SR)
             subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', f'{_t}/i.wav', '-filter:a', f'atempo={TEMPO}', f'{_t}/o.wav'], check=True)
@@ -58,7 +58,7 @@ for i, line in enumerate(lines):
         for w in ws:
             dw = d * (len(w) + 1) / tot; words.append((c, c + dw, w)); c += dw
         audio.append(a); t += d
-        gap = np.zeros(int(SR * (random.uniform(0.42, 0.58) if j < len(parts) - 1 else 0.75))); audio.append(gap); t += len(gap) / SR
+        gap = np.zeros(int(SR * (random.uniform(0.55, 0.7) if j < len(parts) - 1 else 0.9))); audio.append(gap); t += len(gap) / SR
     slide_t.append((s0, t))
 voice = np.concatenate(audio); D = len(voice) / SR
 CUTS = [a for a, _ in slide_t[1:]]

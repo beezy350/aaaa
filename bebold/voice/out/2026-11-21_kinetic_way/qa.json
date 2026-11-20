@@ -1,0 +1,58 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "You keep waiting for the road to clear.",
+  "heard": "You keep waiting for the road to clear.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.61
+ },
+ {
+  "clip": "s2_1",
+  "script": "It won't.",
+  "heard": "It won't.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.84
+ },
+ {
+  "clip": "s3_1",
+  "script": "Marcus Aurelius wrote it two thousand years ago.",
+  "heard": "Marcus Aurelius wrote it 2,000 years ago.",
+  "score": 0.868,
+  "tries": 1,
+  "spike": 2.34
+ },
+ {
+  "clip": "s4_1",
+  "script": "What stands in the way becomes the way.",
+  "heard": "What stands in the way becomes the way.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.25
+ },
+ {
+  "clip": "s5_1",
+  "script": "The wall is not the end of the path.",
+  "heard": "The wall is not the end of the path.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.95
+ },
+ {
+  "clip": "s6_1",
+  "script": "The wall is the path.",
+  "heard": "The wall is the path.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.52
+ },
+ {
+  "clip": "s7_1",
+  "script": "So climb.",
+  "heard": "so CLIMB!",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.21
+ }
+]

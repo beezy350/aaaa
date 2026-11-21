@@ -1,0 +1,82 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "Your money has a secret number.",
+  "heard": "Your money has a secret number.",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 2.32
+ },
+ {
+  "clip": "s1_2",
+  "script": "Seventy-two.",
+  "heard": "72",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.69
+ },
+ {
+  "clip": "s2_1",
+  "script": "Divide seventy-two by your interest rate.",
+  "heard": "Divide 72 by your interest rate.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.41
+ },
+ {
+  "clip": "s3_1",
+  "script": "That's how many years it takes your money to double.",
+  "heard": "That's how many years it takes your money to double.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.01
+ },
+ {
+  "clip": "s4_1",
+  "script": "At eight percent, nine years.",
+  "heard": "at 8% 9 years.",
+  "score": 0.821,
+  "tries": 1,
+  "spike": 1.95
+ },
+ {
+  "clip": "s4_2",
+  "script": "At one percent, seventy-two years.",
+  "heard": "At 1 percent, 72 years.",
+  "score": 1.0,
+  "tries": 3,
+  "spike": 1.62
+ },
+ {
+  "clip": "s5_1",
+  "script": "Same money.",
+  "heard": "Same money.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.63
+ },
+ {
+  "clip": "s5_2",
+  "script": "A very different life.",
+  "heard": "a very different life.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.73
+ },
+ {
+  "clip": "s6_1",
+  "script": "Know your number.",
+  "heard": "Know your number.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.44
+ },
+ {
+  "clip": "s6_2",
+  "script": "Then make it work faster.",
+  "heard": "then make it work faster.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.38
+ }
+]

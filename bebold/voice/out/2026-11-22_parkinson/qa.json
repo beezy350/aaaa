@@ -1,0 +1,66 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "Parkinson's Law, explained.",
+  "heard": "Parkinson's Law Explained.",
+  "score": 0.5,
+  "tries": 2,
+  "spike": 3.47
+ },
+ {
+  "clip": "s2_1",
+  "script": "One.",
+  "heard": "1.",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 1.76
+ },
+ {
+  "clip": "s2_2",
+  "script": "Give a task a week, and it takes a week.",
+  "heard": "Give a task a week and it takes a week.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.97
+ },
+ {
+  "clip": "s3_1",
+  "script": "Two.",
+  "heard": "2",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 1.22
+ },
+ {
+  "clip": "s3_2",
+  "script": "Give the same task one day, and it takes one day.",
+  "heard": "Give the same task one day and it takes one day.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.83
+ },
+ {
+  "clip": "s4_1",
+  "script": "Three.",
+  "heard": "3",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.48
+ },
+ {
+  "clip": "s4_2",
+  "script": "Work grows to fill the time you give it.",
+  "heard": "Work grows to fill the time you give it.",
+  "score": 1.0,
+  "tries": 3,
+  "spike": 1.8
+ },
+ {
+  "clip": "s4_3",
+  "script": "So give it less.",
+  "heard": "So give it less.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.78
+ }
+]

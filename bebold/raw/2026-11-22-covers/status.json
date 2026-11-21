@@ -1,0 +1,62 @@
+{
+ "job": "2026-11-22-covers",
+ "results": [
+  {
+   "name": "X1",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 110,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 110
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1482
+   }
+  },
+  {
+   "name": "X2",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 115,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 115
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1487
+   }
+  },
+  {
+   "name": "X3",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 111,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 111
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1483
+   }
+  }
+ ]
+}

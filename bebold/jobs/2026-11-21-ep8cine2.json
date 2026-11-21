@@ -1,0 +1,18 @@
+{
+ "images": [
+  {
+   "name": "E5",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark shadow for text; subject in the lower half. Animals with natural correct anatomy. NO people, no humans anywhere. No text, letters, logos or watermarks. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. soft motivated window light from one side, gentle falloff, natural. A domestic-size wild tabby cat sitting politely with its tail curled, head tilted sweetly toward a small round mouse hole at the base of an ancient mossy stone wall overgrown with tree roots, warm side light. Only the cat."
+  },
+  {
+   "name": "E6",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark shadow for text; subject in the lower half. Animals with natural correct anatomy. NO people, no humans anywhere. No text, letters, logos or watermarks. high-angle shot looking down on the subject, small and exposed, walls closing in. low-key lighting, mostly black frame, only key shapes lit. Inside a dark earthen burrow under tree roots, a small brown field mouse curled up safely deep inside, a soft natural shaft of daylight falling from a gap in the roots above. Natural light only, no lamps, no bulbs. Only the mouse."
+  }
+ ]
+}

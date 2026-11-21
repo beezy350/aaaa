@@ -1,0 +1,82 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "Your first paycheck felt like freedom.",
+  "heard": "Your first paycheck felt like freedom.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.42
+ },
+ {
+  "clip": "s2_1",
+  "script": "Then came the raise.",
+  "heard": "Then came the raise.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.38
+ },
+ {
+  "clip": "s2_2",
+  "script": "A bigger apartment.",
+  "heard": "a bigger apartment.",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 2.86
+ },
+ {
+  "clip": "s2_3",
+  "script": "A better car.",
+  "heard": "A better car.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.99
+ },
+ {
+  "clip": "s3_1",
+  "script": "And somehow, the same feeling.",
+  "heard": "and somehow the same feeling.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.39
+ },
+ {
+  "clip": "s4_1",
+  "script": "Psychologists call it the hedonic treadmill.",
+  "heard": "Psychologists call it the hedonic treadmill.  Buh!",
+  "score": 0.962,
+  "tries": 1,
+  "spike": 2.65
+ },
+ {
+  "clip": "s4_2",
+  "script": "Every upgrade becomes your new normal.",
+  "heard": "Every upgrade becomes your new normal.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.61
+ },
+ {
+  "clip": "s5_1",
+  "script": "So raise your income.",
+  "heard": "So raise your income.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.31
+ },
+ {
+  "clip": "s5_2",
+  "script": "Freeze your lifestyle.",
+  "heard": "Freeze your lifestyle.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 3.01
+ },
+ {
+  "clip": "s6_1",
+  "script": "The gap between them is your freedom.",
+  "heard": "The gap between them is your freedom.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.42
+ }
+]

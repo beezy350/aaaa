@@ -1,0 +1,122 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "Silk Road Wisdom.",
+  "heard": "Silk Road Wisdom.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.9
+ },
+ {
+  "clip": "s1_2",
+  "script": "The last part.",
+  "heard": "The last part.  D-",
+  "score": 0.957,
+  "tries": 1,
+  "spike": 3.13
+ },
+ {
+  "clip": "s1_3",
+  "script": "At dawn, the hunter came over the hill.",
+  "heard": "At dawn, the hunter came over the hill.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.99
+ },
+ {
+  "clip": "s2_1",
+  "script": "Only then did the mouse bite the last rope.",
+  "heard": "Only then did the mouse bite the last rope.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.31
+ },
+ {
+  "clip": "s3_1",
+  "script": "The cat leapt into a tree.",
+  "heard": "The cat leapt into a tree.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.06
+ },
+ {
+  "clip": "s3_2",
+  "script": "The mouse dove into his hole.",
+  "heard": "The mouse dove into his hole.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.28
+ },
+ {
+  "clip": "s3_3",
+  "script": "The hunter found an empty net.",
+  "heard": "The hunter found an empty net.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.22
+ },
+ {
+  "clip": "s4_1",
+  "script": "Days later, the cat called sweetly.",
+  "heard": "Days later, the cat called sweetly.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.35
+ },
+ {
+  "clip": "s4_2",
+  "script": "Come out, my friend.",
+  "heard": "Come out my friend",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.77
+ },
+ {
+  "clip": "s4_3",
+  "script": "I owe you my life.",
+  "heard": "I owe you my life.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.67
+ },
+ {
+  "clip": "s5_1",
+  "script": "From the dark, the mouse answered.",
+  "heard": "From the dark, the mouse answered.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.31
+ },
+ {
+  "clip": "s5_2",
+  "script": "We were friends because we needed each other.",
+  "heard": "We were friends because we needed each other.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.69
+ },
+ {
+  "clip": "s5_3",
+  "script": "That need is gone.",
+  "heard": "That need is gone.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.72
+ },
+ {
+  "clip": "s6_1",
+  "script": "Help your enemy when you must.",
+  "heard": "Help your enemy when you must.",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 1.6
+ },
+ {
+  "clip": "s6_2",
+  "script": "Never trust him after.",
+  "heard": "Never trust him after.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.98
+ }
+]

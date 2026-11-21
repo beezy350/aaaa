@@ -1,0 +1,46 @@
+{
+ "images": [
+  {
+   "name": "E1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. full silhouette against a bright window or sunset, no visible face detail, strong outline. golden hour, low warm sun, long shadows, amber haze. ONE single hunter seen only as a dark silhouette from behind, bow on his back, walking over the crest of a grassy hill at dawn, huge low sun behind him. Only one person in the whole image, no face visible."
+  },
+  {
+   "name": "E2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. low-key lighting, mostly black frame, only key shapes lit. Extreme macro close-up of a small brown field mouse biting through one thick frayed rope of a hunting net, rope fibers snapping, eye glinting. Only one mouse."
+  },
+  {
+   "name": "E3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. tracking shot alongside the moving subject, background streaked with motion blur, subject sharp. volumetric god rays through dust or fog, beams cutting the darkness. A domestic-size wild tabby cat leaping out of a torn rope net up toward the low branches of an old tree, motion blur, dawn light beams through the forest. Only one cat."
+  },
+  {
+   "name": "E4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. wide-angle establishing shot, small subject centered in a vast environment, strong leading lines, deep perspective. blue hour, cold blue sky after sunset, warm practical lights starting to glow. A torn empty rope hunting net lying on the forest floor in a clearing at dawn, mist, no animals, no people."
+  },
+  {
+   "name": "E5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. over-the-shoulder shot, blurred shoulder and head in the foreground, the other subject sharp facing camera. soft motivated window light from one side, gentle falloff, natural. Over the shoulder of a domestic-size wild tabby cat sitting politely in front of a small round mouse hole at the base of an old stone wall overgrown with roots, warm side light. Only one cat, no mouse visible."
+  },
+  {
+   "name": "E6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. high-angle shot looking down on the subject, small and exposed, walls closing in. lit only by candle or a single practical lamp, warm pool of light, darkness around. Inside a dark underground burrow, a small brown field mouse sitting safely in the deep shadows, a thin beam of light from the entrance far above. Only one mouse."
+  },
+  {
+   "name": "E7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian forest, fine film grain. Upper 40 percent of the frame is dark sky or shadow for text; subject in the lower half. Animals with natural correct anatomy. No text, letters, logos or watermarks. subject small at one edge of the frame, huge empty sky or sea filling the rest, minimal composition. strong rim backlight outlining the subject, face in shadow, glowing edges. A small brown field mouse sitting alone on a mossy rock at dusk, tiny in a vast quiet forest, looking out calmly, rim light on its fur. Only one mouse, no cat."
+  }
+ ]
+}

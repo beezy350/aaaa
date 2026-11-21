@@ -1,0 +1,28 @@
+{
+ "images": [
+  {
+   "name": "P2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Persian and Turkish shadow puppet theatre: intricate cut-leather silhouette puppet with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind by oil lamps, soft vignette, faint puppet rods, deep red and teal translucent leather accents, vertical composition. Only ONE puppet in the whole image. No people, no other animals. No text, letters or numbers. One small mouse puppet in close view biting through a single thick knotted rope, rope fibers snapping."
+  },
+  {
+   "name": "P3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Persian and Turkish shadow puppet theatre: intricate cut-leather silhouette puppet with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind by oil lamps, soft vignette, faint puppet rods, deep red and teal translucent leather accents, vertical composition. Only ONE puppet in the whole image. No people, no other animals. No text, letters or numbers. One single cat puppet caught mid-leap upward into the ornamental branches of a tree, alone."
+  },
+  {
+   "name": "P5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Persian and Turkish shadow puppet theatre: intricate cut-leather silhouette puppet with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind by oil lamps, soft vignette, faint puppet rods, deep red and teal translucent leather accents, vertical composition. Only ONE puppet in the whole image. No people, no other animals. No text, letters or numbers. One tiny mouse puppet sitting safely inside a dark round underground burrow, roots and earth around it, a thin glow from the entrance above."
+  },
+  {
+   "name": "P6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Persian and Turkish shadow puppet theatre: intricate cut-leather silhouette puppet with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind by oil lamps, soft vignette, faint puppet rods, deep red and teal translucent leather accents, vertical composition. Only ONE puppet in the whole image. No people, no other animals. No text, letters or numbers. No puppets at all: an empty torn rope net lying on the ground in the center of the glowing screen, one broken rope end hanging loose."
+  }
+ ]
+}

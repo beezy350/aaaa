@@ -9,6 +9,7 @@ from num2words import num2words
 m = ChatterboxTTS.from_pretrained(device="cpu")
 asr = WhisperModel("small.en", device="cpu", compute_type="int8")
 def norm(t):
+    t = re.sub(r"(?<=\d),(?=\d{3})", "", t)   # 2,000 -> 2000
     t = re.sub(r"(\d+)s\b", lambda x: num2words(int(x.group(1)), to="year") + "s", t)
     t = re.sub(r"\d+", lambda x: num2words(int(x.group(0))), t)
     return re.sub(r"[^a-z]", "", t.lower())
@@ -38,6 +39,8 @@ for job in sorted(glob.glob("bebold/voice/jobs/*.txt")):
                 dur = w.shape[-1] / m.sr; torchaudio.save(tmp, w, m.sr)
                 h = heard(tmp); score = difflib.SequenceMatcher(None, norm(p), norm(h)).ratio()
                 if dur > limit: score -= 0.3
+                extra = len(re.findall(r"[A-Za-z0-9']+", h)) - len(re.findall(r"[A-Za-z0-9']+", p))
+                if extra > 0: score -= 0.1 * extra   # stray sound after the line ("Buh!", "D-") -> retry
                 sp = spiky(w)
                 if sp > 3.2: score -= 0.5   # shouted / screamed word -> reject
                 if best is None or score > best[0]: best = (score, w, h, k + 1)

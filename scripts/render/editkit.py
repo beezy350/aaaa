@@ -36,7 +36,7 @@ S = {
 
 # ---------- audio + word timings ----------
 lines = [re.sub(r'\{[^}]*\}', '', l).strip() for l in open(lf) if l.strip()]
-audio, words, slide_t = [], [], []; punch0 = None; t = 0.0
+audio, words, slide_t = [], [], []; punch0 = None; t = 0.0; ENDS = set()
 for i, line in enumerate(lines):
     random.seed(i); s0 = t
     lead = np.zeros(int(SR * 0.3)); audio.append(lead); t += len(lead) / SR
@@ -57,6 +57,7 @@ for i, line in enumerate(lines):
         d = len(a) / SR; ws = p.split(); tot = sum(len(w) + 1 for w in ws); c = t
         for w in ws:
             dw = d * (len(w) + 1) / tot; words.append((c, c + dw, w)); c += dw
+        ENDS.add(len(words) - 1)
         audio.append(a); t += d
         gap = np.zeros(int(SR * (random.uniform(0.55, 0.7) if j < len(parts) - 1 else 0.9))); audio.append(gap); t += len(gap) / SR
     slide_t.append((s0, t))
@@ -203,6 +204,16 @@ def look(arr, tt, f):
         arr = arr * vign * (1 + .015 * np.sin(tt * 9.1)) + g
     return arr
 
+GSIZE = 5 if S['cap'] == 'serif' else 3
+GROUP = {}; _sent = []
+for _k in range(len(words)):
+    _sent.append(_k)
+    if _k in ENDS or _k == len(words) - 1:          # balanced groups inside each sentence (no lonely last word)
+        _n = -(-len(_sent) // GSIZE); _sz = -(-len(_sent) // _n)
+        for _i in range(0, len(_sent), _sz):
+            _g = _sent[_i:_i + _sz]
+            for _x in _g: GROUP[_x] = (_g[0], _g[-1] + 1)
+        _sent = []
 def cur_word(tt):
     idx = [n for n, (a, b, _) in enumerate(words) if a <= tt < b + .12]; return idx[-1] if idx else None
 def draw_caps(im, tt):
@@ -220,18 +231,22 @@ def draw_caps(im, tt):
         w = words[n][2].upper(); pop = min(1, (tt - words[n][0]) / .09); sz = int(150 * (1 + .3 * (1 - pop))); fo = font('anton', sz)
         while d.textlength(w, font=fo) > 950: sz -= 8; fo = font('anton', sz)
         d.text(((W - d.textlength(w, font=fo)) / 2, 1180), w, font=fo, fill=(255, 255, 255), stroke_width=10, stroke_fill=(0, 0, 0)); return im
-    g0 = (n // 3) * 3 if cap != 'serif' else (n // 5) * 5; grp = words[g0:g0 + (5 if cap == 'serif' else 3)]
+    g0, g1 = GROUP[n]; grp = words[g0:g1]   # groups never cross a sentence (fix Nov 21)
     txt = [w for _, _, w in grp]
     if cap == 'type':
         fo = font('mono', 64); s = ' '.join(txt).upper(); a = grp[0][0]; nchar = int(len(s) * min(1, (tt - a) / max(grp[-1][1] - a, .1)))
         s2 = s[:nchar] + ('█' if int(tt * 4) % 2 else ' '); x = (W - d.textlength(s, font=fo)) / 2
         d.text((x, 1320), s2, font=fo, fill=(210, 255, 210), stroke_width=4, stroke_fill=(0, 0, 0)); return im
     if cap == 'serif':
-        fo = font('playfair_i', 62); s = ' '.join(txt); x = (W - d.textlength(s, font=fo)) / 2
+        sz = 62; fo = font('playfair_i', sz); s = ' '.join(txt)
+        while d.textlength(s, font=fo) > 960 and sz > 40: sz -= 4; fo = font('playfair_i', sz)
+        x = (W - d.textlength(s, font=fo)) / 2
         al = min(1, (tt - grp[0][0]) / .25); col = tuple(int(255 * al) for _ in range(3))
         d.text((x, int(__import__('os').environ.get('CAPY', 1560))), s, font=fo, fill=col, stroke_width=2, stroke_fill=(0, 0, 0)); return im
     if cap == 'card':
-        fo = font('bask', 58); s = ' '.join(txt); tw = d.textlength(s, font=fo); x = (W - tw) / 2
+        sz = 58; fo = font('bask', sz); s = ' '.join(txt)
+        while d.textlength(s, font=fo) > 900 and sz > 40: sz -= 4; fo = font('bask', sz)
+        tw = d.textlength(s, font=fo); x = (W - tw) / 2
         d.rounded_rectangle((x - 34, 1290, x + tw + 34, 1400), 22, fill=(242, 232, 210)); d.text((x, 1310), s, font=fo, fill=(25, 20, 15)); return im
     fo = font({'oswald3': 'oswald', 'karaoke': 'barlow', 'color': 'inter'}[cap], 84 if cap != 'color' else 74)
     widths = [d.textlength(w, font=fo) for w in txt]; sp = 24; x = (W - sum(widths) - sp * (len(txt) - 1)) / 2; y = 1300

@@ -1,7 +1,7 @@
 # Cinematic Reel frames: clean full-bleed image, dark top fade, hook title on slide 1 only.
 from PIL import Image, ImageDraw, ImageFont
 F='/home/claude/bebold/fonts/package/files/'
-def frame(src, title=None, hl=(), cy=0.5):
+def frame(src, title=None, hl=(), cy=0.5, mx=90, maxw=900):
     im=Image.open(src).convert('RGB'); w,h=im.size; s=max(1080/w,1920/h)
     im=im.resize((round(w*s),round(h*s)),Image.LANCZOS); W,H=im.size
     y0=int(min(max(cy*H-960,0),H-1920)); im=im.crop(((W-1080)//2,y0,(W-1080)//2+1080,y0+1920))
@@ -12,11 +12,11 @@ def frame(src, title=None, hl=(), cy=0.5):
         words=title.split(); lines=[]; cur=''
         for wd in words:
             t=(cur+' '+wd).strip()
-            if d.textlength(t,font=f)>900: lines.append(cur); cur=wd
+            if d.textlength(t,font=f)>maxw: lines.append(cur); cur=wd
             else: cur=t
         lines.append(cur); y=340
         for ln in lines:
-            x=90
+            x=mx
             for wd in ln.split():
                 col=(245,197,24) if wd.strip('.,’\'').lower() in hl else (255,255,255)
                 d.text((x,y),wd,font=f,fill=col,stroke_width=4,stroke_fill=(0,0,0)); x+=d.textlength(wd+' ',font=f)

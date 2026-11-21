@@ -42,14 +42,21 @@ def gen_cf(img):
     w, h = (int(x) for x in img.get("size", "1024x1536").split("x"))
     for model in CF_MODELS:
         model = model.strip()
-        try:
-            return "cf/" + model, cf_call(model, img["prompt"], w, h), None, None
-        except urllib.error.HTTPError as e:
-            errors.append(f"{model}: HTTP {e.code} {e.read().decode(errors='replace')[:300]}")
-        except Exception as e:
-            errors.append(f"{model}: {e}")
+        for attempt in range(3):   # retry free Cloudflare before giving up (rate limits / 5xx)
+            try:
+                return "cf/" + model, cf_call(model, img["prompt"], w, h), None, None
+            except urllib.error.HTTPError as e:
+                errors.append(f"{model}: HTTP {e.code} {e.read().decode(errors='replace')[:300]}")
+                if e.code not in (429, 500, 502, 503, 504): break
+                time.sleep(20 * (attempt + 1))
+            except Exception as e:
+                errors.append(f"{model}: {e}")
+                time.sleep(10)
     return None, None, None, errors
 MODELS = os.environ.get("IMAGE_MODELS", "gpt-image-2,gpt-image-1.5,gpt-image-1").split(",")
+MAX_OPENAI = int(os.environ.get("MAX_OPENAI_PER_RUN", "8"))   # hard cap on paid images per workflow run
+spent = [0]
+def budget_ok(): return spent[0] < MAX_OPENAI
 
 
 def call(model, prompt, size, quality):
@@ -99,16 +106,20 @@ def main():
             engine = img.get("engine", "openai")
             if engine == "cloudflare" and CF_TOKEN:
                 model, data, usage, err = gen_cf(img)
-                if not data and KEY:  # fall back to OpenAI medium
-                    model, data, usage, err2 = gen({**img, "quality": "medium"})
+                # BUDGET GUARD (Nov 21): no silent paid fallback. Only if the job explicitly allows it.
+                if not data and KEY and img.get("allow_openai_fallback") and budget_ok():
+                    model, data, usage, err2 = gen({**img, "quality": "medium"}); spent[0] += 1
                     err = (err or []) + (err2 or [])
+            elif budget_ok():
+                model, data, usage, err = gen(img); spent[0] += 1
             else:
-                model, data, usage, err = gen(img)
+                model, data, usage, err = None, None, None, [f"OpenAI per-run cap reached ({MAX_OPENAI})"]
             entry = {"name": img["name"], "quality": img.get("quality", "medium")}
             if data:
                 ext = "jpg" if data[:3] == b"\xff\xd8\xff" else "png"
                 open(f"{out}/{img['name']}.{ext}", "wb").write(data)
                 entry.update(ok=True, model=model, usage=usage)
+                if err: entry["cf_errors"] = err[:3]
             else:
                 entry.update(ok=False, errors=err)
             status["results"].append(entry)

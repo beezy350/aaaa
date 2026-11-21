@@ -1,0 +1,58 @@
+{
+ "images": [
+  {
+   "name": "K0",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, misty mountains faintly in the background, exactly one small accent of vermilion red, lots of empty paper around the subject, subject centered, the whole painting fades softly into blank paper at all edges. No text, no letters, no kanji, no signature, no seal stamp, no frame. A single giant ant seen from a low angle carrying one grain of rice on its back across a rock, a red sun disc behind it."
+  },
+  {
+   "name": "K1",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, misty mountains faintly in the background, exactly one small accent of vermilion red, lots of empty paper around the subject, subject centered, the whole painting fades softly into blank paper at all edges. No text, no letters, no kanji, no signature, no seal stamp, no frame. A single ant carrying a large grain of wheat through tall summer grass, golden-calm mood, red accent on the grain."
+  },
+  {
+   "name": "K2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, misty mountains faintly in the background, exactly one small accent of vermilion red, lots of empty paper around the subject, subject centered, the whole painting fades softly into blank paper at all edges. No text, no letters, no kanji, no signature, no seal stamp, no frame. A spider in the center of a large perfect web strung between two pine branches, dew drops, red accent on one drop."
+  },
+  {
+   "name": "K3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, misty mountains faintly in the background, exactly one small accent of vermilion red, lots of empty paper around the subject, subject centered, the whole painting fades softly into blank paper at all edges. No text, no letters, no kanji, no signature, no seal stamp, no frame. A crocodile lying perfectly still half submerged in a calm river, only its eyes and back above the water, reeds around, red accent in its eye."
+  },
+  {
+   "name": "K4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, misty mountains faintly in the background, exactly one small accent of vermilion red, lots of empty paper around the subject, subject centered, the whole painting fades softly into blank paper at all edges. No text, no letters, no kanji, no signature, no seal stamp, no frame. A single camel walking alone across vast desert dunes carrying water skins, a red sun low on the horizon."
+  },
+  {
+   "name": "K5",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, misty mountains faintly in the background, exactly one small accent of vermilion red, lots of empty paper around the subject, subject centered, the whole painting fades softly into blank paper at all edges. No text, no letters, no kanji, no signature, no seal stamp, no frame. A single honeybee flying toward a hanging honeycomb on a branch, a drop of honey glowing red-gold."
+  },
+  {
+   "name": "K6",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, misty mountains faintly in the background, exactly one small accent of vermilion red, lots of empty paper around the subject, subject centered, the whole painting fades softly into blank paper at all edges. No text, no letters, no kanji, no signature, no seal stamp, no frame. A pack of four wolves running together in a tight line through snow under pine trees, the lead wolf with a red scarf-like accent of ink."
+  },
+  {
+   "name": "K7",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, misty mountains faintly in the background, exactly one small accent of vermilion red, lots of empty paper around the subject, subject centered, the whole painting fades softly into blank paper at all edges. No text, no letters, no kanji, no signature, no seal stamp, no frame. A great horned owl perched on a twisted branch at night, staring straight ahead with intense eyes, a red moon behind it."
+  },
+  {
+   "name": "K8",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, misty mountains faintly in the background, exactly one small accent of vermilion red, lots of empty paper around the subject, subject centered, the whole painting fades softly into blank paper at all edges. No text, no letters, no kanji, no signature, no seal stamp, no frame. A small lone man in a straw hat standing on a mountain path looking out over a valley where an ant, a camel, a wolf and an owl are faintly painted in the mist, red sun."
+  }
+ ]
+}

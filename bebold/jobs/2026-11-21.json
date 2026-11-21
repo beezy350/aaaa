@@ -1,0 +1,133 @@
+{
+ "images": [
+  {
+   "name": "A1",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. medium shot from the waist up, eye-level, relaxed natural framing. golden hour, low warm sun, long shadows, amber haze. A young man in a hoodie stands in a tiny bare studio apartment holding a white paycheck envelope against his chest, proud wide smile, mattress on the floor behind him. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "A2",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. tracking shot alongside the moving subject, background streaked with motion blur, subject sharp. soft motivated window light from one side, gentle falloff, natural. The same young man, now in a smart shirt, carrying a cardboard moving box into a bright modern apartment with tall windows, excited stride. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "A3",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. subject small at one edge of the frame, huge empty sky or sea filling the rest, minimal composition. blue hour, cold blue sky after sunset, warm practical lights starting to glow. The same man sits alone behind the wheel of a shiny new black luxury car in a huge empty concrete parking garage, flat bored expression. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "A4",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. long telephoto lens compression, crowd and traffic stacked tightly behind the subject, background compressed. night rain, neon reflections on wet asphalt, cyan and magenta glow. The same man runs on a treadmill inside a glass-walled gym at night, rows of identical treadmills stacked behind him, city lights compressed outside, tired face. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "A5",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. top-down bird's-eye overhead shot, subject still at the center while the world moves around. harsh single top light from directly above, eyes in shadow, spotlight on the floor. Top-down view of a kitchen table covered in bills, a car key fob, a credit card statement and a calculator, a cold coffee mug, one empty chair. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "A6",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. golden hour, low warm sun, long shadows, amber haze. A clear glass jar filled with coins and rolled cash sitting on a wooden windowsill at sunrise, warm light glowing through the glass. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "B1",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. dutch angle, camera tilted about 20 degrees, horizon and lines slanted, off-balance. blue hour, cold blue sky after sunset, warm practical lights starting to glow. A man in his thirties sits on the edge of his bed at dawn in a dim bedroom, staring at a pair of running shoes on the floor, hesitant. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "B2",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. subject small at one edge of the frame, huge empty sky or sea filling the rest, minimal composition. soft motivated window light from one side, gentle falloff, natural. The same man stands small at the far edge of a large window, rain streaking the glass, gray morning city filling the frame. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "B3",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. Rembrandt lighting, single key light at 45 degrees, small triangle of light on the shadow side. A weathered ancient Greek marble bust of a bearded philosopher on a stone pedestal in a dark museum hall. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "B4",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. handheld documentary feel, slightly off-level, crowded busy street, raw and immediate. low-key lighting, mostly black frame, only key shapes lit. The same man jogging alone on a dark cold empty street at five in the morning, streetlights, his breath visible as vapor, gritted determination. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "B5",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. tracking shot alongside the moving subject, background streaked with motion blur, subject sharp. golden hour, low warm sun, long shadows, amber haze. The same man running smoothly along a riverside path at sunrise, relaxed strong stride, background streaked with motion blur. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "B6",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. wide-angle establishing shot, small subject centered in a vast environment, strong leading lines, deep perspective. golden hour, low warm sun, long shadows, amber haze. A lone runner tiny on a high mountain ridge trail at sunrise, vast valley of clouds below, a sea of peaks. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "C1",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. close-up on the face or subject filling the frame, shallow depth of field, every detail readable. night rain, neon reflections on wet asphalt, cyan and magenta glow. A furious man in his forties behind the wheel of a car in a traffic jam at night, red brake lights reflecting on his face through a rain-covered windshield. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "C2",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. long telephoto lens compression, crowd and traffic stacked tightly behind the subject, background compressed. storm light, heavy dark clouds, a single break of sun, wind. A packed city traffic jam at dusk, endless lanes of cars stacked tightly with glowing red tail lights, compressed perspective. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "C3",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. high-angle shot looking down on the subject, small and exposed, walls closing in. blue hour, cold blue sky after sunset, warm practical lights starting to glow. View from a tall rooftop looking down on a long city avenue at blue hour, the traffic jam reduced to a thin calm line of red and white lights. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "C4",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. top-down bird's-eye overhead shot, subject still at the center while the world moves around. volumetric god rays through dust or fog, beams cutting the darkness. Aerial view from above the clouds at night, through a gap in the clouds a whole city glows like a quiet golden map. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "C5",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. subject small at one edge of the frame, huge empty sky or sea filling the rest, minimal composition. strong rim backlight outlining the subject, face in shadow, glowing edges. The Earth seen from deep space as a small glowing blue sphere at the edge of the frame, the rest a vast black starfield. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "C6",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. golden hour, low warm sun, long shadows, amber haze. The ancient bronze equestrian statue of the Roman emperor Marcus Aurelius on horseback on a stone plinth in a Roman piazza at golden hour, sky behind. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "D1",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1024",
+   "prompt": "Hand-drawn doodle illustration in colored pencil and marker, childlike scribbly hatching strokes, thick wobbly black outlines, bright flat colors, on a pure plain white background, no shadows, no frame, no text, no letters, no numbers. A simple cartoon young man with messy black hair stands alone in a bright yellow spotlight cone, sweating and blushing, a small coffee stain on his shirt, while many big cartoon eyes float in the dark around him staring."
+  },
+  {
+   "name": "D2",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1024",
+   "prompt": "Hand-drawn doodle illustration in colored pencil and marker, childlike scribbly hatching strokes, thick wobbly black outlines, bright flat colors, on a pure plain white background, no shadows, no frame, no text, no letters, no numbers. A simple cartoon young man with messy black hair wearing a bright orange shirt with a silly cartoon face on it walks past a row of cartoon people who are all looking at their phones, only one of them glances at him."
+  },
+  {
+   "name": "D3",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1024",
+   "prompt": "Hand-drawn doodle illustration in colored pencil and marker, childlike scribbly hatching strokes, thick wobbly black outlines, bright flat colors, on a pure plain white background, no shadows, no frame, no text, no letters, no numbers. Five simple cartoon people standing in a row, each one inside their own small yellow spotlight cone, each looking down at themselves worrying, none looking at each other."
+  }
+ ]
+}

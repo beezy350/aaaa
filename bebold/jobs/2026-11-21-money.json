@@ -1,0 +1,40 @@
+{
+ "images": [
+  {
+   "name": "M1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. soft motivated window light from one side, gentle falloff, natural. A plain white paycheck envelope resting on a small worn kitchen counter in a tiny studio apartment, morning light. Keep the upper third and lower quarter calm and uncluttered. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "M2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. blue hour, cold blue sky after sunset, warm practical lights starting to glow. A young man in a new suit stands at the base of a glittering glass luxury apartment tower, looking up at it, towering skyscraper converging into the sky. Keep the upper third and lower quarter calm and uncluttered. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "M3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. top-down bird's-eye overhead shot, subject still at the center while the world moves around. lit only by candle or a single practical lamp, warm pool of light, darkness around. A man lies on his back on a huge expensive bed in a large dark designer bedroom, staring blankly at the ceiling, fully clothed. Keep the upper third and lower quarter calm and uncluttered. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "M4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. long telephoto lens compression, crowd and traffic stacked tightly behind the subject, background compressed. night rain, neon reflections on wet asphalt, cyan and magenta glow. A man in a suit walks up a long descending escalator in a glossy shopping mall at night, never getting higher, neon store lights stacked and compressed behind him. Keep the upper third and lower quarter calm and uncluttered. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "M5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. medium shot from the waist up, eye-level, relaxed natural framing. Rembrandt lighting, single key light at 45 degrees, small triangle of light on the shadow side. A calm man sits at a simple wooden desk in a small quiet room, looking at an open notebook beside a single candle and a glass jar of coins. Keep the upper third and lower quarter calm and uncluttered. No text, letters, numbers, logos or watermarks. No visible hands."
+  },
+  {
+   "name": "M6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. full silhouette against a bright window or sunset, no visible face detail, strong outline. golden hour, low warm sun, long shadows, amber haze. Silhouette of a man standing relaxed on a sea cliff at sunrise, wide open ocean and sky, wind in his jacket. Keep the upper third and lower quarter calm and uncluttered. No text, letters, numbers, logos or watermarks. No visible hands."
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "images": [
+  {
+   "name": "P2",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Shadow puppet theatre style artwork: an ornate cut-leather silhouette of an animal with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind, soft vignette, deep red and teal translucent leather accents, vertical composition. There are NO human figures anywhere. No text, letters or numbers. Only a small ornate cut-leather MOUSE silhouette, shown large in close view, biting through one thick knotted rope; the rope is snapping."
+  },
+  {
+   "name": "P5",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Shadow puppet theatre style artwork: an ornate cut-leather silhouette of an animal with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind, soft vignette, deep red and teal translucent leather accents, vertical composition. There are NO human figures anywhere. No text, letters or numbers. Only a tiny ornate cut-leather MOUSE silhouette curled up safely inside a round dark burrow cut into the earth at the bottom of the screen; the glowing screen above is empty."
+  }
+ ]
+}

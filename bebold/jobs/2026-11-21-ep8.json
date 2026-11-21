@@ -1,0 +1,40 @@
+{
+ "images": [
+  {
+   "name": "P1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Persian and Turkish shadow puppet theatre: intricate cut-leather silhouette puppets with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind by oil lamps, soft light falloff and vignette at the edges, faint visible puppet rods, colored translucent leather accents in deep red and teal, theatrical, handmade, vertical composition. No text, letters or numbers. A hunter puppet with a bow and a cloth bag walks over a curved hill on the left, a big round rising sun disc behind him; on the right a small net with a cat puppet trapped inside."
+  },
+  {
+   "name": "P2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Persian and Turkish shadow puppet theatre: intricate cut-leather silhouette puppets with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind by oil lamps, soft light falloff and vignette at the edges, faint visible puppet rods, colored translucent leather accents in deep red and teal, theatrical, handmade, vertical composition. No text, letters or numbers. Close view: a small mouse puppet biting through the last thick rope of a knotted net, the cat puppet inside the net straining, rope fibers snapping."
+  },
+  {
+   "name": "P3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Persian and Turkish shadow puppet theatre: intricate cut-leather silhouette puppets with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind by oil lamps, soft light falloff and vignette at the edges, faint visible puppet rods, colored translucent leather accents in deep red and teal, theatrical, handmade, vertical composition. No text, letters or numbers. A cat puppet leaping high into the branches of an ornamental tree on the right while a tiny mouse puppet dives into a round hole at the base of a wall on the left; an empty torn net lies on the ground in the middle."
+  },
+  {
+   "name": "P4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Persian and Turkish shadow puppet theatre: intricate cut-leather silhouette puppets with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind by oil lamps, soft light falloff and vignette at the edges, faint visible puppet rods, colored translucent leather accents in deep red and teal, theatrical, handmade, vertical composition. No text, letters or numbers. A cat puppet sitting politely with a curled tail in front of a small round mouse hole in an ornamental stone wall, head tilted sweetly toward the hole."
+  },
+  {
+   "name": "P5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Persian and Turkish shadow puppet theatre: intricate cut-leather silhouette puppets with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind by oil lamps, soft light falloff and vignette at the edges, faint visible puppet rods, colored translucent leather accents in deep red and teal, theatrical, handmade, vertical composition. No text, letters or numbers. A cross-section view of a dark mouse burrow under the ground, a tiny mouse puppet sitting safely deep inside, above ground the large shadow of the cat waiting at the entrance."
+  },
+  {
+   "name": "P6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Persian and Turkish shadow puppet theatre: intricate cut-leather silhouette puppets with lace-like ornamental cutouts and jointed limbs, pressed against a glowing warm amber parchment screen lit from behind by oil lamps, soft light falloff and vignette at the edges, faint visible puppet rods, colored translucent leather accents in deep red and teal, theatrical, handmade, vertical composition. No text, letters or numbers. A cat puppet on the far left and a mouse puppet on the far right facing away from each other, a wide empty glowing space between them with a broken net on the ground."
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "images": [
+  {
+   "name": "M0",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A lone ronin samurai in a worn kimono and straw hat walking away along a mountain ridge path, seen from behind, two swords at his side, vast misty peaks ahead, small red cord on his sword."
+  },
+  {
+   "name": "M1",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A lone samurai standing perfectly still in heavy rain in an open field, head slightly bowed, calm, a single red maple leaf on the wet ground."
+  },
+  {
+   "name": "M2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A tiny samurai figure standing at the foot of an enormous towering mountain waterfall, the man very small, the world vast, one red thread on his sleeve."
+  },
+  {
+   "name": "M3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A samurai walking forward through snow, a long trail of footprints behind him, he does not look back, a red sash at his waist."
+  },
+  {
+   "name": "M4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A single ancient pine tree growing alone on the edge of a sea cliff, twisted by wind, strong and calm, a small red sun low over the sea."
+  },
+  {
+   "name": "M5",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A traveling monk-samurai crossing a narrow wooden bridge carrying only a small bundle and one sword, nothing else, one red tassel on the bundle."
+  },
+  {
+   "name": "M6",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A samurai kneeling in calm meditation on a rock facing the sea at dawn, sword laid on the ground before him, a red sun rising."
+  },
+  {
+   "name": "M7",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A narrow mountain path winding upward into thick mist with one small samurai figure walking far along it, a single red lantern glow on the path."
+  },
+  {
+   "name": "B1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. golden hour, low warm sun, long shadows, amber haze. The towering blue-glazed Ishtar Gate of ancient Babylon at golden hour, a lone robed merchant silhouette walking through it, dust in the air."
+  },
+  {
+   "name": "B2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. medium shot from the waist up, eye-level, relaxed natural framing. lit only by candle or a single practical lamp, warm pool of light, darkness around. A young ancient Babylonian scribe in a plain linen robe seen from behind, seated at a low table covered with clay tablets in a dim mud-brick room, one oil lamp."
+  },
+  {
+   "name": "B3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. Rembrandt lighting, single key light at 45 degrees, small triangle of light on the shadow side. An old wise Babylonian moneylender with a long white beard and rich robes standing in a shadowy market stall, looking down at the camera, warm lamp light."
+  },
+  {
+   "name": "B4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. volumetric god rays through dust or fog, beams cutting the darkness. A clay jar on a wooden shelf half full of ancient gold and silver coins, one beam of sunlight through a window falling on it."
+  },
+  {
+   "name": "B5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. wide-angle establishing shot, small subject centered in a vast environment, strong leading lines, deep perspective. golden hour, low warm sun, long shadows, amber haze. A wide field of golden barley ripening along a river at sunrise near ancient Babylon, ziggurat on the horizon."
+  },
+  {
+   "name": "B6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. full silhouette against a bright window or sunset, no visible face detail, strong outline. golden hour, low warm sun, long shadows, amber haze. Silhouette of a wealthy man in robes standing on a high terrace overlooking the vast ancient city of Babylon at sunset, the river and gardens glowing."
+  },
+  {
+   "name": "F1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. close-up on the face or subject filling the frame, shallow depth of field, every detail readable. lit only by candle or a single practical lamp, warm pool of light, darkness around. A rare old leather-bound book lying on a dark wooden desk lit by a single candle in an 18th-century study, dust motes."
+  },
+  {
+   "name": "F2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. long telephoto lens compression, crowd and traffic stacked tightly behind the subject, background compressed. soft motivated window light from one side, gentle falloff, natural. An empty 18th-century colonial assembly hall with rows of wooden benches and tall windows, morning light, quiet tension."
+  },
+  {
+   "name": "F3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. shallow focus with a blurred foreground object and the subject sharp behind it, bokeh lights. soft motivated window light from one side, gentle falloff, natural. A tall shelf of antique leather books in a private 18th-century library, one rare book in sharp focus slightly pulled out, the rest blurred."
+  },
+  {
+   "name": "F4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. lit only by candle or a single practical lamp, warm pool of light, darkness around. A folded 18th-century handwritten letter sealed with red wax lying on top of a closed old book, quill pen beside it, candle glow. The writing is illegible."
+  },
+  {
+   "name": "F5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. full silhouette against a bright window or sunset, no visible face detail, strong outline. soft motivated window light from one side, gentle falloff, natural. Two men in 18th-century coats and tricorn hats as dark silhouettes greeting each other with a slight bow in a long sunlit colonial hallway."
+  },
+  {
+   "name": "F6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, anamorphic lens, rich color grade, fine film grain. Vertical frame; keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. wide-angle establishing shot, small subject centered in a vast environment, strong leading lines, deep perspective. lit only by candle or a single practical lamp, warm pool of light, darkness around. Two empty wooden armchairs facing each other beside a warm fireplace in an 18th-century parlor, two glasses on a small table, cozy and quiet."
+  }
+ ]
+}

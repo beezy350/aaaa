@@ -1,0 +1,74 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "The Spotlight Effect, explained.",
+  "heard": "The spotlight effect explained.",
+  "score": 1.0,
+  "tries": 4,
+  "spike": 2.43
+ },
+ {
+  "clip": "s2_1",
+  "script": "One.",
+  "heard": "1.",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 1.76
+ },
+ {
+  "clip": "s2_2",
+  "script": "You think everyone noticed your mistake.",
+  "heard": "You think everyone noticed your mistake.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.51
+ },
+ {
+  "clip": "s3_1",
+  "script": "Two.",
+  "heard": "2",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 1.22
+ },
+ {
+  "clip": "s3_2",
+  "script": "People guess half the room noticed.",
+  "heard": "People guess half the room noticed.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.17
+ },
+ {
+  "clip": "s3_3",
+  "script": "Only a quarter did.",
+  "heard": "Only a quarter did",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.91
+ },
+ {
+  "clip": "s4_1",
+  "script": "Three.",
+  "heard": "3",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.48
+ },
+ {
+  "clip": "s4_2",
+  "script": "Nobody is watching.",
+  "heard": "Nobody is watching.",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 2.96
+ },
+ {
+  "clip": "s4_3",
+  "script": "Everyone is stuck in their own spotlight.",
+  "heard": "Everyone is stuck in their own spotlight.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.42
+ }
+]

@@ -1,0 +1,135 @@
+{
+ "images": [
+  {
+   "name": "R1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the upper third calm for a title. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subjects. close-up on the face or subject filling the frame, shallow depth of field, every detail readable. strong rim backlight outlining the subject, face in shadow, glowing edges. A single shining gold coin floating in mid-air in a pitch-black void, splitting into two identical gold coins like a dividing cell, sparks and golden dust between them."
+  },
+  {
+   "name": "R2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the upper third calm for a title. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subjects. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. Rembrandt lighting, single key light at 45 degrees, small triangle of light on the shadow side. An antique brass balance scale on a dark wooden desk with a small stack of gold coins on one side, warm dramatic light."
+  },
+  {
+   "name": "R3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the upper third calm for a title. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subjects. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. golden hour, low warm sun, long shadows, amber haze. A small pile of gold coins on a wooden table beside a pile exactly twice as big, golden sunlight, shallow depth of field."
+  },
+  {
+   "name": "R4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the upper third calm for a title. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subjects. long telephoto lens compression, crowd and traffic stacked tightly behind the subject, background compressed. blue hour, cold blue sky after sunset, warm practical lights starting to glow. A tiny snail slowly carrying a single gold coin on its shell down an endless empty road at dusk."
+  },
+  {
+   "name": "R5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the upper third calm for a title. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subjects. wide-angle establishing shot, small subject centered in a vast environment, strong leading lines, deep perspective. golden hour, low warm sun, long shadows, amber haze. A lone man standing where a dirt road splits into two paths at sunset, one path climbing toward a glowing city on a hill."
+  },
+  {
+   "name": "R6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the upper third calm for a title. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subjects. full silhouette against a bright window or sunset, no visible face detail, strong outline. golden hour, low warm sun, long shadows, amber haze. Silhouette of a calm man standing on a high balcony at sunrise above a city, coffee cup on the railing."
+  },
+  {
+   "name": "S2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian coast, fine film grain. Upper 40 percent calm for text. Animals with natural correct anatomy. No people. No text, letters, logos or watermarks. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. golden hour, low warm sun, long shadows, amber haze. A monkey sitting on a branch of a fig tree heavy with ripe figs beside the sea, one fig falling, golden hour."
+  },
+  {
+   "name": "S3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian coast, fine film grain. Upper 40 percent calm for text. Animals with natural correct anatomy. No people. No text, letters, logos or watermarks. close-up on the face or subject filling the frame, shallow depth of field, every detail readable. low-key lighting, mostly black frame, only key shapes lit. A female sea tortoise resting in a dim sea cave, half in shadow, one sly narrowed eye, cold blue light."
+  },
+  {
+   "name": "S4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian coast, fine film grain. Upper 40 percent calm for text. Animals with natural correct anatomy. No people. No text, letters, logos or watermarks. top-down bird's-eye overhead shot, subject still at the center while the world moves around. golden hour, low warm sun, long shadows, amber haze. Top-down view of a large sea tortoise swimming across deep blue sea with a small monkey clinging to its shell, far from the shore."
+  },
+  {
+   "name": "S5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian coast, fine film grain. Upper 40 percent calm for text. Animals with natural correct anatomy. No people. No text, letters, logos or watermarks. close-up on the face or subject filling the frame, shallow depth of field, every detail readable. storm light, heavy dark clouds, a single break of sun, wind. Close-up of a small monkey clinging to the wet shell of a swimming tortoise, the monkey looking frightened, grey stormy sea around."
+  },
+  {
+   "name": "S6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian coast, fine film grain. Upper 40 percent calm for text. Animals with natural correct anatomy. No people. No text, letters, logos or watermarks. medium shot from the waist up, eye-level, relaxed natural framing. strong rim backlight outlining the subject, face in shadow, glowing edges. A small monkey sitting calmly on the shell of a tortoise at sea, turning to look back toward a distant fig tree on the shore, rim light."
+  },
+  {
+   "name": "S7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian coast, fine film grain. Upper 40 percent calm for text. Animals with natural correct anatomy. No people. No text, letters, logos or watermarks. high-angle shot looking down on the subject, small and exposed, walls closing in. golden hour, low warm sun, long shadows, amber haze. High angle from the top of a fig tree: a monkey safe on the highest branch, far below a tortoise small in the shallow water."
+  },
+  {
+   "name": "K2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Dramatic charcoal drawing on textured off-white paper, heavy black charcoal strokes, smudged shadows, high contrast, expressive and raw, vertical composition, upper third mostly empty paper. No text, letters or numbers. A Roman emperor in armor on horseback on a hill at dusk, cloak blowing, low angle, powerful and calm."
+  },
+  {
+   "name": "K3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Dramatic charcoal drawing on textured off-white paper, heavy black charcoal strokes, smudged shadows, high contrast, expressive and raw, vertical composition, upper third mostly empty paper. No text, letters or numbers. A tired Roman emperor seen from behind, sitting alone at a small table in an army tent at night, one oil lamp, writing."
+  },
+  {
+   "name": "K4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Dramatic charcoal drawing on textured off-white paper, heavy black charcoal strokes, smudged shadows, high contrast, expressive and raw, vertical composition, upper third mostly empty paper. No text, letters or numbers. Two identical shadowy male silhouettes facing each other like mirror images, one beginning to crumble into charcoal dust."
+  },
+  {
+   "name": "K5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Dramatic charcoal drawing on textured off-white paper, heavy black charcoal strokes, smudged shadows, high contrast, expressive and raw, vertical composition, upper third mostly empty paper. No text, letters or numbers. A calm man walking away into light down a long road, behind him a dark scribbled storm cloud shaped like a snarling face, left behind."
+  },
+  {
+   "name": "P1",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1024",
+   "prompt": "Hand-drawn doodle illustration in colored pencil and marker, scribbly hatching, thick wobbly black outlines, bright flat colors, pure plain white background, no shadows, no frame, no text, no letters, no numbers. A lazy cartoon man lying in a hammock while a small task box next to him slowly inflates into a giant balloon that fills the whole room."
+  },
+  {
+   "name": "P2",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1024",
+   "prompt": "Hand-drawn doodle illustration in colored pencil and marker, scribbly hatching, thick wobbly black outlines, bright flat colors, pure plain white background, no shadows, no frame, no text, no letters, no numbers. The same cartoon man sprinting happily with a stopwatch, carrying a small task box across a finish line."
+  },
+  {
+   "name": "P3",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1024",
+   "prompt": "Hand-drawn doodle illustration in colored pencil and marker, scribbly hatching, thick wobbly black outlines, bright flat colors, pure plain white background, no shadows, no frame, no text, no letters, no numbers. Two boxes side by side, a big box and a small box, the same purple gas cloud fills each box completely."
+  },
+  {
+   "name": "S1",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian coast, fine film grain. Upper 40 percent calm for text. Animals with natural correct anatomy. No people. No text, letters, logos or watermarks. Wide shot, golden hour: a small monkey riding on the back of a giant sea tortoise across the open sea at sunset, the sun huge on the horizon, a fig tree on a distant cliff. Magical and strange."
+  },
+  {
+   "name": "K1",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Dramatic charcoal drawing on textured off-white paper, heavy black charcoal strokes, smudged shadows, high contrast, expressive and raw, vertical composition, upper third mostly empty paper. No text, letters or numbers. A man staring into a large ornate mirror; his reflection is a snarling wolf in the same clothes. Unsettling and powerful."
+  }
+ ]
+}

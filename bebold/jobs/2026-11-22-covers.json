@@ -1,0 +1,25 @@
+{
+ "images": [
+  {
+   "name": "X1",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, bold black brush strokes and splatter, one vermilion red accent. A lone samurai kneeling and writing giant calligraphy strokes on a huge scroll using the tip of his katana dipped in ink as a brush, ink flying off the blade like a storm, strange and powerful, generous empty paper at the top. Leave the top third of the frame empty and calm for a headline. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "X2",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Hyperreal surreal cinematic image, dramatic golden light, shallow depth of field. A giant ancient Babylonian clay jar the size of a house standing in the desert at sunset with a small wooden door in its side; a tiny man in robes walks into the door carrying one shining gold coin on his shoulder; through cracks in the jar a mountain of glowing gold coins is visible inside. Weird, magical, scroll-stopping. Leave the top third of the frame empty and calm for a headline. No text, letters, numbers, logos or watermarks."
+  },
+  {
+   "name": "X3",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Surreal cinematic oil-painting-style image, candle-lit 18th-century study, deep shadows. A gentleman in an 18th-century coat calmly holds out an old leather book toward a huge snarling wolf wearing an 18th-century coat and cravat; the wolf, teeth bared, reaches out with its paw and gently takes the book. Tense, strange, unforgettable. Leave the top third of the frame empty and calm for a headline. No text, letters, numbers, logos or watermarks."
+  }
+ ]
+}

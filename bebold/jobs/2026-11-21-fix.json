@@ -1,0 +1,10 @@
+{
+ "images": [
+  {
+   "name": "C5",
+   "engine": "cloudflare",
+   "size": "1536x768",
+   "prompt": "Cinematic film still, photorealistic, NASA-style deep space photograph. The planet Earth seen from very far away as one tiny glowing pale blue dot on the right third of the frame, the rest a vast black starfield with faint Milky Way haze, a thin sunbeam of light crossing the frame. No people, no spacecraft. No text, letters, numbers, logos or watermarks."
+  }
+ ]
+}

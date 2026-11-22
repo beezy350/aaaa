@@ -1,0 +1,53 @@
+{
+ "images": [
+  {
+   "name": "R1",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the upper third calm for a title. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subjects. close-up on the face or subject filling the frame, shallow depth of field, every detail readable. strong rim backlight outlining the subject, face in shadow, glowing edges. A single shining gold coin floating in mid-air in a pitch-black void, splitting into two identical gold coins like a dividing cell, sparks and golden dust between them."
+  },
+  {
+   "name": "R2",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the upper third calm for a title. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subjects. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. Rembrandt lighting, single key light at 45 degrees, small triangle of light on the shadow side. An antique brass balance scale on a dark wooden desk with a small stack of gold coins on one side, warm dramatic light."
+  },
+  {
+   "name": "R3",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the upper third calm for a title. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subjects. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. golden hour, low warm sun, long shadows, amber haze. A small pile of gold coins on a wooden table beside a pile exactly twice as big, golden sunlight, shallow depth of field."
+  },
+  {
+   "name": "R4",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the upper third calm for a title. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subjects. long telephoto lens compression, crowd and traffic stacked tightly behind the subject, background compressed. blue hour, cold blue sky after sunset, warm practical lights starting to glow. A tiny snail slowly carrying a single gold coin on its shell down an endless empty road at dusk."
+  },
+  {
+   "name": "R5",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the upper third calm for a title. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subjects. wide-angle establishing shot, small subject centered in a vast environment, strong leading lines, deep perspective. golden hour, low warm sun, long shadows, amber haze. A lone man standing where a dirt road splits into two paths at sunset, one path climbing toward a glowing city on a hill."
+  },
+  {
+   "name": "K2",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Dramatic charcoal drawing on textured off-white paper, heavy black charcoal strokes, smudged shadows, high contrast, expressive and raw, vertical composition, upper third mostly empty paper. No text, letters or numbers. A Roman emperor in armor on horseback on a hill at dusk, cloak blowing, low angle, powerful and calm."
+  },
+  {
+   "name": "K3",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Dramatic charcoal drawing on textured off-white paper, heavy black charcoal strokes, smudged shadows, high contrast, expressive and raw, vertical composition, upper third mostly empty paper. No text, letters or numbers. A tired Roman emperor seen from behind, sitting alone at a small table in an army tent at night, one oil lamp, writing."
+  }
+ ]
+}

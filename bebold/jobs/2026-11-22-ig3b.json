@@ -1,0 +1,32 @@
+{
+ "images": [
+  {
+   "name": "S2",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian coast, fine film grain. Upper 40 percent calm for text. Animals with natural correct anatomy. No people. No text, letters, logos or watermarks. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. golden hour, low warm sun, long shadows, amber haze. A monkey sitting on a branch of a fig tree heavy with ripe figs beside the sea, one fig falling, golden hour."
+  },
+  {
+   "name": "S3",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian coast, fine film grain. Upper 40 percent calm for text. Animals with natural correct anatomy. No people. No text, letters, logos or watermarks. close-up on the face or subject filling the frame, shallow depth of field, every detail readable. low-key lighting, mostly black frame, only key shapes lit. A female sea tortoise resting in a dim sea cave, half in shadow, one sly narrowed eye, cold blue light."
+  },
+  {
+   "name": "S5",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian coast, fine film grain. Upper 40 percent calm for text. Animals with natural correct anatomy. No people. No text, letters, logos or watermarks. close-up on the face or subject filling the frame, shallow depth of field, every detail readable. storm light, heavy dark clouds, a single break of sun, wind. Close-up of a small monkey clinging to the wet shell of a swimming tortoise, the monkey looking frightened, grey stormy sea around."
+  },
+  {
+   "name": "S7",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1536",
+   "prompt": "Photorealistic cinematic film still, warm amber and gold color grade, ancient Persian coast, fine film grain. Upper 40 percent calm for text. Animals with natural correct anatomy. No people. No text, letters, logos or watermarks. high-angle shot looking down on the subject, small and exposed, walls closing in. golden hour, low warm sun, long shadows, amber haze. High angle from the top of a fig tree: a monkey safe on the highest branch, far below a tortoise small in the shallow water."
+  }
+ ]
+}

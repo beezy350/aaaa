@@ -1,0 +1,308 @@
+{
+ "job": "2026-11-22-ig2",
+ "results": [
+  {
+   "name": "R1",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (865b782d-aac0-4473-bdcf-f32ada69f17c)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (29f057fc-cf80-4caa-a46c-f2e09b742a38)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (706011ef-eb03-47fb-8745-2ea8902cd611)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (f2f29174-5251-497e-aba5-df9fd0ab57f9)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (fd8871db-d6a6-45fa-923a-57c61f7eefbf)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (4bf28a1f-a201-4d3f-a68c-4752b3a390bf)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "R2",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (837be6b7-75f0-431e-8f4d-ddd1e41e69b1)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (e808b6e7-d394-44a9-ba7a-f86e15deff44)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (b745cb6e-3957-4cda-ab0e-2095d424100b)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (e01341af-7a9e-4682-a066-8da8df1b0795)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (c2d1b3e2-5008-456e-8231-d67efe713b58)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (86117033-27d6-408c-ac5a-fa0018224d49)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "R3",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (8e4e72e5-5634-4b3f-854c-3d87a3f964ca)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (a75753a9-c951-4c4b-9861-fb14900618c8)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (ca235f3e-0dd5-4532-b75c-560348b8742e)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (1611f0d4-8c1e-4e1e-bf7f-729a1259e2a0)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (7afd3927-1ccb-4456-baa3-ac36de97a480)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (778350f7-6c2f-400e-953a-530ee8de3860)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "R4",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (16abf356-293c-4a30-8f75-5151c0495e16)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (18464e49-9b37-416a-8125-0ae0d6f8cd3e)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (fa1ee1b1-0ffc-4ae7-b662-a5347a903976)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (5adcb7c3-3e64-43c0-bff1-69b912c3e1a2)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (0bd5e871-45b2-4fd4-bd93-67842a128dbd)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (93473f3a-0b06-4cd1-b172-cb602d4e6542)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "R5",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (9f9d2de0-ae20-47b3-a4a4-d96c06a49907)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (74664d38-4c73-4fee-80b8-75edf66106b0)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (b77ddce6-6c73-4fc4-9c50-7fe5568c1d01)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (14737510-f59a-44da-bd37-9d69ded9c4bb)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (e08e537b-64b9-439e-a4d5-a9fdb6489219)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (3c742478-2b1e-44b2-bb82-a1ff12187744)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "R6",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (e4e0b93d-a18a-413f-a9fd-90aeec307f07)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (a4dd74ef-651b-40f7-a167-3b7141aa88c4)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (b3a87e4b-12a1-481d-8299-22136ac9bc4f)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (19d99ca1-6de3-46e4-a241-bcab1e8b6039)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (33bf9329-93c5-4cd1-828a-b76d65e1f15f)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (d8a08520-88b5-429a-b8e4-fda07cb2f991)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "S2",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (b9a63f75-3666-4554-add4-d37b1b4a49e6)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (099b6aa1-0e6b-4ee2-8fac-a40e2678aad7)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (10422d78-cd06-4cff-a5f3-0bd792666d77)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (f3424221-5630-4f4e-aef6-8e7b60ba3984)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (3e80d667-6078-4566-857d-aad9f5aeb142)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (d2f7b4b7-b42e-41cc-acd8-8681c0865e83)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "S3",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (7ac73817-7fdc-440b-8d53-d5c5f51cceb4)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (1fc7db45-ee27-4748-af35-04ab0f939263)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (1b21d366-6e73-44c8-9fb0-312558ebfa82)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (f4fec7c3-7e75-45dc-a437-7d2aff292ca8)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (46cdef1c-1fbc-43d4-8628-c8127b626911)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (b4c45bc5-f587-4749-96bd-159785e5b325)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "S4",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (21332cdd-7e9b-4751-aa3d-579b21002767)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (f26c4484-c77d-4118-877a-6351682c2996)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (00e5caee-7b35-43f5-a1c1-0db430e53364)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (e963d990-bdf0-4bd9-9726-650998ba8881)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (6d7f2c4f-15e4-48a2-b00a-27b8e4710131)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (9f1f34bf-1247-46ba-ba19-81063ca0e473)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "S5",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (5b501adc-c8fe-40a2-bb15-9ff7fd4a3127)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (a12c8354-2dae-4513-af3c-45895c0c09fc)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (5d564ec2-5dfe-4f24-9c11-311300795c42)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (1f90b87d-08f3-4dc2-804c-ecda9f0e237a)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (bc7f77ec-50af-4987-a494-1307cc6b19da)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (e0ccd93b-6641-4f97-8e5d-07f34ed905ea)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "S6",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (53580832-d5b5-4b8e-a52c-f5e9488ebaca)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (3072d3c9-e22f-47c1-a857-926944bfb116)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (ee4e900c-ecd7-4db3-aeb7-54350ec8821b)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (6bb7e349-9378-4651-acb7-78f11dd5a59c)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (b83f5656-07a0-4865-b1d2-f54eaead73ac)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (1fcc70c4-ea7c-4bf7-9861-e54fd93c820b)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "S7",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (78db4482-1071-4118-aa16-44ae5189ba82)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (231807f7-4eb5-4538-8e1a-eed34bf9af57)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (5bf9f730-ae48-4c0b-b85a-f52dab06b801)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (99df7838-8f0d-4d56-b3b7-fd30f54a0b6b)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (5b77ed3d-1683-41a6-885b-8ee2a286a694)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (0e3baf7a-98d4-4402-ab00-f72453317133)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "K2",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (8b42e8f7-d301-4e76-93ca-2dbde40ece6f)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (371eebf5-5204-4528-8939-1f5209dc20e6)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (619bcb90-e081-4eae-b58c-18027d06f46d)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (3e2a22b5-6bdc-4e0c-89d4-18ec2c58cc89)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (6bdc4f6c-d964-44a8-93ca-a5cb3230280d)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (f8575d8c-1427-4651-b5e2-71a3a4d07112)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "K3",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (215b1cd1-9ceb-42b0-a310-1a419e9e609b)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (b65ce4bd-c54a-478e-828e-9f4308b80b14)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (cf86871b-525b-46ac-95de-4de24387e1ec)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (945b689e-f362-4990-b735-a2049f64dd3b)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (6b058972-6723-44e8-b114-cd40cd672365)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (fbffbc3a-9dec-424b-995d-ded747cf84b5)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "K4",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (343d6daf-d9f2-4d0a-ae74-8c359af66c35)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (c462dd0b-103f-4752-8a51-22bf5c434ea7)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (3ecfaae2-04e9-4a6f-9d4b-99c7763800b9)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (f3ff7e64-bdfe-4107-9790-5760d12906ce)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (f0d1448e-6fdf-42ba-ad17-ff05de9e0fca)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (bcf6bb5a-a150-4cc3-881b-105cffcb0026)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "K5",
+   "quality": "medium",
+   "ok": false,
+   "errors": [
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (4ef8d573-209a-4ab1-9cec-23b20c9cac84)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (1139f328-ad52-435e-8c8e-e4b9e1ab03b5)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-2-klein-4b: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (c93c9695-23d3-4be1-9ddd-79dc25edfa11)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (17dfc49a-6f9b-4201-a07d-8be2a2ece301)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (3fffa4fa-d448-4b73-b6a9-8eb3b1da7275)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "flux-1-schnell: HTTP 429 {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (a386d568-72a8-4ee7-8031-cb7c7697466e)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}"
+   ]
+  },
+  {
+   "name": "P1",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 83,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 83
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+     "image_tokens": 1756,
+     "text_tokens": 0
+    },
+    "total_tokens": 1839
+   }
+  },
+  {
+   "name": "P2",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 75,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 75
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+     "image_tokens": 1756,
+     "text_tokens": 0
+    },
+    "total_tokens": 1831
+   }
+  },
+  {
+   "name": "P3",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 78,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 78
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+     "image_tokens": 1756,
+     "text_tokens": 0
+    },
+    "total_tokens": 1834
+   }
+  },
+  {
+   "name": "S1",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 101,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 101
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1473
+   }
+  },
+  {
+   "name": "K1",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 77,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 77
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1449
+   }
+  }
+ ]
+}

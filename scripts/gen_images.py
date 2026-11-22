@@ -27,7 +27,7 @@ def cf_call(model, prompt, w, h):
         ctype = "application/json"
     req = urllib.request.Request(url, data=body, headers={"Authorization": f"Bearer {CF_TOKEN}",
                                                           "Content-Type": ctype})
-    with urllib.request.urlopen(req, timeout=300) as r:
+    with urllib.request.urlopen(req, timeout=120) as r:
         raw = r.read()
     try:
         j = json.loads(raw)
@@ -48,7 +48,7 @@ def gen_cf(img):
             except urllib.error.HTTPError as e:
                 errors.append(f"{model}: HTTP {e.code} {e.read().decode(errors='replace')[:300]}")
                 if e.code not in (429, 500, 502, 503, 504): break
-                time.sleep(20 * (attempt + 1))
+                time.sleep(15)
             except Exception as e:
                 errors.append(f"{model}: {e}")
                 time.sleep(10)
@@ -56,6 +56,7 @@ def gen_cf(img):
 MODELS = os.environ.get("IMAGE_MODELS", "gpt-image-2,gpt-image-1.5,gpt-image-1").split(",")
 MAX_OPENAI = int(os.environ.get("MAX_OPENAI_PER_RUN", "8"))   # hard cap on paid images per workflow run
 spent = [0]
+T0 = time.time(); BUDGET_S = int(os.environ.get('TIME_BUDGET_S', '2700'))
 def budget_ok(): return spent[0] < MAX_OPENAI
 
 
@@ -101,8 +102,15 @@ def main():
             continue
         os.makedirs(out, exist_ok=True)
         spec = json.load(open(job))
-        status = {"job": jid, "results": []}
+        prev = f"{out}/partial.json"
+        status = json.load(open(prev)) if os.path.exists(prev) else {"job": jid, "results": []}
+        have = {e["name"] for e in status["results"] if e.get("ok")}
+        status["results"] = [e for e in status["results"] if e.get("ok")]
         for img in spec["images"]:
+            if img["name"] in have:
+                continue
+            if time.time() - T0 > BUDGET_S:   # save progress before the workflow timeout; next run continues
+                json.dump(status, open(prev, "w"), indent=1); print("time budget reached, partial saved", flush=True); return
             engine = img.get("engine", "openai")
             if engine == "cloudflare" and CF_TOKEN:
                 model, data, usage, err = gen_cf(img)
@@ -123,8 +131,10 @@ def main():
             else:
                 entry.update(ok=False, errors=err)
             status["results"].append(entry)
-            print(json.dumps(entry)[:300])
+            print(json.dumps(entry)[:300], flush=True)
+            json.dump(status, open(prev, "w"), indent=1)
         json.dump(status, open(f"{out}/status.json", "w"), indent=1)
+        if os.path.exists(prev): os.remove(prev)
 
 
 main()

@@ -1,0 +1,62 @@
+{
+ "job": "2026-11-22-ig3c",
+ "results": [
+  {
+   "name": "S3",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 114,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 114
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1486
+   }
+  },
+  {
+   "name": "S5",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 120,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 120
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1492
+   }
+  },
+  {
+   "name": "S7",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 115,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 115
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1487
+   }
+  }
+ ]
+}

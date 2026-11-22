@@ -1,0 +1,138 @@
+{
+ "job": "2026-11-22-ig3a",
+ "results": [
+  {
+   "name": "R1",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 126,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 126
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1498
+   }
+  },
+  {
+   "name": "R2",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 125,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 125
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1497
+   }
+  },
+  {
+   "name": "R3",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 122,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 122
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1494
+   }
+  },
+  {
+   "name": "R4",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 112,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 112
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1484
+   }
+  },
+  {
+   "name": "R5",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 117,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 117
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1489
+   }
+  },
+  {
+   "name": "K2",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 73,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 73
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1445
+   }
+  },
+  {
+   "name": "K3",
+   "quality": "medium",
+   "ok": true,
+   "model": "gpt-image-2",
+   "usage": {
+    "input_tokens": 77,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 77
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+     "image_tokens": 1372,
+     "text_tokens": 0
+    },
+    "total_tokens": 1449
+   }
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "images": [
+  {
+   "name": "MC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. close-up on the face or subject filling the frame, shallow depth of field, every detail readable. strong rim backlight outlining the subject, face in shadow, glowing edges. A royal gold crown on black velvet, split down the middle: the left half woven from fresh red roses, the right half forged from black iron spikes, dramatic dark background. Surreal and striking."
+  },
+  {
+   "name": "M2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. medium shot from the waist up, eye-level, relaxed natural framing. lit only by candle or a single practical lamp, warm pool of light, darkness around. A Renaissance man in a dark robe seen from behind, writing at a rough wooden desk in a small stone farmhouse room at night, one candle, stacks of old books."
+  },
+  {
+   "name": "M3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. volumetric god rays through dust or fog, beams cutting the darkness. An empty carved wooden throne in a vast dark Renaissance palace hall, a single beam of light falling on the seat."
+  },
+  {
+   "name": "M4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. golden hour, low warm sun, long shadows, amber haze. A weathered stone lion statue on a Florentine palace staircase at dusk, roaring, sky glowing behind it."
+  },
+  {
+   "name": "M5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. low-key lighting, mostly black frame, only key shapes lit. A single black chess king standing alone on a marble chessboard, all other pieces knocked over around it, hard side light."
+  },
+  {
+   "name": "M6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. full silhouette against a bright window or sunset, no visible face detail, strong outline. blue hour, cold blue sky after sunset, warm practical lights starting to glow. A Renaissance prince in a dark cloak seen from behind, standing alone on a palace balcony at night above a quiet sleeping city with a cathedral dome."
+  },
+  {
+   "name": "BC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No people unless described. close-up on the face or subject filling the frame, shallow depth of field, every detail readable. Rembrandt lighting, single key light at 45 degrees, small triangle of light on the shadow side. An old leather coin purse wrapped in a white bandage with stitches like a wounded patient, lying on an ancient Babylonian table, a few gold coins spilling out. Weird and striking."
+  },
+  {
+   "name": "B2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No people unless described. medium shot from the waist up, eye-level, relaxed natural framing. soft motivated window light from one side, gentle falloff, natural. An antique brass balance scale on a stone table, one pan holding a small stack of gold coins, the other pan heaped with luxury trinkets and jewelry, tipping toward the trinkets."
+  },
+  {
+   "name": "B3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No people unless described. extreme close-up macro of a single detail (an eye, a hand-free object, a crack), razor-thin focus. golden hour, low warm sun, long shadows, amber haze. Green barley sprouts growing up out of ancient gold coins half buried in dark soil, morning light. Surreal."
+  },
+  {
+   "name": "B4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No people unless described. low-angle shot looking up at the subject, towering over the camera, sky and buildings converging behind. lit only by candle or a single practical lamp, warm pool of light, darkness around. A heavy bronze-bound treasure chest with a large iron lock inside a torch-lit stone vault in ancient Babylon."
+  },
+  {
+   "name": "B5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No people unless described. wide-angle establishing shot, small subject centered in a vast environment, strong leading lines, deep perspective. golden hour, low warm sun, long shadows, amber haze. A modest ancient Babylonian mud-brick house with a courtyard and two date palms at golden hour, the city walls behind."
+  },
+  {
+   "name": "B6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No people unless described. medium shot from the waist up, eye-level, relaxed natural framing. golden hour, low warm sun, long shadows, amber haze. An old Babylonian man with a white beard resting peacefully under a date palm at sunset, content, a small house behind him."
+  },
+  {
+   "name": "B7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No people unless described. wide-angle establishing shot, small subject centered in a vast environment, strong leading lines, deep perspective. lit only by candle or a single practical lamp, warm pool of light, darkness around. An empty ancient Babylonian scribe workshop lit by oil lamps, shelves of clay tablets, a reed stylus and wet clay on the table."
+  },
+  {
+   "name": "S2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A lone general in ancient Chinese armor standing calmly on a hilltop while an enemy army retreats into the mist below without a battle, a red banner."
+  },
+  {
+   "name": "S3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A theatrical opera mask resting on the blade of a sword lying on the ground, one red accent on the mask."
+  },
+  {
+   "name": "S4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A tiger lying low and half hidden in tall grass, only its eyes and back visible, calm and deadly, a red flower nearby."
+  },
+  {
+   "name": "S5",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. An ancient Chinese general seen from behind studying a large unrolled map scroll by the light of one red lantern in a tent."
+  },
+  {
+   "name": "S6",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A river winding around large rocks through a mountain valley, the water bending to the land, one red maple leaf on the water."
+  },
+  {
+   "name": "S7",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A bolt of lightning striking dark mountains at night, the flash in vermilion red, heavy black clouds."
+  },
+  {
+   "name": "S8",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A lone warrior standing at the edge of a perfectly still lake, his reflection clear in the water below him, one red sash."
+  },
+  {
+   "name": "S9",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A closed bamboo scroll and a sheathed sword resting on a simple wooden stand, misty mountains behind, one red tassel."
+  },
+  {
+   "name": "SC",
+   "engine": "openai",
+   "quality": "medium",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A colossal ancient Go board laid across a mountain valley; the black and white stones are tiny armies of soldiers, and a single calm general sits at the edge of the board placing one stone with a long brush-like gesture. Surreal and powerful, one red banner."
+  }
+ ]
+}

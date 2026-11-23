@@ -1,0 +1,66 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "Someone wronged you.",
+  "heard": "Someone wronged you.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.72
+ },
+ {
+  "clip": "s1_2",
+  "script": "You want revenge.",
+  "heard": "You want revenge.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.08
+ },
+ {
+  "clip": "s2_1",
+  "script": "Marcus Aurelius ruled Rome.",
+  "heard": "Marcus Aurelius ruled Rome.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.6
+ },
+ {
+  "clip": "s2_2",
+  "script": "He could have crushed anyone.",
+  "heard": "He could have crushed anyone.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.09
+ },
+ {
+  "clip": "s3_1",
+  "script": "Instead, he wrote: the best revenge is not to become like them.",
+  "heard": "Instead, he wrote, the best revenge is not to become like them.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.58
+ },
+ {
+  "clip": "s4_1",
+  "script": "Every time you copy their cruelty, they win twice.",
+  "heard": "Every time you copy their cruelty, they win twice.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.71
+ },
+ {
+  "clip": "s5_1",
+  "script": "Stay who you are.",
+  "heard": "Stay who you are.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.79
+ },
+ {
+  "clip": "s5_2",
+  "script": "That is the revenge.",
+  "heard": "That is the revenge.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.8
+ }
+]

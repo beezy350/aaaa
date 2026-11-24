@@ -1,0 +1,22 @@
+{
+ "images": [
+  {
+   "name": "FC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. medium-wide shot. A lone man in a dark Renaissance cloak standing with his back to the camera on top of a massive stone dam, arms at his sides, while a colossal towering wave of brown flood water, taller than a cathedral, crashes against the other side of the dam and is held back. Spray and storm clouds above, warm light on the man. Surreal, epic, striking."
+  },
+  {
+   "name": "D5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. close-up. Two clay masks lying side by side on a stone table in an empty dark room, plain dark background, nobody else: one cracked, grey and bowed down, the other gold and facing upward into a beam of light. Symbolic and striking."
+  },
+  {
+   "name": "H2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A samurai in profile, the paper completely blank except for him, absolutely no writing, no calligraphy, no red seal, drawing a long slow breath before a duel, eyes closed, sword still sheathed, mist around him."
+  }
+ ]
+}

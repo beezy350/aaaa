@@ -1,0 +1,26 @@
+{
+ "job": "2026-11-24-fix",
+ "results": [
+  {
+   "name": "FC",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "D5",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "H2",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  }
+ ]
+}

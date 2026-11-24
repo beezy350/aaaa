@@ -1,0 +1,63 @@
+[
+ {
+  "clip": "s1_1.wav",
+  "median_hz": 117,
+  "range_st": 15.4,
+  "jumps": 0.041,
+  "loud": 1.88,
+  "fail": [
+   "pitch range too wide (emotional)"
+  ]
+ },
+ {
+  "clip": "s3_1.wav",
+  "median_hz": 111,
+  "range_st": 15.7,
+  "jumps": 0.032,
+  "loud": 1.64,
+  "fail": [
+   "pitch range too wide (emotional)"
+  ]
+ },
+ {
+  "clip": "s4_1.wav",
+  "median_hz": 112,
+  "range_st": 14.2,
+  "jumps": 0.07,
+  "loud": 1.83,
+  "fail": [
+   "pitch range too wide (emotional)",
+   "sudden pitch jumps (synthetic/wobbly)"
+  ]
+ },
+ {
+  "clip": "s5_1.wav",
+  "median_hz": 124,
+  "range_st": 17.5,
+  "jumps": 0.047,
+  "loud": 1.88,
+  "fail": [
+   "pitch range too wide (emotional)"
+  ]
+ },
+ {
+  "clip": "s6_1.wav",
+  "median_hz": 109,
+  "range_st": 12.3,
+  "jumps": 0.016,
+  "loud": 2.4,
+  "fail": [
+   "pitch range too wide (emotional)"
+  ]
+ },
+ {
+  "clip": "s7_1.wav",
+  "median_hz": 80,
+  "range_st": 17.4,
+  "jumps": 0.056,
+  "loud": 2.17,
+  "fail": [
+   "pitch range too wide (emotional)"
+  ]
+ }
+]

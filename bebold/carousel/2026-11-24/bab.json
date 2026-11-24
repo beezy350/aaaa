@@ -1,0 +1,55 @@
+[
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/DC.jpg",
+  "text": "Broke, in debt, sold as a slave. One question saved him.",
+  "hl": [
+   "question"
+  ],
+  "hook": true,
+  "cy": 0.5,
+  "ty": 1180
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/D2.jpg",
+  "kicker": "The Camel Trader of Babylon",
+  "text": "Dabasir spent every coin the day he got it. Soon he owed more than he could ever repay.",
+  "hl": [
+   "repay."
+  ]
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/D3.jpg",
+  "text": "His wife went back to her father. He joined a band of robbers, got caught, and ended up in chains.",
+  "hl": [
+   "chains."
+  ]
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/D4.jpg",
+  "text": "His master's wife, Sira, saw something in him. She asked:",
+  "hl": [
+   "Sira,"
+  ]
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24-fix/D5.jpg",
+  "text": "Do you have the soul of a slave, or the soul of a free man?",
+  "hl": [
+   "free"
+  ]
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/D6.jpg",
+  "text": "A slave whines, \"What can I do?\" A free man sees problems to solve, and solves them.",
+  "hl": [
+   "solves"
+  ]
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/D7.jpg",
+  "text": "He escaped, went home to Babylon, faced the men he owed, and paid back every copper.",
+  "hl": [
+   "copper."
+  ]
+ }
+]

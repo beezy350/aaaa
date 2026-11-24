@@ -1,0 +1,58 @@
+[
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/HC.jpg",
+  "label": "HAGAKURE \u00b7 THE BOOK OF THE SAMURAI",
+  "title": "How samurai made hard decisions.",
+  "red": "hard",
+  "sub": "From Hagakure, early 1700s."
+ },
+ {
+  "img": "/home/claude/b24/H2c.jpg",
+  "label": "I \u00b7 SEVEN BREATHS",
+  "title": "Make your decision within seven breaths.",
+  "red": "seven",
+  "sub": "Think too long and fear starts talking."
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/H3.jpg",
+  "label": "II \u00b7 BIG THINGS",
+  "title": "Matters of great concern should be treated lightly.",
+  "red": "lightly.",
+  "sub": "A calm head makes the big calls."
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/H4.jpg",
+  "label": "III \u00b7 SMALL THINGS",
+  "title": "Matters of small concern should be treated seriously.",
+  "red": "seriously.",
+  "sub": "Your habits are where it's decided."
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/H5.jpg",
+  "label": "IV \u00b7 THE RAINSTORM",
+  "title": "There is something to be learned from a rainstorm.",
+  "red": "rainstorm.",
+  "sub": "You run under the eaves. You still get wet."
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/H6.jpg",
+  "label": "V \u00b7 DECIDE FIRST",
+  "title": "Decide from the start, and the rain won't confuse you.",
+  "red": "start,",
+  "sub": "Same storm. Calm mind."
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/H7.jpg",
+  "label": "VI \u00b7 NOW",
+  "title": "There is nothing but the single purpose of the present moment.",
+  "red": "present",
+  "sub": "Not yesterday. Not tomorrow."
+ },
+ {
+  "img": "/home/claude/aaaa/bebold/raw/2026-11-24/H8.jpg",
+  "label": "HAGAKURE",
+  "title": "Less thinking. More doing.",
+  "red": "doing.",
+  "sub": "Save this for your next big choice."
+ }
+]

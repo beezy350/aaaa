@@ -39,7 +39,7 @@ for i, s in enumerate(spec):
     size = s.get('size', 112 if hook else 84); f = ImageFont.truetype(ANTON, size)
     lines = wrap(d, s['text'].upper() if hook else s['text'], f, 900)
     lh = int(size * 1.18)
-    y = 330 if hook else 1500 - lh * len(lines)
+    y = s.get('ty', 330) if hook else 1500 - lh * len(lines)
     if s.get('kicker'):
         k = ImageFont.truetype(OSW, 40); d.text((90, y - 66), s['kicker'].upper(), font=k, fill=GOLD)
     hl = [x.lower() for x in s.get('hl', [])]

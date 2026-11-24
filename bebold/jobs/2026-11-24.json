@@ -1,0 +1,136 @@
+{
+ "images": [
+  {
+   "name": "FC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. wide epic shot. A colossal wall of brown flood water rising like a tidal wave over a Renaissance Italian valley, and at its foot one tiny lone man in a dark cloak calmly laying the last stone of a tall stone dam, warm sunlight on the dam, storm black above. Surreal and striking."
+  },
+  {
+   "name": "F2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. close-up. An antique bronze astrolabe-like wheel of fortune split exactly in half: one half glowing gold in candlelight, the other half sunk in pitch-black shadow, on a dark Renaissance desk. Surreal."
+  },
+  {
+   "name": "F3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. medium shot from behind. A Renaissance man in a dark doublet seen from behind at a candle-lit wooden desk by a tall window over Florence at dusk, quill and open blank book, warm candle glow."
+  },
+  {
+   "name": "F4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. wide aerial shot. A violent muddy river in full flood tearing through a Tuscan plain at dusk, uprooted trees and the roofs of stone farmhouses swept away, dramatic storm light."
+  },
+  {
+   "name": "F5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. wide shot on a calm sunny day. Workers seen from far away, tiny figures, building strong stone embankments and a dam along a quiet green river in Renaissance Tuscany, golden hour, peaceful."
+  },
+  {
+   "name": "F6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. wide shot. A flooded valley at storm light: on the left an unprotected village half underwater, on the right a village safe and dry behind a high stone wall, the river raging between. Dramatic."
+  },
+  {
+   "name": "F7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. close-up. A sturdy old stone dam wall in rain, water pounding against it, the wall holding firm, beads of water, dark moody light, one warm ray of light."
+  },
+  {
+   "name": "DC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. full body shot from a low angle. A lone ancient Babylonian man in a torn linen robe walking barefoot across endless golden desert dunes at sunset, heavy chains on his wrists made entirely of gold coins dragging in the sand behind him, the walls of Babylon tiny on the horizon. Surreal and striking."
+  },
+  {
+   "name": "D2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. close-up. A pile of cracked clay debt tablets with cuneiform marks heaped on a low wooden table beside an empty overturned coin purse, oil lamp glow, dark Babylonian room."
+  },
+  {
+   "name": "D3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. medium shot. A bronze slave collar and loose iron chain lying on straw in a dim stone stable beside resting camels, single beam of dusty light."
+  },
+  {
+   "name": "D4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. medium shot from behind. A noble Babylonian woman in a deep blue robe with gold embroidery standing at a palace doorway, seen from behind, looking out at a herd of camels in a courtyard at dawn. No face visible."
+  },
+  {
+   "name": "D5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. close-up. Two clay masks lying side by side on a stone table: one cracked, grey and bowed down, the other gold and facing upward into a beam of light. Symbolic and striking."
+  },
+  {
+   "name": "D6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. wide shot. A small lone figure crossing a vast desert at night under a sky full of stars, a single camel beside him, the faint glow of a distant city on the horizon."
+  },
+  {
+   "name": "D7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. wide shot. The great blue-glazed Ishtar Gate of Babylon at sunrise, golden light pouring through it onto a stone road, a lone man walking toward it, tiny in the frame, seen from behind."
+  },
+  {
+   "name": "HC",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A lone samurai sitting perfectly still in seiza on a cliff in a storm, and seven thin red-tinged rings of breath rising from him into the sky like ink circles, enso shapes. Surreal and powerful."
+  },
+  {
+   "name": "H2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A samurai in profile drawing a long slow breath before a duel, eyes closed, sword still sheathed, mist around him."
+  },
+  {
+   "name": "H3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A huge boulder floating lightly in the sky like a feather above a calm samurai sitting under a pine tree. Surreal."
+  },
+  {
+   "name": "H4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A samurai carefully tying the cord of his sandal at dawn, close up, single bamboo leaf falling, quiet focus."
+  },
+  {
+   "name": "H5",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A sudden heavy rainstorm over a village road, a man running hunched under the eaves of wooden houses trying to stay dry."
+  },
+  {
+   "name": "H6",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A samurai walking slowly and upright through heavy rain on an open road, soaked, calm, unhurried, a red umbrella left closed in his hand."
+  },
+  {
+   "name": "H7",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A single drop of ink falling into still water creating one perfect ring, a samurai's reflection in the water."
+  },
+  {
+   "name": "H8",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream rice paper, expressive black ink brush strokes and splatter, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no kanji, no signature, no seal stamp, no frame. A samurai seen from behind standing at the edge of a misty mountain path, about to take the first step forward, morning light."
+  }
+ ]
+}

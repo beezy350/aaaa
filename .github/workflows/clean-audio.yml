@@ -18,8 +18,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - run: |
-          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-          pip install -q deepfilternet
+          pip install -q torch==2.0.1 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cpu   # DeepFilterNet needs torchaudio<2.1
+          pip install -q deepfilternet "numpy<2"
       - run: |
           mkdir -p bebold/voice/clean/out
           for f in bebold/voice/clean/in/*.wav; do

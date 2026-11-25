@@ -27,15 +27,18 @@ for job in sorted(glob.glob("bebold/voice/jobs/*.txt")):
     os.makedirs(od, exist_ok=True); t0 = time.time(); report = []
     lines = [l.strip() for l in open(job) if l.strip()]
     EX, CFG, SEED = 0.85, 0.6, 1234          # default = B2: energetic, steady (owner's pick, Nov 18)
+    REF = "bebold/voice/ref_deep_warm.wav"   # header ref=<path> switches the cloned voice (e.g. owner's own voice)
     if lines and lines[0].startswith('#'):    # optional per-job header, e.g. "#ex=0.95 cfg=0.5"
-        hdr = dict(kv.split('=') for kv in lines.pop(0)[1:].split()); EX = float(hdr.get('ex', EX)); CFG = float(hdr.get('cfg', CFG)); SEED = int(hdr.get('seed', SEED))
+        hdr = dict(kv.split('=') for kv in lines.pop(0)[1:].split()); EX = float(hdr.get('ex', EX)); CFG = float(hdr.get('cfg', CFG)); SEED = int(hdr.get('seed', SEED)); REF = hdr.get('ref', REF)
+    if REF != "bebold/voice/ref_deep_warm.wav":
+        report.append({"clip": "reference", "file": REF, "heard": heard(REF)})
     for i, line in enumerate(lines, 1):
         parts = [p for p in re.split(r'(?<=[.?!…])\s+|\s*\|\s*', line) if p.strip()]
         for j, p in enumerate(parts, 1):
             limit = 0.5 * len(p.split()) + 1.0; best = None; tmp = f"{od}/_try.wav"
             for k in range(6):
                 torch.manual_seed(SEED + k)   # same seed family for every sentence = steady, consistent tone
-                w = m.generate(p, audio_prompt_path="bebold/voice/ref_deep_warm.wav", exaggeration=EX, cfg_weight=CFG)
+                w = m.generate(p, audio_prompt_path=REF, exaggeration=EX, cfg_weight=CFG)
                 dur = w.shape[-1] / m.sr; torchaudio.save(tmp, w, m.sr)
                 h = heard(tmp); score = difflib.SequenceMatcher(None, norm(p), norm(h)).ratio()
                 if dur > limit: score -= 0.3

@@ -1,0 +1,19 @@
+{
+ "job": "2026-11-25-fix",
+ "results": [
+  {
+   "name": "G5",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  },
+  {
+   "name": "Z6",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  }
+ ]
+}

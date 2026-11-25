@@ -1,0 +1,136 @@
+{
+ "images": [
+  {
+   "name": "CC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. wide shot. An empty golden Renaissance throne in a dark marble hall, surrounded by a tight circle of tall hooded figures in black robes whose faces are polished mirrors reflecting the throne. Surreal, eerie, striking, single shaft of light on the throne."
+  },
+  {
+   "name": "C2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. medium shot from behind. A Renaissance prince in a dark velvet doublet seen from behind, standing at the head of a long candle-lit council table lined with empty high-backed chairs, Florentine palace interior."
+  },
+  {
+   "name": "C3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. close-up. Two golden chess kings on a dark wooden chessboard: one surrounded by tall sturdy white pieces standing guard, the other surrounded by toppled, cracked pieces. Candlelight, shallow depth of field."
+  },
+  {
+   "name": "C4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. close-up. Three antique brass astrolabes on a Renaissance desk: one bright and polished, one dull, one broken and rusted, warm candlelight from the side."
+  },
+  {
+   "name": "C5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. medium shot. A Renaissance scholar's study with an old leather book open on a lectern beside a quill and a single burning candle, dark wood shelves of books behind, moody light."
+  },
+  {
+   "name": "C6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. close-up. A gilded Venetian carnival mask with a sweet smile lying on dark red velvet, a thin crack running through it, dramatic candlelight. Symbolic."
+  },
+  {
+   "name": "C7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, rich color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. Only the described subject. wide shot from behind. A Renaissance ruler seen from behind sitting in a small quiet candle-lit chamber facing three advisors in plain dark robes, all seen from far away, their faces in shadow, an intimate serious meeting."
+  },
+  {
+   "name": "GC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. wide shot at night. A gigantic golden statue of a Babylonian goddess with an open palm extended toward the desert, holding a glowing golden key, and at her feet a tiny man asleep on a reed mat with his back to her. Starry sky, surreal and striking."
+  },
+  {
+   "name": "G2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. medium shot. A small group of Babylonian men in linen robes seated on stone benches in a torch-lit temple courtyard at dusk, seen from behind and from far away, listening to an older teacher. Faces not visible."
+  },
+  {
+   "name": "G3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. close-up. Ancient knucklebone dice and a few silver coins scattered on a worn wooden table in a dim Babylonian tavern, one torch glowing in the background."
+  },
+  {
+   "name": "G4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. wide shot at night. A large flock of sheep resting in a moonlit pasture outside the walls of Babylon, a single shepherd's torch glowing at the gate, peaceful and blue."
+  },
+  {
+   "name": "G5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. wide shot at sunrise. The same pasture crowded with many merchants in colorful robes around the flock, seen from far away, dust and golden morning light."
+  },
+  {
+   "name": "G6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. close-up. An empty wooden sheep pen with an open gate at dawn, footprints in the dust leading away, a single coin pouch left on the fence post."
+  },
+  {
+   "name": "G7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. low angle. A towering golden goddess statue in a Babylonian temple turning her face away, golden light behind her, a closed bronze door at her feet. Majestic and cold."
+  },
+  {
+   "name": "ZC",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Chinese shan shui ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Chinese characters, no calligraphy, no signature, no seal stamp, no frame. A large ox drawn in a few flowing brush strokes, and across it the faint glowing lines of its inner joints and gaps like a map, a small cleaver floating beside it. Surreal and elegant."
+  },
+  {
+   "name": "Z2",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Chinese shan shui ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Chinese characters, no calligraphy, no signature, no seal stamp, no frame. An ancient Chinese cook in a simple robe moving gracefully beside a great ox in a palace kitchen, like a dancer, sleeves flowing, a lord watching from a distant pavilion."
+  },
+  {
+   "name": "Z3",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Chinese shan shui ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Chinese characters, no calligraphy, no signature, no seal stamp, no frame. A simple ancient Chinese cleaver resting on a wooden block, its edge shining, a single red ribbon tied to its handle."
+  },
+  {
+   "name": "Z4",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Chinese shan shui ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Chinese characters, no calligraphy, no signature, no seal stamp, no frame. A whetstone and an old cleaver lying beside a pile of tiny distant oxen silhouettes fading into mist, suggesting many years passing, falling plum blossoms."
+  },
+  {
+   "name": "Z5",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Chinese shan shui ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Chinese characters, no calligraphy, no signature, no seal stamp, no frame. A thin bright blade sliding through a soft open gap between two rounded shapes like river stones, water flowing through the space. Abstract and calm."
+  },
+  {
+   "name": "Z6",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Chinese shan shui ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Chinese characters, no calligraphy, no signature, no seal stamp, no frame. An old cook bent forward, eyes narrowed, moving his blade very slowly and carefully, a single bead of sweat, quiet concentration."
+  },
+  {
+   "name": "Z7",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Chinese shan shui ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Chinese characters, no calligraphy, no signature, no seal stamp, no frame. A Chinese lord in flowing robes sitting under a pine tree by a river, looking peaceful and thoughtful, a teacup beside him."
+  },
+  {
+   "name": "Z8",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Chinese shan shui ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Chinese characters, no calligraphy, no signature, no seal stamp, no frame. Wood grain of an old tree trunk drawn as flowing ink lines, a small boat following the curve of a river through mountains in the distance."
+  }
+ ]
+}

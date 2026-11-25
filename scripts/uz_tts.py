@@ -37,6 +37,8 @@ for job in sorted(glob.glob("bebold/voice/uz_jobs/*.txt")):
             tmp = f"{od}/_try.wav"; torchaudio.save(tmp, w, eng.sr)
             segs, _ = asr.transcribe(tmp, beam_size=5, language="uz"); heard = " ".join(s.text for s in segs).strip()
             sc = difflib.SequenceMatcher(None, letters(line), letters(heard)).ratio()
+            extra = len(heard.split()) - len(line.split())
+            if extra > 0: sc -= 0.08 * extra
             dur = w.shape[-1] / eng.sr
             if dur > 0.6 * len(line.split()) + 1.5: sc -= 0.3
             if best is None or sc > best[0]: best = (sc, w, heard, k + 1)

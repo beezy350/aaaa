@@ -1,7 +1,0 @@
-#ex=0.5 cfg=0.5 seed=1234 ref=bebold/voice/ref_janob_en_clean.wav
-Har bir chempion bir paytlar taslim bo'lmagan bola edi.
-Men o'g'limni boks bilan shug'ullantira boshladim.
-Chunki boks menga intizom, hurmat va sabrni o'rgatdi.
-Ba'zi kunlar qiyin bo'ladi.
-Biz baribir mashg'ulotlarga kelamiz.
-Haqiqiy erkak shunday tarbiyalanadi.

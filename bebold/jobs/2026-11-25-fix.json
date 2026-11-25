@@ -1,0 +1,16 @@
+{
+ "images": [
+  {
+   "name": "G5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps. No people unless described. wide shot at sunrise outside the mud-brick walls of Babylon, a stepped ziggurat temple far behind, no pyramids. A pasture crowded with many merchants in colorful robes around the flock, seen from far away, dust and golden morning light."
+  },
+  {
+   "name": "Z6",
+   "engine": "cloudflare",
+   "size": "1024x1024",
+   "prompt": "Traditional Chinese shan shui ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Chinese characters, no calligraphy, no signature, no seal stamp, no frame. An ancient Chinese cook from 2,300 years ago in a loose traditional hanfu robe with wide sleeves and a topknot, bent forward over a carving block, eyes narrowed, moving his blade very slowly and carefully, a single bead of sweat, quiet concentration."
+  }
+ ]
+}

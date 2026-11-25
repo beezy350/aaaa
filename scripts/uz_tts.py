@@ -3,25 +3,20 @@
 # Jobs: bebold/voice/uz_jobs/<name>.txt  (optional header "#ref=... ex=0.5 cfg=0.5 seed=1234"; one sentence per line)
 # Output: bebold/voice/uz_out/<name>/s<n>.wav + qa.json (Whisper 'uz' transcript per line for a rough check)
 import os, re, sys, glob, json, time, difflib, torch, torchaudio
-sys.path.insert(0, "chatterbox-finetuning"); os.chdir("chatterbox-finetuning")
+ROOT = os.path.abspath("."); sys.path.insert(0, os.path.join(ROOT, "chatterbox-finetuning")); os.chdir(os.path.join(ROOT, "chatterbox-finetuning"))
 from src.config import TrainConfig
 from src.chatterbox_.tts import ChatterboxTTS
 from src.model import resize_and_load_t3_weights
 from src.chatterbox_.models.t3.t3 import T3
-from peft import LoraConfig, get_peft_model
-from safetensors.torch import load_file
+from peft import PeftModel
 cfg = TrainConfig()
 eng = ChatterboxTTS.from_local(cfg.model_dir, device="cpu")
 hp = eng.t3.hp; hp.text_tokens_dict_size = cfg.new_vocab_size
 t3 = resize_and_load_t3_weights(T3(hp=hp), eng.t3.state_dict())
-peft_cfg = LoraConfig(r=128, lora_alpha=256, target_modules=["q_proj","k_proj","v_proj","o_proj","gate_proj","up_proj","down_proj","spkr_enc"],
-                      lora_dropout=0.05, bias="none", modules_to_save=["text_emb","text_head"])
-model = get_peft_model(t3, peft_cfg)
-sd = load_file("../uz_adapter/adapter_model.safetensors")
-missing, unexpected = model.load_state_dict(sd, strict=False)
-print("adapter missing", len(missing), "unexpected", len(unexpected), flush=True)
+assert not cfg.is_turbo and cfg.new_vocab_size == 2454, (cfg.is_turbo, cfg.new_vocab_size)
+model = PeftModel.from_pretrained(t3, os.path.join(ROOT, "uz_adapter"), is_trainable=False)   # loads LoRA + text_emb/text_head
 eng.t3 = model.merge_and_unload().eval()
-os.chdir("..")
+os.chdir(ROOT)
 from faster_whisper import WhisperModel
 asr = WhisperModel("small", device="cpu", compute_type="int8")
 def norm_ap(t): return re.sub("[ʻʼ‘’`]", "'", t)
@@ -38,7 +33,7 @@ for job in sorted(glob.glob("bebold/voice/uz_jobs/*.txt")):
         best = None
         for k in range(4):
             torch.manual_seed(SEED + k)
-            w = eng.generate(norm_ap(line), audio_prompt_path=REF, exaggeration=EX, cfg_weight=CFG)
+            w = eng.generate(norm_ap(line), audio_prompt_path=REF, exaggeration=EX, cfg_weight=CFG, temperature=0.8, repetition_penalty=2.0)
             tmp = f"{od}/_try.wav"; torchaudio.save(tmp, w, eng.sr)
             segs, _ = asr.transcribe(tmp, beam_size=5, language="uz"); heard = " ".join(s.text for s in segs).strip()
             sc = difflib.SequenceMatcher(None, letters(line), letters(heard)).ratio()

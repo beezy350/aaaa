@@ -22,6 +22,7 @@ jobs:
           pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
           pip install -q -r chatterbox-finetuning/requirements.txt || true
           pip install -q peft safetensors faster-whisper huggingface_hub
+          sed -i 's/is_turbo: bool = True/is_turbo: bool = False/' chatterbox-finetuning/src/config.py
           cd chatterbox-finetuning && python setup.py && cd ..
           python -c "from huggingface_hub import hf_hub_download as d; [d('UAzimov/Uzbek-tts-chatterbox', f, local_dir='uz_adapter') for f in ['adapter_model.safetensors','adapter_config.json']]"
           ls chatterbox-finetuning chatterbox-finetuning/pretrained_models | head -40

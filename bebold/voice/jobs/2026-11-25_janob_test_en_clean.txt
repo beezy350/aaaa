@@ -1,0 +1,5 @@
+#ex=0.5 cfg=0.5 seed=1234 ref=bebold/voice/ref_janob_en_clean.wav
+Every champion was once a kid nobody had heard of.
+Bakhodir Jalolov grew up in Uzbekistan and became a giant of the ring.
+Two Olympic gold medals. Tokyo, then Paris.
+This is the story of the quiet heavyweight.

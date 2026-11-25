@@ -19,5 +19,5 @@ adynamicequalizer=dfrequency=6500:dqfactor=1.5:tfrequency=6500:tqfactor=1.2:thre
 deesser=i=0.8:m=0.7:f=0.6,\
 lowpass=f=11500,\
 acompressor=threshold=-26dB:ratio=4:attack=6:release=90:makeup=3,\
-alimiter=limit=0.9:attack=3:release=40,\
-loudnorm=I=-11:TP=-1.0:LRA=4" -ar 48000 -ac 1 "$OUT"
+alimiter=level_in=2.2:limit=0.89:attack=2:release=50,\
+loudnorm=I=-14:TP=-2:LRA=4,volume=3.4dB,alimiter=limit=0.89:attack=1:release=30:level=disabled" -ar 48000 -ac 1 "$OUT"

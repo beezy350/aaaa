@@ -26,7 +26,7 @@ for job in sorted(glob.glob("bebold/voice/jobs/*.txt")):
     if os.path.exists(f"{od}/done.txt"): continue
     os.makedirs(od, exist_ok=True); t0 = time.time(); report = []
     lines = [l.strip() for l in open(job) if l.strip()]
-    EX, CFG, SEED = 0.85, 0.6, 1234          # default = B2: energetic, steady (owner's pick, Nov 18)
+    EX, CFG, SEED = 0.75, 0.4, 1234          # default = Be Bold voice (owner: "This is Best", Nov 25): a little more personality, not jerky
     REF = "bebold/voice/ref_deep_warm.wav"   # header ref=<path> switches the cloned voice (e.g. owner's own voice)
     if lines and lines[0].startswith('#'):    # optional per-job header, e.g. "#ex=0.95 cfg=0.5"
         hdr = dict(kv.split('=') for kv in lines.pop(0)[1:].split()); EX = float(hdr.get('ex', EX)); CFG = float(hdr.get('cfg', CFG)); SEED = int(hdr.get('seed', SEED)); REF = hdr.get('ref', REF)

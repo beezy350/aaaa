@@ -15,7 +15,7 @@ for f in sorted(glob.glob(f'{d}/s*_*.wav')):
     loud = float(np.percentile(rms, 95) / max(np.median(rms), 1e-6))  # loudness peaks vs median
     med = float(np.median(f0))
     bad = []
-    if spread > 17: bad.append('pitch range too wide (emotional)')
+    if spread > 18.5: bad.append('pitch range too wide (emotional)')
     if jumps > 0.07: bad.append('sudden pitch jumps (synthetic/wobbly)')
     if loud > 2.6: bad.append('shouted / uneven loudness')
     if med > 140: bad.append('pitch too high for the deep voice')

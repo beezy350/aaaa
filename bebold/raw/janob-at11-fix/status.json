@@ -1,0 +1,12 @@
+{
+ "job": "janob-at11-fix",
+ "results": [
+  {
+   "name": "A4",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  }
+ ]
+}

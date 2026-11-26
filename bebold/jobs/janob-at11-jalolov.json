@@ -1,0 +1,40 @@
+{
+ "images": [
+  {
+   "name": "A1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, Central Asia mid-2000s, warm golden color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, flags or watermarks. Faces not visible or in deep shadow. Only the described subject. wide shot at dawn. A dusty road in a small mountain town in southern Uzbekistan, a broad-shouldered father and a tall skinny 11-year-old boy seen from behind walking toward a plain old Soviet-era sports school building, mountains behind."
+  },
+  {
+   "name": "A2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, Central Asia mid-2000s, warm golden color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, flags or watermarks. Faces not visible or in deep shadow. Only the described subject. medium shot. A tall skinny 11-year-old boy in a faded t-shirt kicking a worn leather football in a dusty schoolyard, seen from the side in motion, sun flare."
+  },
+  {
+   "name": "A3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, Central Asia mid-2000s, warm golden color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, flags or watermarks. Faces not visible or in deep shadow. Only the described subject. medium shot from behind. A broad-shouldered former wrestler father in a simple jacket with one hand on his tall son's shoulder, both facing an open door of an old boxing gym with light spilling out."
+  },
+  {
+   "name": "A4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, Central Asia mid-2000s, warm golden color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, flags or watermarks. Faces not visible or in deep shadow. Only the described subject. medium shot. Inside a worn old boxing gym with patched leather heavy bags hanging from chains, a tall skinny boy seen from behind lacing old red boxing gloves, dust in the light beams."
+  },
+  {
+   "name": "A5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, Central Asia mid-2000s, warm golden color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, flags or watermarks. Faces not visible or in deep shadow. Only the described subject. wide shot. A towering heavyweight boxer seen from behind as a dark silhouette standing in the center of a boxing ring under bright stadium lights, smoke in the air, huge dark arena."
+  },
+  {
+   "name": "A6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, Central Asia mid-2000s, warm golden color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, flags or watermarks. Faces not visible or in deep shadow. Only the described subject. close-up. A gold medal with a ribbon hanging on a boxing ring rope, blurred stadium lights glowing behind, shallow depth of field, no symbols or logos on the medal."
+  }
+ ]
+}

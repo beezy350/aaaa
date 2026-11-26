@@ -1,0 +1,16 @@
+{
+ "images": [
+  {
+   "name": "ZC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Chinese ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no characters, no calligraphy, no signature, no seal stamp, no frame. ONE single ox with exactly one head, one tail and four legs, standing in clean side profile facing left, anatomically correct, with thin faint vermilion lines tracing the natural gaps between its joints like a hidden map, an old butcher's knife lying on the ground in front of it. Surreal, calm, striking."
+  },
+  {
+   "name": "ZC2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Chinese ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no characters, no calligraphy, no signature, no seal stamp, no frame. ONE single ox with exactly one head, one tail and four legs, standing in clean side profile facing right, anatomically correct, with thin faint vermilion lines tracing the natural gaps between its joints like a hidden map, an old butcher's knife lying on the ground in front of it. Surreal, calm, striking."
+  }
+ ]
+}

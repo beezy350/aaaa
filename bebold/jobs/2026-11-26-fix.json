@@ -1,0 +1,23 @@
+{
+ "images": [
+  {
+   "name": "JC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no red square, no frame. A Buddhist Zen monk with a completely shaved bald head, in plain dark robes, seated in silence before a single black lacquer bowl, head bowed, alone in an empty temple hall, surreal and serene."
+  },
+  {
+   "name": "J2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no red square, no frame. A Buddhist monk with a completely shaved bald head, in plain dark robes, seated at the edge of a still pond, looking down at his clear reflection in the water."
+  },
+  {
+   "name": "J5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no red square, no frame. A Buddhist monk with a completely shaved bald head, in plain dark robes, seen from behind with a walking staff, climbing a mountain path toward a small temple in the mist."
+  }
+ ],
+ "out": "2026-11-26-fix"
+}

@@ -1,0 +1,136 @@
+{
+ "images": [
+  {
+   "name": "MC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs. Only the described subject. wide shot at night. A lone Renaissance man in a dark scholar's robe, seen from behind, stepping through the doorway of a candle-lit stone farmhouse, a muddy work cloak dropped on the floor behind him, ahead a long table of ancient leather-bound books glowing in golden light. Surreal, striking."
+  },
+  {
+   "name": "M2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs. Only the described subject. wide shot at dusk. A small stone farmhouse among olive groves and cypress trees on Tuscan hills, the skyline of Florence with its great cathedral dome faint on the far horizon, stormy sky."
+  },
+  {
+   "name": "M3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs. Only the described subject. medium shot. A rustic Renaissance country inn, rough wooden tables, clay cups, a few peasants in wool tunics seen from behind crowded around a game on a table, firelight. Faces not visible."
+  },
+  {
+   "name": "M4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs. Only the described subject. close-up. A pair of muddy leather boots and a dirt-covered wool cloak dropped on a worn stone threshold, warm candlelight spilling from the room beyond."
+  },
+  {
+   "name": "M5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs. Only the described subject. medium shot from behind. A Renaissance man in a rich crimson velvet court robe seated at a wooden desk stacked with closed leather-bound books, a marble bust of a Roman emperor in the shadows, candlelight."
+  },
+  {
+   "name": "M6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs. Only the described subject. close-up. An hourglass and a single tall candle beside a stack of closed leather-bound books on a dark wooden desk at night, calm and peaceful mood."
+  },
+  {
+   "name": "M7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs. Only the described subject. close-up. A small hand-bound manuscript tied with a leather cord resting on a Renaissance wooden desk beside a goose quill and inkwell, first light of dawn through a window."
+  },
+  {
+   "name": "BC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. No people unless described. wide shot at night. A Babylonian man in a linen robe seen from behind standing before a glowing pile of gold coins on a stone table, his long torch-lit shadow on the mud-brick wall splitting into several shadowy figures that lean toward the gold. Surreal, striking."
+  },
+  {
+   "name": "B2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. No people unless described. medium shot. A row of bronze spearheads with a new elegant point design displayed on a wooden rack in an ancient Babylonian armory, torchlight, round bronze shields in the background."
+  },
+  {
+   "name": "B3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. No people unless described. medium shot. A Babylonian woman in a long linen dress and headscarf talking earnestly with a young man in a mud-brick house courtyard at dusk, torchlight, faces in soft shadow."
+  },
+  {
+   "name": "B4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. No people unless described. wide shot at evening. A narrow street of mud-brick houses in ancient Babylon leading to a modest house with a carved cedar door, a lone young man in a robe walking toward it, blue glazed brick gate faint in the distance."
+  },
+  {
+   "name": "B5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. No people unless described. close-up. An open cedar wood chest filled with small pledge tokens: a bronze neck-piece, a carved ox-bone ring, a turquoise scarab beetle, small bronze bracelets, lit by warm torchlight."
+  },
+  {
+   "name": "B6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. No people unless described. close-up. A few dusty bronze trinkets left alone at the bottom of an old cedar chest in deep shadow, cobwebs, a single beam of light."
+  },
+  {
+   "name": "B7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. No people unless described. medium shot. An older Babylonian money lender with a grey beard, seen in profile, seated on a cushion beside a closed cedar chest in a dim room, calm and wise, warm golden torchlight."
+  },
+  {
+   "name": "JC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no frame. A Zen monk in simple robes seated in silence before a single black lacquer bowl, head bowed, alone in an empty temple hall, surreal and serene."
+  },
+  {
+   "name": "J1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no frame. Terraced rice fields on misty hills with tiny farmers bent at work, a distant thatched village with smoke rising."
+  },
+  {
+   "name": "J2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no frame. A monk seated at the edge of a still pond looking down at his own reflection in the water."
+  },
+  {
+   "name": "J3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no frame. A single bowl of rice with chopsticks resting across it, one small red maple leaf beside it."
+  },
+  {
+   "name": "J4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no frame. A clay pot of herbal broth steaming over a small charcoal brazier, gentle steam curling upward."
+  },
+  {
+   "name": "J5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no frame. A monk with a walking staff on a mountain path climbing toward a small temple in the mist."
+  },
+  {
+   "name": "J6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no frame. A low wooden table set with several simple bowls, cushions around it, a sliding door open to a quiet winter garden."
+  },
+  {
+   "name": "J7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no frame. Bare winter tree branches with a single red persimmon hanging, distant mountains faint behind."
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "images": [
+  {
+   "name": "MC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects, no light bulbs. No gore, no blood, no bodies. Only the described subject. wide shot at dawn from behind. A Renaissance prince in black velvet stands on a stone palace balcony looking down at an empty fog-filled town square where a single wooden block stands alone on the cobblestones. Ominous, striking."
+  },
+  {
+   "name": "M2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects, no light bulbs. No gore, no blood, no bodies. Only the described subject. wide shot at dusk. Lawless Renaissance Italian countryside, a burned farmhouse smoking, distant riders on horseback on a hill, a frightened village in the valley."
+  },
+  {
+   "name": "M3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects, no light bulbs. No gore, no blood, no bodies. Only the described subject. medium shot from behind. A grim Renaissance official in dark armor and a long red cloak riding a black horse through the gate of a walled Italian hill town, cold light."
+  },
+  {
+   "name": "M4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects, no light bulbs. No gore, no blood, no bodies. Only the described subject. wide shot. A silent orderly Renaissance town street, wary townspeople in plain wool clothes seen from behind keeping their heads down, a guard in the distance, tense grey light."
+  },
+  {
+   "name": "M5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects, no light bulbs. No gore, no blood, no bodies. Only the described subject. medium shot. A young Renaissance prince in black velvet seated at a candlelit desk, his face turned away into deep shadow, a map of Italy blurred on the desk, scheming mood."
+  },
+  {
+   "name": "M6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects, no light bulbs. No gore, no blood, no bodies. Only the described subject. wide shot at dawn. An empty cobblestone town square in Renaissance Cesena, fog, a church facade in the distance, a wooden chopping block in the center with a dark-stained knife lying beside it on the stones. No people."
+  },
+  {
+   "name": "M7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects, no light bulbs. No gore, no blood, no bodies. Only the described subject. wide shot from behind. A crowd of Renaissance townspeople in wool cloaks standing frozen at the edge of a fog-filled square at dawn, some holding each other, faces not visible."
+  },
+  {
+   "name": "BC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. wide shot at night. The towering blue glazed-brick walls of ancient Babylon lit by fires, a vast shadowy army with torches massed below, one lone old guard standing on top of the wall as a silhouette. Epic, striking."
+  },
+  {
+   "name": "B2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. wide shot at dawn. A Babylonian army with spearmen and horse-drawn chariots marching away east across the desert, long dust cloud, city walls behind them."
+  },
+  {
+   "name": "B3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. wide shot. A huge Assyrian army with plain dark banners pouring over northern hills toward Babylon under a storm sky."
+  },
+  {
+   "name": "B4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. wide shot at night. Small defenders on top of Babylon's massive walls pushing scaling ladders away, arrows streaking through the air, smoke from burning oil, fires below."
+  },
+  {
+   "name": "B5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. medium shot. A frightened old Babylonian merchant in rich robes in a torch-lit empty market street at night, seen from the side, face in shadow, baskets of goods behind him."
+  },
+  {
+   "name": "B6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. medium shot in profile. An old grizzled warrior with a grey beard and a bronze helmet standing calm at the top of a stone stairway inside the city wall, spear upright, torchlight."
+  },
+  {
+   "name": "B7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon, warm gold and lapis-blue color grade, fine film grain. Keep the lower third darker and calm for text. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no light bulbs, no lamps, no pyramids. wide shot at sunrise. The intact walls of Babylon glowing gold, smoke clearing, an abandoned enemy camp far away on the plain, peaceful."
+  },
+  {
+   "name": "ZC",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Chinese ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no characters, no calligraphy, no signature, no seal stamp, no red square, no frame. A lone bare mountain covered in cut tree stumps, one small vermilion sapling sprouting bravely on its slope, mist around the base. Surreal and striking."
+  },
+  {
+   "name": "Z1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Chinese ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no characters, no calligraphy, no signature, no seal stamp, no red square, no frame. A lush forested mountain beside an ancient walled Chinese city, pine trees thick on the slopes."
+  },
+  {
+   "name": "Z2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Chinese ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no characters, no calligraphy, no signature, no seal stamp, no red square, no frame. Tiny woodcutters with axes felling pine trees on a mountain slope, falling trunks, distant city walls."
+  },
+  {
+   "name": "Z3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Chinese ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no characters, no calligraphy, no signature, no seal stamp, no red square, no frame. Soft rain and mist over a mountain slope of old stumps with tiny new buds sprouting between them, one bud touched with vermilion."
+  },
+  {
+   "name": "Z4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Chinese ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no characters, no calligraphy, no signature, no seal stamp, no red square, no frame. A small herd of goats with an ox grazing on young shoots on a bare hillside, each animal with one head and four legs."
+  },
+  {
+   "name": "Z5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Chinese ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no characters, no calligraphy, no signature, no seal stamp, no red square, no frame. Two travelers in ancient Chinese robes with walking sticks on a path, looking up at a bare treeless mountain."
+  },
+  {
+   "name": "Z6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Chinese ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no characters, no calligraphy, no signature, no seal stamp, no red square, no frame. An old scholar in ancient Chinese robes seated beneath a single pine tree, contemplating a distant mountain."
+  },
+  {
+   "name": "Z7",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Chinese ink wash painting on aged cream rice paper, expressive black ink brush strokes, soft grey washes, exactly one small accent of vermilion red, generous empty paper around the subject, the painting fades softly into blank paper at every edge. No text, no letters, no characters, no calligraphy, no signature, no seal stamp, no red square, no frame. A young strong pine tree growing from an old cut stump on a mountainside, a small vermilion sun in the sky."
+  }
+ ]
+}

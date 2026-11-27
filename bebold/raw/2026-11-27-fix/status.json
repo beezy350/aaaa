@@ -1,0 +1,12 @@
+{
+ "job": "2026-11-27-fix",
+ "results": [
+  {
+   "name": "Z4",
+   "quality": "medium",
+   "ok": true,
+   "model": "cf/flux-2-klein-4b",
+   "usage": null
+  }
+ ]
+}

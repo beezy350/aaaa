@@ -1,0 +1,40 @@
+{
+ "images": [
+  {
+   "name": "S1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, dark moody boxing gym, dramatic rim light, smoke haze, fine film grain, teal and amber color grade. No text, letters, numbers, logos, posters or watermarks. Faces in shadow or not visible. wide shot. A row of five boxers seen from behind as dark silhouettes shadowboxing in a line in a smoky gym, all in the same stance with the left foot forward, strong backlight from tall windows."
+  },
+  {
+   "name": "S2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, dark moody boxing gym, dramatic rim light, smoke haze, fine film grain, teal and amber color grade. No text, letters, numbers, logos, posters or watermarks. Faces in shadow or not visible. low angle full body. A towering heavyweight boxer seen from behind as a powerful silhouette standing in the center of a boxing ring, gloves up in fighting stance, smoke, single spotlight from above, huge empty dark arena. Anatomically correct, two arms, two legs."
+  },
+  {
+   "name": "S3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, dark moody boxing gym, dramatic rim light, smoke haze, fine film grain, teal and amber color grade. No text, letters, numbers, logos, posters or watermarks. Faces in shadow or not visible. close-up. A single red leather boxing glove punching straight toward the camera, motion blur streaks, sweat droplets frozen in the air, black background, rim light."
+  },
+  {
+   "name": "S4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, dark moody boxing gym, dramatic rim light, smoke haze, fine film grain, teal and amber color grade. No text, letters, numbers, logos, posters or watermarks. Faces in shadow or not visible. close-up. Two gold medals with ribbons hanging side by side from the top rope of a boxing ring, glowing arena lights blurred behind, no symbols or logos on the medals."
+  },
+  {
+   "name": "S5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, dark moody boxing gym, dramatic rim light, smoke haze, fine film grain, teal and amber color grade. No text, letters, numbers, logos, posters or watermarks. Faces in shadow or not visible. wide shot. A boxer backed into a ring corner seen from behind as a silhouette, an opponent's tall shadow falling across him, harsh top light, tension."
+  },
+  {
+   "name": "S6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, dark moody boxing gym, dramatic rim light, smoke haze, fine film grain, teal and amber color grade. No text, letters, numbers, logos, posters or watermarks. Faces in shadow or not visible. close-up from the side. Boxing hand wraps being tightened around a fist, chalk dust in a beam of light, dark background. One hand only, anatomically correct."
+  }
+ ]
+}

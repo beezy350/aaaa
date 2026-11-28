@@ -1,0 +1,26 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "The story goes that a shogun sent a broken bowl to China for repair.",
+  "heard": "The story goes that a shogun sent a broken bowl to China for repair.",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 2.87
+ },
+ {
+  "clip": "s2_1",
+  "script": "The break became part of its story.",
+  "heard": "The break became part of its story.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 3.04
+ },
+ {
+  "clip": "s3_1",
+  "script": "Your gold labors diligently and contentedly for the wise owner who finds it profitable work.",
+  "heard": "diligently and contentedly for the wise owner who finds it profitable work.",
+  "score": 0.9,
+  "tries": 2,
+  "spike": 2.16
+ }
+]

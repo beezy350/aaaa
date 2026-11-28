@@ -1,0 +1,112 @@
+{
+ "images": [
+  {
+   "name": "RM1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects. Faces in shadow. Anatomically correct people and horses. wide shot. A Renaissance prince in black seen from behind on a castle wall at dusk watching a camp of hired soldiers below, campfires, banners without symbols."
+  },
+  {
+   "name": "RM2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects. Faces in shadow. Anatomically correct people and horses. medium shot. Renaissance mercenary soldiers in mismatched armor counting coins at a wooden camp table by firelight, seen from the side, faces in shadow."
+  },
+  {
+   "name": "RM3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects. Faces in shadow. Anatomically correct people and horses. close-up. A pile of silver coins and a sheathed sword on a rough wooden table, candlelight, dark background."
+  },
+  {
+   "name": "RM4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects. Faces in shadow. Anatomically correct people and horses. wide shot. Mercenaries in armor laughing and drinking in a tavern courtyard, a tense empty road leading away into fog behind them."
+  },
+  {
+   "name": "RM5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects. Faces in shadow. Anatomically correct people and horses. wide shot at dawn. An empty battlefield camp with abandoned tents, a dropped banner without symbols, and distant figures fleeing over a hill."
+  },
+  {
+   "name": "RM6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, anamorphic lens, Renaissance Italy, rich warm color grade, fine film grain. No text, letters, numbers, logos, coats of arms or watermarks. No visible hands. No modern objects. Faces in shadow. Anatomically correct people and horses. medium shot from behind. A lone Renaissance man standing at a window at night looking out over a city, thoughtful, candlelight behind him."
+  },
+  {
+   "name": "RB1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon and Mesopotamia, warm gold and lapis-blue color grade, fine film grain. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no lamps, no pyramids. Faces in shadow. Anatomically correct people and animals. wide shot. A young man in a linen robe seen from behind at an ancient horse race track outside a Mesopotamian city, dust, a white horse running far behind the others."
+  },
+  {
+   "name": "RB2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon and Mesopotamia, warm gold and lapis-blue color grade, fine film grain. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no lamps, no pyramids. Faces in shadow. Anatomically correct people and animals. medium shot. A young man sitting alone with his head down outside a closed merchant stall in an ancient market at dusk, empty purse beside him."
+  },
+  {
+   "name": "RB3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon and Mesopotamia, warm gold and lapis-blue color grade, fine film grain. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no lamps, no pyramids. Faces in shadow. Anatomically correct people and animals. close-up. An ancient clay tablet covered in neat rows of small indented marks resting on a leather pouch of gold coins, warm torchlight. The marks are abstract dots and lines, not letters."
+  },
+  {
+   "name": "RB4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon and Mesopotamia, warm gold and lapis-blue color grade, fine film grain. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no lamps, no pyramids. Faces in shadow. Anatomically correct people and animals. close-up. A small heap of gold coins sitting still in dust on a dark stone shelf, a single beam of light, stillness."
+  },
+  {
+   "name": "RB5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon and Mesopotamia, warm gold and lapis-blue color grade, fine film grain. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no lamps, no pyramids. Faces in shadow. Anatomically correct people and animals. wide shot. A flock of sheep spreading across green fields beside the Euphrates river at golden hour, a shepherd tiny in the distance."
+  },
+  {
+   "name": "RB6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Babylon and Mesopotamia, warm gold and lapis-blue color grade, fine film grain. No text, letters, numbers, symbols, carvings, inscriptions, logos or watermarks. No visible hands. No modern objects, no lamps, no pyramids. Faces in shadow. Anatomically correct people and animals. medium shot. A wise old Babylonian merchant seen in profile under an arch, holding a small bag of gold up to the light, evening sun."
+  },
+  {
+   "name": "RJ1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one accent of shimmering gold, generous empty paper, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no red square, no frame. A cracked ceramic tea bowl with its crack lines filled with shining gold, resting on a plain mat."
+  },
+  {
+   "name": "RJ2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one accent of shimmering gold, generous empty paper, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no red square, no frame. A craftsman with a shaved head seen from behind, bent over a low table, carefully painting a line on a broken bowl."
+  },
+  {
+   "name": "RJ3",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one accent of shimmering gold, generous empty paper, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no red square, no frame. Pieces of a broken tea bowl laid out on a cloth, delicate and still."
+  },
+  {
+   "name": "RJ4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one accent of shimmering gold, generous empty paper, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no red square, no frame. An old Japanese wooden ship with a single sail crossing a misty sea toward distant mountains."
+  },
+  {
+   "name": "RJ5",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one accent of shimmering gold, generous empty paper, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no red square, no frame. A tea bowl held together by crude metal staples, viewed from the side, plain and harsh."
+  },
+  {
+   "name": "RJ6",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one accent of shimmering gold, generous empty paper, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no red square, no frame. A single tea bowl with flowing golden seams glowing softly in empty space, serene."
+  }
+ ]
+}

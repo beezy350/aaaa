@@ -1,0 +1,28 @@
+{
+ "images": [
+  {
+   "name": "RB1",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Mesopotamia, warm gold and lapis-blue color grade, fine film grain. No text, letters, numbers, symbols, logos or watermarks. No pyramids, no Egypt, no modern objects, no metal shutters, no doors with rolling shutters. Faces in shadow. Anatomically correct people and horses. wide shot. A dusty horse race on a dirt track outside the mud-brick walls of an ancient Mesopotamian city with a stepped ziggurat, riders on horses, one white horse trailing far behind, a lone young man in a linen robe watching from behind."
+  },
+  {
+   "name": "RB2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Vertical cinematic film still, photorealistic, ancient Mesopotamia, warm gold and lapis-blue color grade, fine film grain. No text, letters, numbers, symbols, logos or watermarks. No pyramids, no Egypt, no modern objects, no metal shutters, no doors with rolling shutters. Faces in shadow. Anatomically correct people and horses. medium shot. A young man in a linen robe sitting alone with his head down on stone steps of a mud-brick ancient market at dusk, an empty leather purse beside him, woven baskets and clay jars around."
+  },
+  {
+   "name": "RJ2",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one accent of shimmering gold, generous empty paper, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no frame. A craftsman with a shaved head kneeling at a low table, seen from the side, holding a fine brush and tracing a thin gold line along the crack of a broken ceramic bowl."
+  },
+  {
+   "name": "RJ4",
+   "engine": "cloudflare",
+   "size": "1024x1536",
+   "prompt": "Traditional Japanese sumi-e ink wash painting on aged cream washi paper, expressive black ink brush strokes, soft grey washes, exactly one accent of shimmering gold, generous empty paper, the painting fades softly into blank paper at every edge. No text, no letters, no Japanese characters, no calligraphy, no signature, no seal stamp, no frame. A traditional Japanese wooden junk ship with a ribbed batten sail crossing a misty sea toward distant mountains."
+  }
+ ]
+}

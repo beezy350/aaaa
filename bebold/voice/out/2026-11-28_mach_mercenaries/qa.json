@@ -1,0 +1,74 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "Machiavelli warned princes about one kind of army.",
+  "heard": "Machiavelli warned princes about one kind of army.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.98
+ },
+ {
+  "clip": "s2_1",
+  "script": "Soldiers who fight only for pay.",
+  "heard": "Soldiers who fight only for pay.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.85
+ },
+ {
+  "clip": "s3_1",
+  "script": "He called them useless and dangerous.",
+  "heard": "He called them useless and dangerous.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.16
+ },
+ {
+  "clip": "s4_1",
+  "script": "Valiant before friends.",
+  "heard": "Valiant Before Friends",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 1.62
+ },
+ {
+  "clip": "s4_2",
+  "script": "Cowardly before enemies.",
+  "heard": "Cowardly before enemies.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.64
+ },
+ {
+  "clip": "s5_1",
+  "script": "They stay while there is no war.",
+  "heard": "They stay while there is no war.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.95
+ },
+ {
+  "clip": "s6_1",
+  "script": "When war comes, they run.",
+  "heard": "When war comes, they run.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.12
+ },
+ {
+  "clip": "s7_1",
+  "script": "Look around your own life.",
+  "heard": "look around your own life.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.84
+ },
+ {
+  "clip": "s8_1",
+  "script": "Who stays only because it pays?",
+  "heard": "Who stays only because it pays?",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 2.23
+ }
+]

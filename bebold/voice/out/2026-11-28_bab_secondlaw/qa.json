@@ -1,0 +1,74 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "Arkad's son lost his father's gold on a rigged horse race.",
+  "heard": "Arkad's son lost his father's gold on a rigged horse race.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.17
+ },
+ {
+  "clip": "s2_1",
+  "script": "Then he lost more to a bad partner.",
+  "heard": "Then he lost more to a bad partner.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.98
+ },
+ {
+  "clip": "s3_1",
+  "script": "But his father had given him a clay tablet carved with five laws.",
+  "heard": "but his father had given him a clay tablet carved with five laws.",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 2.61
+ },
+ {
+  "clip": "s4_1",
+  "script": "The second law said this.",
+  "heard": "The second law said this.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.06
+ },
+ {
+  "clip": "s5_1",
+  "script": "Gold labors diligently and contentedly for the wise owner who finds it profitable work.",
+  "heard": "old labors diligently and contentedly for the wise owner who finds it profitable work.",
+  "score": 0.993,
+  "tries": 1,
+  "spike": 3.05
+ },
+ {
+  "clip": "s6_1",
+  "script": "Money sitting still does nothing.",
+  "heard": "Money sitting still does nothing.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.09
+ },
+ {
+  "clip": "s7_1",
+  "script": "Money put to wise work multiplies, like flocks in the field.",
+  "heard": "Money put to wise work multiplies, like flocks in the field.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.42
+ },
+ {
+  "clip": "s8_1",
+  "script": "So ask yourself.",
+  "heard": "So ask yourself,",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 2.65
+ },
+ {
+  "clip": "s8_2",
+  "script": "Is your gold working, or sleeping?",
+  "heard": "Is your gold working or sleeping?",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.58
+ }
+]

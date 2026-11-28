@@ -1,0 +1,74 @@
+[
+ {
+  "clip": "s1_1",
+  "script": "In Japan, when a bowl breaks, some craftsmen do not hide the crack.",
+  "heard": "In Japan, when a bowl breaks, some craftsmen do not hide the crack.",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 3.2
+ },
+ {
+  "clip": "s2_1",
+  "script": "They fill it with lacquer and gold.",
+  "heard": "They fill it with lacquer and gold.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.01
+ },
+ {
+  "clip": "s3_1",
+  "script": "It is called kintsugi.",
+  "heard": "It is called Kintsugi.",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 1.91
+ },
+ {
+  "clip": "s4_1",
+  "script": "The story goes that a shogun sent a broken tea bowl to China for repair.",
+  "heard": "The story goes that a shogun sent a broken t-bull to China for repair,",
+  "score": 0.946,
+  "tries": 4,
+  "spike": 3.1
+ },
+ {
+  "clip": "s5_1",
+  "script": "It came back held together with ugly metal staples.",
+  "heard": "It came back held together with ugly metal staples.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 1.97
+ },
+ {
+  "clip": "s6_1",
+  "script": "So Japanese craftsmen searched for a better way.",
+  "heard": "So Japanese craftsmen search for a better way.",
+  "score": 0.974,
+  "tries": 1,
+  "spike": 2.53
+ },
+ {
+  "clip": "s7_1",
+  "script": "The break became part of the bowl's story.",
+  "heard": "The break became part of the Bulls story.",
+  "score": 0.939,
+  "tries": 1,
+  "spike": 2.37
+ },
+ {
+  "clip": "s8_1",
+  "script": "Your cracks are not the end of you.",
+  "heard": "Your cracks are not the end of you.",
+  "score": 1.0,
+  "tries": 1,
+  "spike": 2.54
+ },
+ {
+  "clip": "s8_2",
+  "script": "They are where the gold goes.",
+  "heard": "They are where the gold goes.",
+  "score": 1.0,
+  "tries": 2,
+  "spike": 2.4
+ }
+]
